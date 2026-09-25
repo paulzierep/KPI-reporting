@@ -108,6 +108,12 @@ Results (from `paul.zierep@gmail.com`, querying `[Google Mail]/All Mail`):
 | 2024 | 1,328 |
 | 2025 | 1,432 |
 
+For verification, every run also dumps the full mail list to
+`data/galaxy_no_reply_maillist.csv` — one row per email with **only the year
+and date** (no sender, subject, recipient, or content). The counts above are
+recomputed from the fetched Date headers, so they can be cross-checked against
+the CSV (3,994 rows) and compared with a colleague's numbers.
+
 ## 4. Citation counts for Galaxy papers
 
 Citation numbers for the Galaxy NAR update papers, collected from Crossref
