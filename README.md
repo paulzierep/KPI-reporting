@@ -56,9 +56,12 @@ python3 bioconda_tool_updates.py
 | 2024 | 4,213 | 7,660 |
 | 2025 | 2,748 | 6,509 |
 
-Column units: `packages with new version` counts each distinct package once
-per year; `new versions released` sums every individual version bump (one
-package can ship many, e.g. snakemake released 70 versions in 2024).
+Column units: **new versions released** represents the number of individual
+version bumps that appeared in the year's snapshots — i.e. versions actually
+released and downloaded for the first time in that year, summed over all
+packages. **Packages with new version** counts each distinct package only once
+per year, regardless of how many of its versions shipped (snakemake alone
+released 70 new versions in 2024).
 
 Most frequently updated package in each year: pybiolib (77/92/91 new versions).
 Watchlist highlights (full data `data/bioconda_new_versions.tsv`):
