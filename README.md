@@ -145,6 +145,37 @@ curl "https://plausible.galaxyproject.eu/api/v1/stats/aggregate \
   -H "Authorization: Bearer $PLAUSIBLE_API_KEY"
 ```
 
+### GTN content stats from the archive
+
+The GTN freezes a snapshot of the whole site under
+`https://training.galaxyproject.org/archive/<YYYY-MM-DD>/`, and from
+2023-06 onwards each snapshot ships a stats page. The year-start snapshots
+(2024-01-01, 2025-01-01, 2026-01-01) give exact year boundaries, so 2024 and
+2025 growth is exact; 2023 has no baseline (2023-01-01 snapshots have no stats
+page). `gtn_archive_stats.py` scrapes them:
+
+```bash
+python3 gtn_archive_stats.py
+```
+
+Year-end content counts (`data/gtn_archive_stats.tsv`):
+
+| end of year | tutorials | topics | learning paths | FAQs | workflows | videos (hours) | news posts | contributors |
+|-------------|----------:|-------:|---------------:|-----:|----------:|---------------:|-----------:|-------------:|
+| 2023 | 383 | 29 | – | 411 | – | – | – | 317 |
+| 2024 | 441 | 33 | 20 | 471 | – | 200 (135.0 h) | 102 | 437 |
+| 2025 | 498 | 35 | 28 | 489 | 343 | 214 (147.5 h) | 123 | 510 |
+| 2026 (current) | 530 | 35 | 28 | 549 | 366 | 214 (150.8 h) | 127 | 541 |
+
+Added per year (`data/gtn_archive_new_per_year.tsv`):
+
+| year | tutorials | topics | FAQs | videos | news posts | contributors |
+|------|----------:|-------:|-----:|-------:|-----------:|-------------:|
+| 2024 | +58 | +4 | +60 | – | – | +120 |
+| 2025 | +57 | +2 | +18 | +14 | +21 | +73 |
+
+(`–` = baseline snapshot did not report that metric.)
+
 ## 3. Galaxy no-reply notification emails (Gmail)
 
 Counts of emails sent from `galaxy-no-reply@informatik.uni-freiburg.de`
