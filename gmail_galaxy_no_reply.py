@@ -41,8 +41,29 @@ from pathlib import Path
 HOST = "imap.gmail.com"
 SENDER = "galaxy-no-reply@informatik.uni-freiburg.de"
 DEFAULT_YEARS = (2023, 2024, 2025)
-FOLDER = '"[Gmail]/All Mail"'
 CONFIG_PATH = Path.home() / ".config" / "galaxy-kpi" / "gmail.ini"
+
+
+def find_all_mail_folder(conn):
+    """Return the Gmail 'All Mail' folder name, locale-independent."""
+    typ, data = conn.list()
+    if typ != "OK":
+        sys.exit("could not list mailboxes")
+    candidates = []
+    for line in data:
+        entries = line.decode().split(' "')
+        if len(entries) < 2:
+            continue
+        attrs = entries[0].lower()
+        name = entries[-1]
+        if "\\all" in attrs:
+            candidates.append(name)
+    if candidates:
+        return candidates[0].strip('"')
+    for fallback in ("[Gmail]/All Mail", "[Google Mail]/All Mail", "All Mail"):
+        if fallback in str(data):
+            return fallback
+    sys.exit("could not find the All Mail folder")
 
 
 def credentials():
@@ -86,9 +107,10 @@ def main():
         conn.login(user, password)
     except imaplib.IMAP4.error as exc:
         sys.exit(f"login failed: {exc}")
-    typ, _ = conn.select(FOLDER, readonly=True)
+    folder = find_all_mail_folder(conn)
+    typ, _ = conn.select('"' + folder + '"', readonly=True)
     if typ != "OK":
-        sys.exit(f"failed to select {FOLDER}: {typ}")
+        sys.exit(f"failed to select All Mail: {typ}")
 
     results = {}
     for year in years:
