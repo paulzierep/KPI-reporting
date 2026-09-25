@@ -39,6 +39,30 @@ Needs network access. Current numbers (`data/bioconda_yearly_downloads.tsv`):
 | 2024 |  77,371,784 |
 | 2025 | 112,308,105 |
 
+### Tool update stats
+
+`bioconda_tool_updates.py` compares the per-version files shipped in each
+date snapshot (`versions/<pkg>.tsv`, one cumulative download total per
+version). Any version whose key is new at the end of year Y relative to
+Y-1 counts as a **new version released + downloaded in Y**:
+
+```bash
+python3 bioconda_tool_updates.py
+```
+
+| year | packages with new version | new versions released |
+|------|--------------------------:|----------------------:|
+| 2023 | 4,359 | 9,845 |
+| 2024 | 4,213 | 7,660 |
+| 2025 | 2,748 | 6,509 |
+
+Most frequently updated package in each year: pybiolib (77/92/91 new versions).
+Watchlist highlights (full data `data/bioconda_new_versions.tsv`):
+
+- 2023: multiqc 1.14–1.19, samtools/bcftools 1.17/1.18/1.19, fastp 0.23.3–0.23.4, star 2.7.11a
+- 2024: snakemake 70 new versions (8.x), multiqc 1.20–1.26, fastp 0.24.0, samtools 1.19.1–1.21
+- 2025: fastp 0.24.x–0.26.0 and 1.0.0/1.0.1, multiqc 1.27–1.33, samtools 1.22–1.23, snakemake 9.x
+
 ### More bioconda KPIs
 
 `bioconda_stats.py` reuses the same snapshots to derive further easy numbers
