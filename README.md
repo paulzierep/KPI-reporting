@@ -107,3 +107,30 @@ Results (from `paul.zierep@gmail.com`, querying `[Google Mail]/All Mail`):
 | 2023 | 1,234 |
 | 2024 | 1,328 |
 | 2025 | 1,432 |
+
+## 4. Citation counts for Galaxy papers
+
+Citation numbers for the Galaxy NAR update papers, collected from Crossref
+(`is-referenced-by-count`), OpenAlex (`cited_by_count` + full citing-work
+list), and optionally Semantic Scholar. No API keys needed.
+
+### Run
+
+```bash
+python3 citations.py                        # both Galaxy NAR papers
+python3 citations.py -d 10.1093/nar/gkae410 # add any DOI
+python3 citations.py --semanticscholar      # also query Semantic Scholar
+```
+
+Writes `data/citations_summary.tsv`, `data/citations_by_year.tsv`, and one
+`data/citations_<doi>.tsv` per paper (all citing works with year/title/venue/DOI).
+
+Results (retrieved 2026-09-24):
+
+| paper | DOI | Crossref | OpenAlex | Semantic Scholar |
+|---|---|---|---|---|
+| 2026 update (NAR 54, W105-W116) | 10.1093/nar/gkag469 | 24 | 15 | 15 |
+| 2024 update (NAR 52, W83-W94) | 10.1093/nar/gkae410 | 1,038 | 966 | 846 |
+
+Citations of the 2024 update by year (OpenAlex): 2024 = 88, 2025 = 452,
+2026 = 425.
