@@ -198,3 +198,19 @@ Topics created per year (total topics in category: 1,342):
 | 2023 | 200 |
 | 2024 | 216 |
 | 2025 | 223 |
+
+## 6. Combined support KPIs
+
+`combine_support_kpis.py` merges the mail breakdown
+(`galaxy_no_reply_kinds.tsv`) with the help-forum topics
+(`galaxy_help_usegalaxy_eu_topics_by_year.tsv`) into one table:
+
+```bash
+python3 combine_support_kpis.py    # -> data/combined_support_kpis.tsv
+```
+
+| year | error-report mails | TIaaS mails | help topics | total |
+|------|-------------------:|------------:|------------:|------:|
+| 2023 | 1,160 | 74 | 200 | 1,434 |
+| 2024 | 1,250 | 78 | 216 | 1,544 |
+| 2025 | 1,338 | 93 | 223 | 1,654 |
