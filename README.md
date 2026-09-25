@@ -350,6 +350,26 @@ Unique citing works (OpenAlex) for 2023-2025
 | 2025 | 1,220 |
 | **total** | **3,488** |
 
+### Publications citing UseGalaxy.eu
+
+`eu_citations.py` downloads `citations-eu.bib` from the Galaxy Hub — the
+bibliography of publications citing the European Galaxy server, maintained in
+the Galaxy Publications Zotero group
+(https://www.zotero.org/groups/1732893/items, tag `>UseGalaxy.eu`; both
+sources contain the same 1,731 entries) — and counts publications by year:
+
+```bash
+python3 eu_citations.py        # -> data/eu_citations_by_year.tsv
+```
+
+Total: 1,731 publications citing UseGalaxy.eu.
+
+| year | publications |
+|------|-------------:|
+| 2023 | 282 |
+| 2024 | 359 |
+| 2025 | 387 |
+
 ## 7. Google Scholar citation counts (partial)
 
 `google_scholar_citations.py` scrapes Google Scholar's "Cited by N" for each
