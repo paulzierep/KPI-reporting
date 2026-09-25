@@ -135,3 +135,22 @@ Results (retrieved 2026-09-24):
 
 Citations by year (OpenAlex): the 2024 update went 88 (2024) → 452 (2025) →
 425 (2026 so far); the 2022 update peaked at 479 (2024).
+
+### Unique citations across all three papers
+
+A citing work may cite several Galaxy papers, so `unique_citations.py`
+deduplicates the citing DOIs across the three papers ('`data/citations_*.tsv`'):
+
+```bash
+python3 unique_citations.py            # 2023-2025
+python3 unique_citations.py 2024       # single year
+```
+
+Unique citing works for 2023-2025 (`data/unique_citations_2023-2025.tsv`):
+
+| year | unique citing works |
+|------|--------------------:|
+| 2023 | 298 |
+| 2024 | 565 |
+| 2025 | 718 |
+| **total** | **1,581** |
