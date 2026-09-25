@@ -34,6 +34,10 @@ PAPERS = [
         "doi": "10.1093/nar/gkae410",
         "label": "Galaxy 2024 update (NAR 52, W83-W94)",
     },
+    {
+        "doi": "10.1093/nar/gkac247",
+        "label": "Galaxy 2022 update (NAR 50, W345-W351)",
+    },
 ]
 HEADERS = {"User-Agent": f"galaxy-kpi/1.0 (mailto:{MAILTO})"}
 

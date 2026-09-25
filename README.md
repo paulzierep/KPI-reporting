@@ -131,6 +131,7 @@ Results (retrieved 2026-09-24):
 |---|---|---|---|---|
 | 2026 update (NAR 54, W105-W116) | 10.1093/nar/gkag469 | 24 | 15 | 15 |
 | 2024 update (NAR 52, W83-W94) | 10.1093/nar/gkae410 | 1,038 | 966 | 846 |
+| 2022 update (NAR 50, W345-W351) | 10.1093/nar/gkac247 | 1,030 | 1,407 | 652 |
 
-Citations of the 2024 update by year (OpenAlex): 2024 = 88, 2025 = 452,
-2026 = 425.
+Citations by year (OpenAlex): the 2024 update went 88 (2024) → 452 (2025) →
+425 (2026 so far); the 2022 update peaked at 479 (2024).
