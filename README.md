@@ -3,6 +3,14 @@
 KPIs for the Galaxy project. Each metric has a small script plus the
 resulting numbers in `data/`.
 
+- 1 – [Bioconda package downloads](#1-bioconda-package-downloads)
+- 2 – [GTN / EU usage stats (Plausible)](#2-gtn--eu-usage-stats-plausible)
+- 3 – [Galaxy no-reply notification emails (Gmail)](#3-galaxy-no-reply-notification-emails-gmail)
+- 4 – [Galaxy Help forum — usegalaxy.eu support topics](#4-galaxy-help-forum--usegalaxyeu-support-topics)
+- 5 – [Combined support KPIs](#5-combined-support-kpis)
+- 6 – [Citation counts for Galaxy papers](#6-citation-counts-for-galaxy-papers)
+- 7 – [Google Scholar citation counts (partial)](#7-google-scholar-citation-counts-partial)
+
 ## 1. Bioconda package downloads
 
 Total downloads of the `bioconda` conda channel per calendar year.
@@ -129,7 +137,46 @@ The counts above are recomputed from the fetched Date headers, so they can be
 cross-checked against the CSV (3,994 rows) and compared with a colleague's
 numbers.
 
-## 4. Citation counts for Galaxy papers
+## 4. Galaxy Help forum — usegalaxy.eu support topics
+
+All topics in the `usegalaxy.eu support` category of the Galaxy Help forum
+(https://help.galaxyproject.org, Discourse), fetched via its public JSON API.
+
+### Run
+
+```bash
+python3 galaxy_help_topics.py
+```
+
+Writes `data/galaxy_help_usegalaxy_eu_topics.csv` (topic id, created/last-post
+date, title, post counts) and per-year counts to
+`data/galaxy_help_usegalaxy_eu_topics_by_year.tsv`.
+
+Topics created per year (total topics in category: 1,342):
+
+| year | new topics |
+|------|-----------:|
+| 2023 | 200 |
+| 2024 | 216 |
+| 2025 | 223 |
+
+## 5. Combined support KPIs
+
+`combine_support_kpis.py` merges the mail breakdown
+(`galaxy_no_reply_kinds.tsv`) with the help-forum topics
+(`galaxy_help_usegalaxy_eu_topics_by_year.tsv`) into one table:
+
+```bash
+python3 combine_support_kpis.py    # -> data/combined_support_kpis.tsv
+```
+
+| year | error-report mails | TIaaS mails | help topics | total |
+|------|-------------------:|------------:|------------:|------:|
+| 2023 | 1,160 | 74 | 200 | 1,434 |
+| 2024 | 1,250 | 78 | 216 | 1,544 |
+| 2025 | 1,338 | 93 | 223 | 1,654 |
+
+## 6. Citation counts for Galaxy papers
 
 Citation numbers for the Galaxy NAR update papers, collected from Crossref
 (`is-referenced-by-count`), OpenAlex (`cited_by_count` + full citing-work
@@ -138,8 +185,9 @@ list), and optionally Semantic Scholar. No API keys needed.
 ### Run
 
 ```bash
-python3 citations.py                        # both Galaxy NAR papers
+python3 citations.py                        # all tracked Galaxy papers
 python3 citations.py -d 10.1093/nar/gkae410 # add any DOI
+python3 citations.py -d 10.1101/gr.4086505 -d 10.1186/gb-2010-11-8-r86  # the other canon papers
 python3 citations.py --semanticscholar      # also query Semantic Scholar
 ```
 
@@ -179,45 +227,6 @@ Unique citing works (OpenAlex) for 2023-2025
 | 2024 | 1,150 |
 | 2025 | 1,220 |
 | **total** | **3,488** |
-
-## 5. Galaxy Help forum — usegalaxy.eu support topics
-
-All topics in the `usegalaxy.eu support` category of the Galaxy Help forum
-(https://help.galaxyproject.org, Discourse), fetched via its public JSON API.
-
-### Run
-
-```bash
-python3 galaxy_help_topics.py
-```
-
-Writes `data/galaxy_help_usegalaxy_eu_topics.csv` (topic id, created/last-post
-date, title, post counts) and per-year counts to
-`data/galaxy_help_usegalaxy_eu_topics_by_year.tsv`.
-
-Topics created per year (total topics in category: 1,342):
-
-| year | new topics |
-|------|-----------:|
-| 2023 | 200 |
-| 2024 | 216 |
-| 2025 | 223 |
-
-## 6. Combined support KPIs
-
-`combine_support_kpis.py` merges the mail breakdown
-(`galaxy_no_reply_kinds.tsv`) with the help-forum topics
-(`galaxy_help_usegalaxy_eu_topics_by_year.tsv`) into one table:
-
-```bash
-python3 combine_support_kpis.py    # -> data/combined_support_kpis.tsv
-```
-
-| year | error-report mails | TIaaS mails | help topics | total |
-|------|-------------------:|------------:|------------:|------:|
-| 2023 | 1,160 | 74 | 200 | 1,434 |
-| 2024 | 1,250 | 78 | 216 | 1,544 |
-| 2025 | 1,338 | 93 | 223 | 1,654 |
 
 ## 7. Google Scholar citation counts (partial)
 
