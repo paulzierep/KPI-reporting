@@ -66,3 +66,36 @@ curl "https://plausible.galaxyproject.eu/api/v1/stats/aggregate \
   ?site_id=usegalaxy.eu&period=custom&date=2023-01-01,2023-12-31&metrics=pageviews" \
   -H "Authorization: Bearer $PLAUSIBLE_API_KEY"
 ```
+
+## 3. Galaxy no-reply notification emails (Gmail)
+
+Counts of emails sent from `galaxy-no-reply@informatik.uni-freiburg.de`
+(Galaxy Freiburg server notifications) in 2023/2024/2025, by querying the
+mailbox over IMAP (`imap.gmail.com`, `[Gmail]/All Mail`) with Gmail's
+`X-GM-RAW` search extension, e.g. `from:galaxy-no-reply@informatik.uni-freiburg.de after:2022/12/31 before:2024/1/1`.
+
+### Prerequisites
+
+1. Enable 2-Step Verification on the Google account.
+2. Create an App Password: Google Account → Security → App passwords.
+
+### Run
+
+```bash
+export GMAIL_USER=you@gmail.com
+export GMAIL_APP_PASSWORD='xxxx xxxx xxxx xxxx'
+
+python3 gmail_galaxy_no_reply.py          # 2023, 2024, 2025
+python3 gmail_galaxy_no_reply.py 2024     # single year
+```
+
+Alternatively create `~/.config/galaxy-kpi/gmail.ini`:
+
+```ini
+[gmail]
+user = you@gmail.com
+app_password = xxxx xxxx xxxx xxxx
+```
+
+Note: the app password is never committed (see `.gitignore`). Counts are
+written to `data/galaxy_no_reply_emails.tsv`.
