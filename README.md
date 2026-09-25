@@ -39,6 +39,45 @@ Needs network access. Current numbers (`data/bioconda_yearly_downloads.tsv`):
 | 2024 |  77,371,784 |
 | 2025 | 112,308,105 |
 
+### More bioconda KPIs
+
+`bioconda_stats.py` reuses the same snapshots to derive further easy numbers
+(`data/bioconda_*.tsv`): per-platform split, top downloaded packages, active /
+new package counts, plus a Galaxy-tools watchlist.
+
+```bash
+python3 bioconda_stats.py
+```
+
+Active packages (high-level downloads = anything) and packages new to the
+channel per year:
+
+| year | active packages | new packages |
+|------|----------------:|-------------:|
+| 2023 | 10,361 | 700 |
+| 2024 | 11,019 | 660 |
+| 2025 | 11,779 | 758 |
+
+Top-3 downloaded packages per year:
+
+| year | #1 | #2 | #3 |
+|------|----|----|----|
+| 2023 | htslib 1.10M | samtools 1.10M | pysam 0.58M |
+| 2024 | samtools 0.78M | htslib 0.74M | pysam 0.48M |
+| 2025 | pysam 4.00M | samtools 1.95M | harpy 1.85M |
+
+Platform / subdir split (only 2025: the channel.tsv boundary rows carry
+per-subdir columns only from 2024-12-31 onwards; full table in
+`data/bioconda_platforms.tsv`):
+
+| subdir | 2025 downloads | share |
+|--------|---------------:|------:|
+| linux-64 | 48,792,701 | 43.4 % |
+| noarch | 35,856,072 | 31.9 % |
+| osx-64 | 23,066,493 | 20.5 % |
+| linux-aarch64 | 3,323,548 | 3.0 % |
+| osx-arm64 | 1,269,291 | 1.1 % |
+
 ## 2. GTN / EU usage stats (Plausible)
 
 Usage statistics (visitors, pageviews) for the Galaxy Training Network and
