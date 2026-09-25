@@ -1,0 +1,1343 @@
+topic_id,created_date,title,posts_count,reply_count,last_post_date
+18225,2026-07-31,Interactive tools not working,2,0,2026-07-31
+18221,2026-07-30,MrBayes consensus tree file not shown in output,3,1,2026-07-30
+16275,2025-09-18,MrBayes - no output files found,5,2,2026-07-30
+18086,2026-06-19,Bioconductor packages failing to install in Galaxy Europe Interactive R (cannot access repository index),2,0,2026-07-28
+18114,2026-06-27,Is image correlation in GALAXY possible while preserving aspect ratio (no distortion only rotation/scaling)?,2,0,2026-07-28
+18064,2026-06-16,How to separate genomic from subgenomic RNA reads of Coronavirus?,7,2,2026-07-27
+18190,2026-07-20,Invocation ID in RO-Crate,1,0,2026-07-20
+18175,2026-07-16,Galaxy server/UI pagination bug,6,4,2026-07-20
+18168,2026-07-14,Frozen Export History to File Source,2,0,2026-07-15
+18160,2026-07-10,TGS-GapCloser Node mount error,3,0,2026-07-13
+18057,2026-06-15,Current implementation of GTDB-Tk Classify genomes is broken (wrong default arguments),2,0,2026-07-12
+18147,2026-07-06,"Uploading issues ( fasta, faa, gbff files)",2,0,2026-07-07
+18126,2026-06-29,Msconvert job failing on usegalaxy.org with Wine/disk quota errors,4,0,2026-07-06
+18128,2026-06-30,How to set the reference level in DESeq2 for treatment vs control comparison?,2,0,2026-07-06
+18141,2026-07-03,Bowtie2 Galaxy Version 2.5.3+galaxy1: Data set colection,2,0,2026-07-03
+18136,2026-07-02,Input tabular data into a Galaxy tool - Preserving row order,3,0,2026-07-02
+18083,2026-06-19,Kaiju2table unable to open files from a Kaiju output dataset collection,3,0,2026-06-29
+18011,2026-06-03,Panaroo: GFF files in a Collection? Toggle option to retain file extensions in element sample identifiers,13,9,2026-06-29
+18029,2026-06-09,Slow downloading,17,3,2026-06-24
+18076,2026-06-17,Recognizing paired collection for deep arg in galaxy europe server,2,0,2026-06-24
+18046,2026-06-12,TargetFinder score cutoff seems ignored; tool always behaves as cutoff 4,4,2,2026-06-23
+17281,2026-01-12,HUMAnN Workflow Error,4,1,2026-06-22
+17748,2026-05-22,Kaiju database request,14,6,2026-06-18
+18068,2026-06-17,MultiQC tool down?,3,1,2026-06-18
+18067,2026-06-16,Trim Galore! is down too?,3,1,2026-06-18
+18063,2026-06-16,Slow web server Galaxy France,4,0,2026-06-18
+14533,2025-01-23,Adding nt_core db to Bracken and related workflow tools,9,5,2026-06-17
+17716,2026-05-09,Formatting annotated genomes for submission to NCBI,7,2,2026-06-16
+18058,2026-06-15,Alternatives for fastANI,1,0,2026-06-15
+18050,2026-06-12,Stop codon detection in InterProScan inputs,2,0,2026-06-12
+18025,2026-06-09,Scratch storage source 2TB,9,6,2026-06-11
+18023,2026-06-08,Sortmerna produces incorrect unaligned files when using collections,3,1,2026-06-10
+18008,2026-06-03,Genbank conversion to five column format on the EU server error,2,0,2026-06-03
+17702,2026-05-04,How to link output ID's to original file names,6,4,2026-06-03
+17758,2026-05-27,How to use various nanopore fastq files?,2,0,2026-05-27
+17757,2026-05-27,Another issue with Genome Annotation Statistics,2,0,2026-05-27
+17733,2026-05-18,instaGRAAL on usegalaxy.eu finishes as “ok” but all outputs are 0 bytes,6,2,2026-05-26
+17745,2026-05-21,Panaroo - error - file not found,4,2,2026-05-23
+17744,2026-05-21,ChatGXY returns malformed workflow files,2,0,2026-05-23
+17747,2026-05-22,Galaxy Europe service outage,3,1,2026-05-22
+17740,2026-05-20,Preliminary authentication of ancient Yersinia pestis-like signal,5,1,2026-05-22
+17593,2026-03-19,Problem with Mummer,3,1,2026-05-18
+17726,2026-05-13,Java error running interproscan,5,1,2026-05-15
+17721,2026-05-11,Fragmented plastome sequence,2,0,2026-05-14
+17711,2026-05-07,Wrapper for datasets_download_genome --force,6,4,2026-05-14
+17725,2026-05-13,Active Storage Not Clearing,4,2,2026-05-14
+17724,2026-05-12,"Galaxy Europe downtime: ongoing maintenance work Tue, May 12",1,0,2026-05-12
+17714,2026-05-08,Job not starting? NCBI FCS GX queue timing explained,5,1,2026-05-09
+17710,2026-05-07,GeneMark in Funnanotate Predict,2,0,2026-05-07
+17709,2026-05-06,Storage Space Upgrade,3,1,2026-05-07
+17705,2026-05-05,Issue with Maker,2,0,2026-05-06
+17706,2026-05-05,DADA2 tool issues in Galaxy France,2,0,2026-05-06
+17689,2026-04-28,DESeq2 factors and factor level Input,5,3,2026-05-05
+17666,2026-04-21,How to capture a share link to a Workflow Invocation,5,5,2026-05-02
+17631,2026-04-03,Issue with edgeR results for endometrial dataset,4,1,2026-04-30
+16280,2025-09-19,Issue with extracting datasets from unzipped files containing .gitkeep files,7,2,2026-04-30
+17685,2026-04-25,Panaroo error with GFF3 input TIP: include .gff in the file names and collection identifiers,2,1,2026-04-26
+12171,2024-04-11,quality string - read length problems in Cutadapt output,3,0,2026-04-24
+17683,2026-04-24,MaxQuant probelm,2,0,2026-04-24
+17667,2026-04-21,Installing a new tool,7,0,2026-04-23
+17660,2026-04-20,IQ-TREE configuration: consensus tree creation with 5 newick tree files,11,5,2026-04-22
+17659,2026-04-19,Jobs Stuck processing with a workflow: Using the job cache to rerun workflows with canceled outputs,4,1,2026-04-21
+17655,2026-04-16,Problem with falco tool,3,0,2026-04-20
+17647,2026-04-10,Very few assigned reads with featureCounts,2,0,2026-04-10
+17644,2026-04-09,NextDenovo Tool Update,5,1,2026-04-10
+17638,2026-04-08,chewBBACA DownloadSchema Schema files - organisms are mixed up,5,0,2026-04-09
+17640,2026-04-08,How to use Falco on a dataset collection,8,3,2026-04-09
+17637,2026-04-08,BBduk BBmap memory problems,2,0,2026-04-08
+17639,2026-04-08,Issue : file export with data convert (waters connect),2,0,2026-04-08
+17607,2026-03-25,Trinotate error SQLite,4,0,2026-04-08
+16353,2025-10-07,Trinotate error? See GTN Transcriptomics tutorials for alternatives!,5,3,2026-04-08
+15953,2025-07-11,Trinotate SQLite boilerplate unavailable on usegalaxy.eu?,5,3,2026-04-08
+6187,2021-06-11,"Trinotate error resulting in ""The job creating this dataset has been resubmitted""",12,5,2026-04-08
+2155,2019-09-21,Problems with roary,4,0,2026-04-08
+3009,2020-02-20,How to use Trinotate output?,3,1,2026-04-08
+7222,2021-12-22,How to recover deleted data,3,0,2026-04-07
+9081,2022-11-23,History and dataset persistence,3,1,2026-04-07
+17636,2026-04-07,Usegalaxy EU VERY SLOW,1,0,2026-04-07
+17630,2026-04-03,"SPAdes: why and how to use intact Paired End reads, plus production workflows for Bacterial assembly!",2,0,2026-04-06
+17626,2026-04-02,cummeRbund tool tutorials guide,2,0,2026-04-06
+17625,2026-04-01,Help using PICRUSt2 pipeline?,6,3,2026-04-06
+17624,2026-04-01,GoSeq GO analysis importing a gene categories file,2,0,2026-04-01
+17589,2026-03-18,Help with FAiled Workflow Invocation,8,4,2026-03-31
+17602,2026-03-25,Metagenomic analysis of data,4,2,2026-03-30
+17620,2026-03-30,System Down Query,6,1,2026-03-30
+17618,2026-03-28,Grommp server-side issue in running NPT equilibration step,2,0,2026-03-30
+17603,2026-03-25,Updating tools on the server that have been updated in the GitHub repo,5,1,2026-03-30
+17609,2026-03-25,Problem when deleting data,2,0,2026-03-27
+17613,2026-03-26,Change data type in a workflow,2,0,2026-03-26
+17598,2026-03-23,Internal Server Error when Extracting Workflow,2,1,2026-03-23
+17594,2026-03-20,Trimmomatic error when running SRA data,2,0,2026-03-20
+17587,2026-03-18,Ouput unaligned reads into bam file with hisat2,2,0,2026-03-18
+17573,2026-03-16,Error in SnpSift tool due to token ANN interpretation and out of memory,4,1,2026-03-18
+17585,2026-03-18,You are not allowed to access this dataset,2,0,2026-03-18
+17575,2026-03-16,Error while running Humann,6,3,2026-03-18
+17580,2026-03-17,"Galaxy EU Server: Downtime March 16, 17 2026",3,1,2026-03-18
+17500,2026-02-25,Missing genes in eggNOG-mapper output: How to explore results across processing steps,4,1,2026-03-16
+17562,2026-03-11,Cluster on intervals error,6,2,2026-03-16
+17563,2026-03-12,Error in SnpEff version,5,0,2026-03-14
+17568,2026-03-13,GOEnrichment support,2,0,2026-03-13
+17567,2026-03-13,MITOS2 missing reference data,2,0,2026-03-13
+17555,2026-03-10,Bowtie2 mapping output,5,2,2026-03-12
+17557,2026-03-10,Bug error from metabolomics workflows,2,0,2026-03-11
+17538,2026-03-04,Question about interproscan,10,5,2026-03-10
+17551,2026-03-09,Adding Custom PTM Modification in Maxquant Galaxy Tool Configuration,3,1,2026-03-10
+17544,2026-03-05,Bad lineage by Nextclade,3,1,2026-03-06
+16594,2025-12-23,NCBI BLAST+ blastx and blastp cannot work with new nr_2025-12-03,3,1,2026-02-28
+16335,2025-10-02,Troubleshooting failed sequence alignment (Sanger),6,4,2026-02-28
+17499,2026-02-25,iPHoP 1.4.2 – Cannot select database,4,1,2026-02-27
+17493,2026-02-23,Troubleshooting: qiime2 feature-classifier fit-classifier-naive-bayes,5,3,2026-02-26
+16461,2025-11-01,Kraken2 Database Addition GTDB v220,6,4,2025-11-05
+17470,2026-02-19,Shovill producing blank contig graph file: Use Galaxy Version 1.1.0+galaxy2,8,4,2026-02-25
+16577,2025-12-16,Qiime2 Import 2025.10 errors: Standardize your fastq sequence names,8,3,2026-02-25
+4359,2020-08-26,Built-in reference dataset dada2 is missing,3,1,2026-02-25
+17471,2026-02-19,Blast is not returning taxonomy results: Fetch Taxonomic Ranks,9,7,2026-02-24
+17494,2026-02-23,remuRNA Fatal error: Exit code 127 (),2,0,2026-02-24
+17464,2026-02-16,From Peaks To Genes Tutorial UCSC Main Errord,2,0,2026-02-17
+17456,2026-02-13,PLINK bed/bim/fam files are only downloadable as html/tabular/text files,4,2,2026-02-16
+17431,2026-02-07,PICRUSt2 Metagenome prediction,4,2,2026-02-12
+11412,2024-01-05,"Problem on Picrust2 webtool, even with tutorial files",11,7,2026-02-12
+17449,2026-02-11,Fasterq-dump and fastq-dump failing on usegalaxy.eu with connection validation error (sra-download-internal),4,1,2026-02-12
+17405,2026-02-03,Job still running for more than 15 hours,10,7,2026-02-11
+17440,2026-02-10,Make.contigs in a list:paired collection,2,0,2026-02-10
+17408,2026-02-03,Extract Genomic DNA error box,9,5,2026-02-09
+17430,2026-02-06,HUMAnN-setting-error,2,0,2026-02-07
+17425,2026-02-05,Addition of several plots to MultiQC,4,2,2026-02-06
+17401,2026-02-02,FastQC perl warning,4,1,2026-02-05
+17406,2026-02-03,Distance Analysis - time series using MDAnalysis (Galaxy Version 1.0.0+galaxy0) tool inputs,3,0,2026-02-05
+16538,2025-12-02,SplitNCigarReads Tool,2,0,2026-02-04
+17284,2026-01-13,A tool that's not available on Galaxy EU,2,0,2026-02-04
+16484,2025-11-10,Fastq files not uploading,21,10,2026-02-03
+14480,2025-01-18,Toubleshooting BiG-Scape output,4,1,2026-02-03
+17260,2026-01-09,Editing dependencies for training SNAP ab initio predictor,4,2,2026-02-02
+17399,2026-02-02,GROMACS simulation thread allocation,2,0,2026-02-02
+17246,2026-01-07,Tool Bar Search is not working,4,3,2026-01-30
+17375,2026-01-27,"LUMPY and ""read only"" system",2,0,2026-01-27
+16883,2025-12-30,IQ-TREE concordance factor outputs not collected as separate datasets,4,1,2026-01-23
+17330,2026-01-20,QuPath is unable to save data,5,2,2026-01-23
+17338,2026-01-20,Bedtools Intersect intervals results interpretation,6,3,2026-01-23
+16508,2025-11-24,MMPBSA/MMGBSA tool-help,3,1,2026-01-23
+17315,2026-01-18,GffCompare problem producing a combined gtf,2,0,2026-01-22
+17293,2026-01-15,QIIME 2 feature-table summarize/classify-sklearn failed: Docker image decompression runs out of space,3,0,2026-01-21
+17331,2026-01-20,rnaSPADES --nanopore: Confirming data format and shape for an input area,3,1,2026-01-21
+17320,2026-01-19,How to retrieve a whole genome assembly data from NCBI to galaxy europe?,4,1,2026-01-19
+17321,2026-01-19,Error in BWA-mem2 alignment,8,5,2026-01-19
+17306,2026-01-17,VCF-comapre command not found,2,0,2026-01-19
+17295,2026-01-15,Hg38 reference genome not found in the Ref genome options,2,0,2026-01-18
+17277,2026-01-11,"""Uncaught exception in exposed API method:"" When starting workflows or selecting tools",2,0,2026-01-12
+17103,2026-01-05,Fatal error in joining two datasets,6,4,2026-01-07
+15137,2025-04-02,NCBI FCS GX doesn't launch,12,6,2026-01-05
+17028,2026-01-04,Edta summary output,3,0,2026-01-05
+16894,2025-12-31,Create new data repository from anonymous S3-compatible source,2,0,2026-01-02
+16596,2025-12-24,DIAMOND análisis de DAA lleva días sin completarse,2,0,2025-12-26
+16566,2025-12-10,Issue “No space left on device” error,4,1,2025-12-26
+16592,2025-12-23,I want to retrieve my old account with complete research history,4,1,2025-12-24
+16590,2025-12-22,"TMHMM 2.0 is outdated, can we add DeepTMHMM?",2,0,2025-12-23
+16556,2025-12-09,Bismark Methyl Extractor with error,6,2,2025-12-16
+16572,2025-12-14,Where is the Gecko-mgv webpage?,3,1,2025-12-15
+16520,2025-11-26,GROMACS Initial Setup Error,4,1,2025-12-15
+16573,2025-12-15,DRAM usage problem,2,0,2025-12-15
+16574,2025-12-15,GO enrichment on up and down regulated genes on treated sample,2,0,2025-12-15
+16567,2025-12-11,Hisat2 Disable Spliced Alignment or Not for DNA reads,6,4,2025-12-15
+16568,2025-12-12,Why .nwk file showed as .txt file in galaxy,3,1,2025-12-12
+16565,2025-12-10,Can usegalaxy.eu provide latest Kraken2 core_nt databases?,4,2,2025-12-11
+16553,2025-12-08,Choosing datafiles for DESeq2,4,2,2025-12-09
+16535,2025-12-02,Clarification on DESeq2 Factor Level Direction in Galaxy,2,0,2025-12-04
+16477,2025-11-06,Using CHM13v2.0 T2T and mm39 gene annotations for RNASeq Analysis,4,1,2025-12-03
+16533,2025-12-02,DESeq2 error: an error occurred with this dataset,5,2,2025-12-02
+16527,2025-11-29,Is there a problem with fastqc,7,3,2025-11-30
+16499,2025-11-17,Dada remove sequencing error -> Fatal error: Exit code 139 (),3,0,2025-11-24
+16502,2025-11-18,Invocation scheduling failed - Galaxy administrator may have additional details in logs,7,4,2025-11-19
+16489,2025-11-13,Tools for concatenating individually aligned loci into a supermatrix for downstream analysis,3,1,2025-11-13
+16483,2025-11-10,Base mismatch in arabidopsis tair 10 ref genome,4,2,2025-11-12
+16478,2025-11-07,Spider plot error,5,2,2025-11-12
+16405,2025-10-17,ENA submission receipt: Excel input formatting and troubleshooting,10,5,2025-11-10
+16460,2025-11-01,Kraken2 not running,11,10,2025-11-08
+16327,2025-09-30,"Map with KMA using the parameter ""-t_db"" is not clear!",12,7,2025-11-06
+16472,2025-11-05,Request: Add host-decontamination tool (KneadData) or a comparable tool on Galaxy.eu for human shotgun metagenomics preprocessing,3,0,2025-11-06
+16441,2025-10-28,Downloading abundance (frequency) table of ASVs,4,2,2025-11-03
+16466,2025-11-03,Minimap2 accepted formats,2,0,2025-11-03
+16467,2025-11-03,Salmon Quant paired-end read entry,2,0,2025-11-03
+16457,2025-10-30,MiRDeep2 Mapper: TAIR10 reference genome,4,2,2025-10-31
+16456,2025-10-30,GalaxyEurope storage not refreshing,2,0,2025-10-30
+16424,2025-10-27,Error: Convert GTF to BED12,2,0,2025-10-27
+16429,2025-10-27,GROMACS NVT & NPT energy equilibration not available anymore,2,0,2025-10-27
+16414,2025-10-22,Converting fastq to fasta for analysis with ABRicate or AMRFinderPlus,5,2,2025-10-23
+16410,2025-10-20,Empty Output folder - Vina Docking,6,3,2025-10-21
+16388,2025-10-14,RepeatExplorer - TAREAN annotation,2,0,2025-10-18
+13982,2024-11-25,Fastq file not uploading,7,5,2024-11-26
+16399,2025-10-16,Issue with obtaining tomtom results from meme-chip,5,3,2025-10-16
+16390,2025-10-15,Bismark mapping with Fatal Error exit,3,1,2025-10-16
+16371,2025-10-12,Workflows: job queues and managing partial failures with Resume and Replace!,4,2,2025-10-14
+16376,2025-10-13,Long RepeatModeler Runtime on Galaxy.eu,2,0,2025-10-13
+14454,2025-01-15,RSEM prepare reference,6,4,2025-10-09
+16368,2025-10-09,Dada2: removeBimeraDenovo job runtime benchmarking,2,0,2025-10-09
+16367,2025-10-08,Panaroo & PanTA: sample recognition troubleshooting,5,2,2025-10-08
+16347,2025-10-04,Update to InterProScan database in InterProScan functional annotation tool at usegalaxy.eu?,2,0,2025-10-08
+16361,2025-10-07,"Launched jobs that never start, since 6th October 2025",4,1,2025-10-08
+16356,2025-10-07,Datatypes: Assign Datatype,3,1,2025-10-08
+16350,2025-10-06,Tn Seq Analysis help,1,0,2025-10-06
+16342,2025-10-03,FASTQ Barcode Splitter,7,3,2025-10-04
+16338,2025-10-02,"Cannot find the custom genome ""Fly (Drosophila melanogaster): dm6 Full""",2,0,2025-10-02
+16332,2025-10-01,Edge R is missing from my account,3,1,2025-10-02
+13368,2024-09-03,Tcode (and other emboss programs),10,4,2025-09-29
+15017,2025-03-16,Generating MD Topology (ACPYPE),7,2,2025-09-26
+16252,2025-09-12,Repeatexplorer fails on single end input,14,7,2025-09-25
+16289,2025-09-22,Some trouble with writting a wrapper,6,2,2025-09-25
+16268,2025-09-17,Assembly: species specific coverage questions? See VPG resources!,2,0,2025-09-23
+16278,2025-09-18,Error srnapipe when running analysis,3,0,2025-09-23
+16271,2025-09-18,"Mitos2 Erorr, cant processing submitted",6,3,2025-09-23
+16273,2025-09-18,Trimmomatic Output 4 Files?,2,0,2025-09-22
+15665,2025-06-06,DRAM distill: Error while running,6,2,2025-09-22
+16287,2025-09-22,MultiQC Fastqc problems,2,0,2025-09-22
+16272,2025-09-18,Collection to separate files,2,0,2025-09-22
+16251,2025-09-11,Nanoplot qc error,6,3,2025-09-17
+16261,2025-09-16,Slow uploading of files,2,0,2025-09-16
+16255,2025-09-15,Uploading files,2,0,2025-09-15
+16250,2025-09-10,Installation of BEAST on Galaxy Europe,3,0,2025-09-12
+15671,2025-06-08,"Qiime2, taxonomy, filtering",3,0,2025-09-11
+16233,2025-09-05,Galaxy Collection Upload Not Working,6,4,2025-09-08
+16226,2025-08-29,Multiple Sequence Alignment is not interactive,3,1,2025-09-02
+16206,2025-08-23,Maker genome annotation pipeline (Galaxy Version 2.31.11+galaxy2) running for weeks,6,4,2025-08-28
+16216,2025-08-26,Missing tools from the ASAIM MT workflow,2,0,2025-08-26
+16211,2025-08-25,iPHoP job running for 6+ days on Galaxy Europe (880 genomes),4,2,2025-08-26
+16192,2025-08-19,Cannot connect to usegalaxy.eu using Firefox,2,0,2025-08-19
+16184,2025-08-18,Writing proper tests for a dynamic collection created through the discover_datasets tag,2,0,2025-08-18
+16138,2025-08-10,msConvert can't proceed due to wine64: command not found,8,4,2025-08-13
+16139,2025-08-11,Error occurred in dataset while running the workflow,5,3,2025-08-11
+15327,2025-04-27,Docker error when using Funannotate functional annotation tool,5,2,2025-08-08
+15766,2025-06-18,MiModd variant calling - running time,5,3,2025-08-07
+16120,2025-08-06,Optional steps in workflow can't be connected to one another,3,1,2025-08-07
+16119,2025-08-06,HISAT2 error for paired sample,2,0,2025-08-06
+15647,2025-06-05,Tsv file upload fail for maaslin2,2,0,2025-08-05
+15743,2025-06-15,"Help Needed: coverM Tool Fails with ""mkdir: cannot create directory ‘single/’: File exists"" Error",2,0,2025-08-05
+15744,2025-06-15,"Shovill, several day run/queue for some run",2,0,2025-08-05
+15770,2025-06-18,Getting information from database,2,0,2025-08-05
+15778,2025-06-19,Newly launched BN rat genome assembly GRCr8 into the reference genome list?,2,0,2025-08-05
+16077,2025-07-30,Funanotate missing depencies,4,2,2025-08-05
+14278,2024-12-30,insight using Paraview interactive tool,5,2,2025-08-05
+15814,2025-06-24,HiCUP Runtime and Tool Recommendations for Hi-C Analysis,2,0,2025-08-05
+16073,2025-07-30,BRAKER3：There is an error with this dataset.,2,0,2025-08-04
+16059,2025-07-29,NanoGalaxy not responding – stuck uploads and no job execution,5,1,2025-08-03
+16053,2025-07-28,Jobs not running (including file upload) - fastq files,6,2,2025-07-29
+16061,2025-07-29,Delays at UseGalaxy.eu after maintenance,2,0,2025-07-29
+16021,2025-07-24,"Galaxy Europe maintenance - 48 hrs downtime between 18:30 (CEST) on Fri, July 25 and 19:00 (CEST) on Sun, July 27",2,0,2025-07-27
+15621,2025-06-03,Issue with external SMTP server configuration in Galaxy installation via Ansible,2,0,2025-07-25
+16000,2025-07-20,On obtaining current eggNOG data,2,0,2025-07-22
+15856,2025-06-30,generate a common AnnotateMyID file from two different runs,4,2,2025-07-22
+16005,2025-07-21,LotuS2 run is failing with my input data,3,0,2025-07-22
+15894,2025-07-03,how to perfom Samtools view tagged.bam | grep -c “miRNAname” >> genome-basedcounts.tsv,4,2,2025-07-21
+15984,2025-07-16,BRAKER3 permission issue,10,6,2025-07-18
+15961,2025-07-11,HUMAnN/MetaPhlAn error,4,1,2025-07-15
+15945,2025-07-10,Manta turn off depth option does not seem to work properly,6,4,2025-07-14
+15967,2025-07-14,trimAl_use_inputfiel,2,0,2025-07-14
+15702,2025-06-10,Problems downloading some collections from .eu,6,1,2025-07-12
+15956,2025-07-11,BiG-SCAPE issue,2,0,2025-07-11
+15946,2025-07-10,NanoFilt Tool - Galaxy,4,2,2025-07-11
+15948,2025-07-10,Analysis of two identical biological paired-end bulk-RNA samples to derive highly expressed TFs,2,0,2025-07-10
+15949,2025-07-10,Remove save tags for history and workflow annotation,2,0,2025-07-10
+15397,2025-05-09,Apollo Create or Update Organism error,5,4,2025-07-08
+15550,2025-05-26,CPT Phage Structural Workflow fails at step 25 and I can't access apollo,4,0,2025-07-08
+15920,2025-07-08,Apollo Create Organism Naming Conflict Error,2,0,2025-07-08
+15909,2025-07-07,Predict variant effects with VEP bug report,3,0,2025-07-07
+15846,2025-06-28,DeepARG reference data,5,0,2025-07-03
+15879,2025-07-02,Duration for running Pavian in Galaxy,5,2,2025-07-02
+15867,2025-07-01,Uploading large file problem,5,2,2025-07-02
+15830,2025-06-25,Mapping against a WGS reference,3,2,2025-07-01
+15845,2025-06-28,Error in running braker3,2,0,2025-07-01
+15849,2025-06-28,PhageTerm Error,2,0,2025-07-01
+15865,2025-07-01,Large file upload problem,2,0,2025-07-01
+15746,2025-06-16,Build expression matrix (RSEM) troubleshooting,2,0,2025-06-25
+11203,2023-11-22,nextdenovo empty fasta files,3,0,2025-06-25
+15752,2025-06-16,CustomProDB Job submission failed,2,0,2025-06-17
+15737,2025-06-13,Phylogenetic classification: phage,4,2,2025-06-14
+15732,2025-06-13,Batch input workflow - how to send jobs to distinct histories?,2,0,2025-06-13
+15714,2025-06-12,Running FeatureCount,2,0,2025-06-12
+15719,2025-06-12,Problems with snpEff databases,3,1,2025-06-12
+15557,2025-05-26,Novoplasty inputs,5,2,2025-06-11
+15704,2025-06-10,Format issues while trying yo use rnaviralspades,3,1,2025-06-11
+15628,2025-06-03,RNA editing tools,2,0,2025-06-04
+15606,2025-06-02,Flow of work against the type of data,3,1,2025-06-02
+15574,2025-05-28,RNAseq mapping issues,8,6,2025-06-02
+15586,2025-05-30,Exporting history as direct download,2,0,2025-05-30
+15572,2025-05-28,Macs3 available in Toolshed but not on Galaxy instance,2,0,2025-05-28
+15505,2025-05-21,DNA Methylation analysis,2,0,2025-05-28
+15515,2025-05-22,Wrapper to create html tutorials from md files.,4,2,2025-05-23
+15489,2025-05-19,uploading metadata file,3,1,2025-05-22
+15385,2025-05-07,Is there a way to combine paired-end and single-read RNASeq for a genome annotation?,6,4,2025-05-19
+15367,2025-05-03,BRAKER3 fails with 'Genemark not installed' error,2,2,2025-05-05
+15449,2025-05-16,Galaxy is taking days to blast one sequence,2,0,2025-05-16
+15421,2025-05-14,Tool Installation Request: icescreen,6,4,2025-05-16
+15440,2025-05-15,Multivariate - error loading datasets,4,1,2025-05-16
+15265,2025-04-21,Large discrepancies between processing identical files on Org vs EU site,5,5,2025-04-24
+15407,2025-05-12,Map with BWA-MEM,2,0,2025-05-12
+15380,2025-05-06,Storage Not Clearing,4,2,2025-05-07
+15371,2025-05-05,Updating CARD database,3,1,2025-05-06
+15360,2025-05-02,SNPeff and SNPsift version incompatibility?,5,3,2025-05-04
+15340,2025-04-29,Mobile Genetic Elements,3,0,2025-05-02
+15320,2025-04-25,MultiQC after featurecount,6,4,2025-04-28
+15290,2025-04-24,Busco problem with choosing lineage,4,1,2025-04-28
+15285,2025-04-23,Question [Interproscan Output: Missing Columns 12-15],2,0,2025-04-23
+15262,2025-04-21,Maker and Braker 3 running for half a week - and still going,5,3,2025-04-23
+15271,2025-04-22,GTDB-Tk database update to current version,3,1,2025-04-23
+15258,2025-04-20,data upload issue,5,3,2025-04-22
+15247,2025-04-17,Bakta database update,2,0,2025-04-17
+15194,2025-04-08,Busco tool keeps crashing,10,6,2025-04-15
+15212,2025-04-11,Need help flattening collections!,3,0,2025-04-11
+15213,2025-04-11,Help with a regex,2,0,2025-04-11
+15204,2025-04-09,The server closes my connection,3,0,2025-04-11
+15138,2025-04-02,Galaxy Europe maintenance - downtime on April 9,4,0,2025-04-09
+15178,2025-04-06,Forcefield.itp File not found during gromacs run despite uploading,2,0,2025-04-08
+15141,2025-04-02,Kraken Report Issue,15,12,2025-04-07
+15095,2025-03-26,How to map a collection of individual samples against a custom reference genome with RNA STAR,5,2,2025-04-06
+15171,2025-04-04,"error with ""abims_xcms_retcor""",3,0,2025-04-05
+15089,2025-03-25,"NCBI BLAST+ blastn: what does ""Maximum hits to consider/show"" do?",2,0,2025-03-31
+15080,2025-03-25,Trouble connecting with FTP,2,0,2025-03-31
+15118,2025-03-28,Deleted job still running,2,0,2025-03-29
+15083,2025-03-25,BBTools: BBNorm,3,0,2025-03-28
+15082,2025-03-25,Fastp - Collection,2,0,2025-03-28
+14708,2025-02-12,Is there a way to merge collections with different structures? Or merge collections inside a list?,14,6,2025-03-26
+15048,2025-03-19,Code Featurecounts 2.0.8+galaxy0 at UseGalaxy.eu,2,0,2025-03-21
+15031,2025-03-17,BAM file from HISAT2 to fastq for Genome assembly,4,2,2025-03-18
+14994,2025-03-13,Request to update BLASTP nr database,6,4,2025-03-14
+14993,2025-03-13,Two Unipept tools - which one to use?,2,0,2025-03-14
+14972,2025-03-12,Case-sensitive Select tool?,4,2,2025-03-13
+14946,2025-03-09,How do I report a bug in a tutorial,2,0,2025-03-10
+14939,2025-03-07,Protein domain and motif identification,2,0,2025-03-07
+14938,2025-03-07,protein sequence,2,0,2025-03-07
+14878,2025-02-27,goseq error in length and/or count files?,4,1,2025-03-05
+14880,2025-02-27,CREx Matrix has Different Values,6,0,2025-03-05
+14896,2025-02-28,BigWig track colour,2,0,2025-02-28
+14891,2025-02-28,running BWA MEM2 on ONT fastq file: https://usegalaxy.eu/jobs/submission/success,2,0,2025-02-28
+14848,2025-02-25,Bracken kmer distribution,2,0,2025-02-27
+14827,2025-02-23,OrthoFinder not accepting FASTA collections?,3,1,2025-02-27
+14842,2025-02-24,Memory Not Clearing,15,9,2025-02-26
+14841,2025-02-24,Please install BLAST v2.12.0 for MOB-Suite v3.1.9,3,0,2025-02-25
+14805,2025-02-20,blobtoolkit; error in the snail plot,2,0,2025-02-20
+14333,2025-01-06,MOB-Typer unstable results,14,4,2025-02-20
+14754,2025-02-17,DESeq2 for multiple groups,3,1,2025-02-20
+13154,2024-08-07,troubles with footprinting tool,7,4,2025-02-19
+14762,2025-02-17,AquaINFRA OGC API Processes,2,0,2025-02-19
+14738,2025-02-14,Kraken2 and Bracken databases update,4,2,2025-02-19
+14789,2025-02-19,Bracken database missed,2,0,2025-02-19
+14792,2025-02-19,Strategies for Mapping to multiple reference genomes?,2,0,2025-02-19
+14715,2025-02-13,"""PPanGGOLiN all"" error in https://usegalaxy.eu",6,2,2025-02-16
+13528,2024-09-24,Database missing for GTDB-Tk tool,4,2,2025-02-14
+13705,2024-10-17,gtdbtk_classify_wf Missing Database!,4,1,2025-02-14
+14085,2024-12-05,SPAdes taking 18+ hours to complete,5,1,2025-02-14
+14691,2025-02-10,Trouble using seqtk_trimfq,8,4,2025-02-13
+14688,2025-02-10,"Having issues with my file formats, can't find ""Check Format"" section",10,5,2025-02-12
+14660,2025-02-05,Cheatsheet: How to combine Spades Operation Mode and Pipeline options,5,3,2025-02-11
+14678,2025-02-07,FLAIR app returning 0 lines of output,2,0,2025-02-11
+14648,2025-02-04,Cant access tools,5,2,2025-02-10
+14670,2025-02-06,Breseq fastq format troubleshooting,4,1,2025-02-08
+14662,2025-02-05,Converting CSV files to Fasta for Trinity tool,2,0,2025-02-05
+14567,2025-01-27,Feature count on exon level instead gene level,4,1,2025-01-28
+14604,2025-01-28,Issues with using a reference transcriptome in kallisto quant,2,0,2025-01-28
+14525,2025-01-22,Kleborate Error,2,0,2025-01-28
+14526,2025-01-22,usegalaxy.eu cufflinks no cached reference data,7,3,2025-01-24
+14367,2025-01-08,UCSC Reference Genome and GTF Fatal Error no valid exons in the GTF file,4,1,2025-01-22
+14509,2025-01-20,Bismark Meth. Extractor version to generate coverage file,2,0,2025-01-22
+6125,2021-06-07,Bismark Meth. Extractor not generating coverage files,11,8,2025-01-22
+14487,2025-01-18,updating eggnog software and database,2,0,2025-01-22
+14452,2025-01-15,Errors with SortMeRNA tool in galaxy,2,0,2025-01-15
+4372,2020-08-28,Merge ASV table and taxonomy table in one file,3,1,2025-01-15
+14386,2025-01-10,ClustalW tool and MSA sequence,2,0,2025-01-10
+11821,2024-02-29,MSMetaEnhancer can't reach services if running on usegalaxy.eu,6,3,2025-01-09
+14341,2025-01-06,MaxQuant error with experiment design template (tutorial),8,2,2025-01-09
+14276,2024-12-29,Kraken 2 core nt database and large amount of unclassified reads?,7,1,2025-01-08
+14349,2025-01-07,import big file from protected cloud to my usegalaxy account,3,1,2025-01-07
+14241,2024-12-24,Kraken2 Databse for 16s full length metagenomics,2,0,2025-01-06
+14317,2025-01-03,Request for Installation of iTaxoTools/concatenator on Galaxy Europe,2,0,2025-01-03
+9830,2023-04-12,Pharokka Database,11,3,2025-01-02
+14205,2024-12-18,Trinity job not running,5,1,2024-12-31
+13364,2024-09-02,Interactive Jupyter lab enviroment taking a long time to solve an enviroment or failing.,6,2,2024-12-28
+14208,2024-12-18,CheckV end to end (Galaxy Version 1.0.3+galaxy0),5,1,2024-12-23
+14214,2024-12-19,manta SV is generating no output files,2,0,2024-12-21
+14213,2024-12-19,Dataset collection files queueing forever,2,0,2024-12-21
+14163,2024-12-12,Kraken2 and Spades not running,8,5,2024-12-17
+14188,2024-12-16,Tools not installing on local Galaxy server,2,0,2024-12-16
+14146,2024-12-11,Long read genome assemby,2,0,2024-12-13
+14106,2024-12-07,Time consuming for InterProScan output,4,1,2024-12-10
+14103,2024-12-07,Trying to create a workflow to analyze my nanopore sequencing data,2,0,2024-12-09
+14102,2024-12-06,"MITObim results in ""An error occurred with this dataset: fasta format""",2,0,2024-12-06
+14051,2024-12-03,Using the salmon tool I´ve got UCSC ids instead of gene_ids,3,1,2024-12-06
+14087,2024-12-05,Cannot upload data from ftp folder to history,6,3,2024-12-06
+14092,2024-12-05,Kraken 2- jobs waiting and not running,2,0,2024-12-05
+14089,2024-12-05,Jobs waiting and not running,2,0,2024-12-05
+14062,2024-12-03,RNAstar genome not available? Use a custom reference genome!,2,0,2024-12-04
+13422,2024-09-12,could you make KMC from the toolshed (available Galaxy Australia) also available in usegalaxy.eu?,27,16,2024-11-28
+14005,2024-11-27,dropbox access token link to galaxy eu,2,0,2024-11-27
+6194,2021-06-13,protein-ligand docking visualization using NGLViewer,5,1,2022-01-05
+13995,2024-11-26,Disk space requirement,2,0,2024-11-26
+2286,2019-10-15,Assistance with resolving Sub.sample tool output error,11,3,2019-10-30
+13944,2024-11-20,data not uploading,8,6,2024-11-25
+13952,2024-11-21,SignalP 3.0.. run error,2,0,2024-11-22
+13938,2024-11-19,false positives and negatives when long reads corrected using short reads,3,1,2024-11-20
+13903,2024-11-13,Adding Galaxy EU workflow to IWC Library - Planemo installation,8,5,2024-11-19
+13917,2024-11-14,Bandage Image Error,3,1,2024-11-15
+13911,2024-11-14,Third Party Identities,2,0,2024-11-14
+13894,2024-11-13,Quota exceeded issue,4,1,2024-11-14
+13871,2024-11-11,Shovill and Pilon correction,2,0,2024-11-12
+13809,2024-10-31,Interproscan format issues,4,1,2024-11-07
+13780,2024-10-29,Troubleshooting Generate MD topologies for small molecules,8,5,2024-11-07
+13729,2024-10-21,Cannot get QIIME2 artifact to work,6,3,2024-11-07
+13841,2024-11-06,Getting full paths of fastq files for QIIME2 Manifest files in Galaxy,2,0,2024-11-06
+2520,2019-11-22,Very few genes in htseqCount-/FeatureCounts-Output,7,5,2019-12-10
+13822,2024-11-04,can i perform docking for a protein without ligand,2,0,2024-11-05
+10142,2023-05-29,problem with funannotate,4,2,2023-06-01
+13784,2024-10-30,De-Multiplexing with Je-Demultiplex-Illu,2,0,2024-10-30
+13745,2024-10-22,.fastq.gz dataset not showing up in fastqc,5,3,2024-10-30
+13774,2024-10-26,Mutect2 error - please advise,6,3,2024-10-29
+13746,2024-10-22,Aligner for Circular genomes,2,0,2024-10-23
+13732,2024-10-21,Batch options for single end reads using SPades,9,4,2024-10-22
+13715,2024-10-18,eggNOG long run time,3,1,2024-10-21
+13706,2024-10-17,Convert Single End Read to Paired End??,7,5,2024-10-21
+13719,2024-10-19,Run Time problems,2,0,2024-10-20
+13690,2024-10-16,Align.seq Error 153,2,0,2024-10-20
+13703,2024-10-17,sudden change in STAR alignment of RNA-seq data,2,0,2024-10-17
+13572,2024-09-30,Error with make.contigs tool in 16s microbial analysis with mothur tuto,16,12,2024-10-15
+13649,2024-10-10,Can users increase the number of threads used for jobs?,2,0,2024-10-10
+13621,2024-10-07,BiG-SCAPE job submission failed,4,2,2024-10-09
+13596,2024-10-04,Transcript integrity Number,4,2,2024-10-07
+13601,2024-10-04,How to get LogFC from Log2(FC),4,1,2024-10-07
+13587,2024-10-02,Need to know the possible sources of duplicate listing of mitochondrial genes resulted by the splitting of sequences in the MITOS output,3,0,2024-10-05
+13599,2024-10-04,How can i use SILVA_138.2 latets as a reference to align.seqs tool in GALAXY Server?,2,0,2024-10-04
+13570,2024-09-30,Getting data from tutorial 16s Microbial analysis with Mothur,2,0,2024-09-30
+13554,2024-09-26,Fatal error: Exit code 1 () on StringTie De Novo,4,2,2024-09-28
+13544,2024-09-25,BUSCO Fatal error: Exit code 1 (),5,3,2024-09-27
+13519,2024-09-23,Jobs get immediately paused,4,2,2024-09-23
+13370,2024-09-03,StringTie gene count files have different row numbers,12,6,2024-09-23
+13489,2024-09-19,Kraken2 tool failing after SortMeRNA,3,1,2024-09-20
+13467,2024-09-17,Make custom blastdb for rpstblastn,3,0,2024-09-18
+13470,2024-09-17,Multi mapped reads,2,0,2024-09-17
+11571,2024-01-24,HicDetectLoop bug cleanlab version issue,4,1,2024-09-17
+13431,2024-09-12,MultiQC 1.24 does not allow comment lines in custom content,4,1,2024-09-16
+13390,2024-09-06,DNAdiff output files,10,8,2024-09-12
+13406,2024-09-10,VGP- unable to select or add hind3 restriction enzyme to Hi-C scaffolding workflow,2,0,2024-09-10
+12833,2024-07-01,Convert Galaxy output HiC file to .hic file for use on UCSC Genome Browser,8,4,2024-09-09
+12958,2024-07-12,Removing a user from a workflow shared with specified users,9,4,2024-07-12
+13373,2024-09-04,Download of free Bayes vcf files not possible in some cases,2,0,2024-09-04
+13307,2024-08-23,time for tool update,4,0,2024-08-30
+13327,2024-08-28,Trinity job no results yet,3,1,2024-08-29
+13290,2024-08-21,How long does a typical m6Anet run goes for?,2,0,2024-08-27
+13286,2024-08-21,How to create data_column input from tabular in workflow,10,2,2024-08-27
+6876,2021-10-19,KOBAS settings on local galaxy,6,4,2024-08-27
+13075,2024-07-26,Map with minimap2,3,0,2024-08-21
+13137,2024-08-05,Please run Megablast as an option with BLASTN,9,7,2024-08-18
+12723,2024-06-15,Circexplorer2 runtime,6,4,2024-08-14
+13212,2024-08-13,Krocus Database,3,0,2024-08-14
+13131,2024-08-03,"""Extract Genomic DNA"" tool",3,1,2024-08-13
+13214,2024-08-13,Bowtie2 brucella reference,2,0,2024-08-13
+13194,2024-08-10,Create a new column in a table with specific patterns,3,0,2024-08-13
+13167,2024-08-07,Quota stuck at 100% after purging large histories,2,0,2024-08-08
+13170,2024-08-08,mm10/GRCM38 genome,2,0,2024-08-08
+12639,2024-06-05,psortb error on usegalaxy.eu,11,7,2024-08-02
+13091,2024-07-29,FastP module of MultiQC not working,3,0,2024-07-30
+13005,2024-07-17,GROMACs troubleshooting,21,15,2024-07-29
+10514,2023-07-24,Error in running SpoTyping,3,0,2024-07-27
+13050,2024-07-23,Workflow ending in multiple VCFs instead of one single VCF,6,3,2024-07-26
+13055,2024-07-24,Krocus database missing,2,0,2024-07-24
+13054,2024-07-23,Adding nonsense mediated decay (NMD) plugin to ensembl_vep tool,2,0,2024-07-23
+11838,2024-03-04,DIAMOND --all option not working,4,2,2024-07-22
+13032,2024-07-21,Join two Datasets by Column 1,2,0,2024-07-22
+13024,2024-07-19,Artic guppyplex,2,0,2024-07-19
+12988,2024-07-16,Kraken-mpa-report and Kraken2,2,0,2024-07-17
+12989,2024-07-16,Help to evaluate my assembly results,2,0,2024-07-17
+12967,2024-07-13,Troubleshooting: BlobToolKit error after Diamond,4,2,2024-07-16
+12944,2024-07-11,zero scores for rrnS and rrnL genes in MITOS2,7,4,2024-07-15
+12961,2024-07-12,Problem when running BlobToolKit,2,0,2024-07-12
+12950,2024-07-12,BUSCO unable to run in offline mode?,2,0,2024-07-12
+12753,2024-06-20,Decoupler on AnnData object from Scanpy - task fails,4,0,2024-07-12
+12272,2024-04-22,Rstudio startup problem,3,0,2024-04-24
+12907,2024-07-09,N50 statistic for rnaviralSPades,3,1,2024-07-10
+12889,2024-07-07,"Problem during workflow importing ""Uncaught exception in exposed API method""",5,3,2024-07-10
+12734,2024-06-18,"Funannotate fails, maybe trying to create a file",4,2,2024-07-10
+12900,2024-07-08,Interactive CellXgene Environment,4,2,2024-07-09
+12802,2024-06-27,Will Nanopore-related tools be updated to accept pod5 files?,3,0,2024-07-08
+12869,2024-07-04,Manta SV error using reference genome,4,1,2024-07-08
+12847,2024-07-02,"CREx: distance matrix.How should the results from the new tables, where the diagonal is zero, be interpreted?",3,0,2024-07-05
+12517,2024-05-16,Compute distance matrix,10,5,2024-07-05
+12810,2024-06-28,How to add a new reference-genome on HISTAT2? I need S. agalactiae BM110,6,2,2024-07-01
+12817,2024-06-28,Galaxy Down? FastQC not working and unable to upload files,2,0,2024-07-01
+12801,2024-06-27,Trouble following hicBuildMatrix step in Hi-C hands on tutorial,3,1,2024-06-30
+12784,2024-06-25,Error when parsing assembly graph data in Bandage Image,3,1,2024-06-26
+9458,2023-02-14,Exit code 255 in Mageck Count,4,3,2023-03-01
+12763,2024-06-22,ITSx tool running forever,2,0,2024-06-24
+12736,2024-06-18,Is the output from OrthoFinder depreciated?,2,0,2024-06-22
+12756,2024-06-20,cutadapt for paired-end doesn't work with fastqsanger.gz anymore,5,0,2024-06-21
+12746,2024-06-19,bedtools intersect intervals,6,3,2024-06-21
+12692,2024-06-12,Empty output files from BUSCO with default settings,1,0,2024-06-12
+12730,2024-06-17,Inoperative Account on EU Server,2,0,2024-06-18
+12229,2024-04-17,Error with new tool ChewBBACA,17,2,2024-06-17
+12690,2024-06-12,BBtools - Tadpole,4,2,2024-06-14
+12674,2024-06-10,Contributing data as public library or built-in dataset for all users,2,0,2024-06-10
+12602,2024-05-30,"Multiple files after demultiplexing using radtags - what files do I use for mapping/SNP calling etc.,?",2,0,2024-06-06
+12605,2024-05-30,"FAQ: How to request, review, update existing tools and create new tools",2,0,2024-06-06
+12624,2024-06-03,msconvert error,2,0,2024-06-06
+12604,2024-05-30,Trouble - couldn't connect to server with FTP,3,1,2024-06-06
+12594,2024-05-28,msconvert jobs not queueing,2,0,2024-05-28
+12511,2024-05-16,Renaming files in a collection for BiG-SPACE to avoid errors,10,6,2024-05-24
+12481,2024-05-13,"CREx: ""missing header"" error",5,1,2024-05-18
+12514,2024-05-16,Request to Update antiSMASH,4,1,2024-05-17
+12488,2024-05-13,FTP download failing with forbidden error message,4,2,2024-05-17
+12490,2024-05-14,Please add the STR detection tool,20,15,2024-05-16
+12510,2024-05-15,Running custom tool,2,0,2024-05-15
+10717,2023-08-31,Negative values with VCF filter tool,7,5,2024-05-13
+12356,2024-04-30,Visualisation of IQTree and FASTTree tree outputs,4,2,2024-05-09
+12397,2024-05-03,fgsea returns an error,6,4,2024-05-07
+12422,2024-05-07,History purged but not deleted from the account storage,2,0,2024-05-07
+12416,2024-05-06,De novo vs Reference-guided Assembly with MIRA v3.4,2,0,2024-05-06
+12369,2024-04-30,Extract fields from sample-specific/genotype columns of a VCF with SnpSift Extract Fields,4,1,2024-05-06
+12400,2024-05-04,Able to get the directory where the package is located,4,1,2024-05-06
+12317,2024-04-26,Porechop tool not working,4,1,2024-05-01
+12309,2024-04-25,Datatype for binning files,4,1,2024-04-29
+12324,2024-04-26,JupyTool IS NOT WORKING,2,0,2024-04-26
+12319,2024-04-26,genome annotation with Braker3,2,0,2024-04-26
+12290,2024-04-24,MLST tool output unexpected.,4,2,2024-04-25
+12291,2024-04-24,how can i get subgroup from metagenetic sample?,3,1,2024-04-25
+12298,2024-04-24,bedtools doesn't work since Maintenance,2,0,2024-04-24
+12219,2024-04-16,Error with Rstudio - crashed and impossible to run again,2,0,2024-04-23
+12233,2024-04-17,Adding new proteomics tool on usegalaxy.eu,3,0,2024-04-20
+12235,2024-04-17,"Tutorial issues - De novo transcriptome assembly, annotation, and differential expression analysis.",4,1,2024-04-19
+11863,2024-03-06,GFF file with UTR information,4,1,2024-04-17
+12203,2024-04-15,Permanently deleting datasets in history that is already purged,12,6,2024-04-17
+12063,2024-04-01,Funannotate-Genmark error,2,0,2024-04-09
+12125,2024-04-08,how to make hic plot in hicexplorer,2,0,2024-04-09
+4110,2020-07-16,"RNA Seq Analysis - Trimming, FastQC",2,0,2024-04-05
+11989,2024-03-22,RNA STAR still running after four days,5,0,2024-04-04
+12095,2024-04-04,bedtools Multiple Intersect,2,0,2024-04-04
+12045,2024-03-29,Can't identify the error in Funannotate,3,0,2024-04-01
+12049,2024-03-29,bedtools BAM to BED,2,0,2024-03-29
+12046,2024-03-29,Velvetoptimiser: long running or failed job? Try a SPAdes tool instead!,2,0,2024-03-29
+12037,2024-03-28,sRNAPipe query for input fasta files,2,0,2024-03-28
+12033,2024-03-28,How to change gene interval in mitos2,2,0,2024-03-28
+11955,2024-03-18,Suggestions for tools for de novo assembly from mixed amplicon samples,7,4,2024-03-28
+12021,2024-03-26,"Unable to login, getting Err:500 code, and ""Uncaught exception in exposed API method:"" as response",4,2,2024-03-28
+12011,2024-03-25,Misconfigured HTTPS certificate,4,1,2024-03-26
+11981,2024-03-21,Bowtie 2 and mismatch,4,1,2024-03-25
+11972,2024-03-20,Genomes are missing from the dbdey table while present in bowtie2,5,1,2024-03-25
+7803,2022-04-01,Trinity taking long time?,6,3,2024-03-25
+11953,2024-03-18,Bowtie2 and BWA aligners,8,6,2024-03-22
+11971,2024-03-20,Errors occured in PCA analysis,2,0,2024-03-20
+11940,2024-03-16,The intermediate output file still exists,11,10,2024-03-20
+11854,2024-03-05,IQ-TREE configuration,6,3,2024-03-15
+11898,2024-03-09,Output file problem,8,6,2024-03-15
+11929,2024-03-14,question about finding job in galaxy queue,2,0,2024-03-14
+11907,2024-03-11,Comparing two bacterial genomes sequenced by nanopore,3,1,2024-03-13
+11910,2024-03-12,which input data to choose,2,0,2024-03-12
+11904,2024-03-10,hicBuildMatrix_not_working,2,0,2024-03-12
+11878,2024-03-07,Suggestion for installation (refseq_masher),4,1,2024-03-12
+11900,2024-03-10,How can I gunzip a file?,3,1,2024-03-10
+11870,2024-03-06,Paired sample comparison in the MAGeCKs test,2,0,2024-03-08
+11853,2024-03-05,Mstrg convertion into gene symbol. Is this possible?,2,0,2024-03-05
+11813,2024-02-28,My datasets are unavailable for analysis by rsem,2,0,2024-03-04
+11805,2024-02-27,RNA seq Vs Tag Seq,2,0,2024-02-29
+11801,2024-02-27,Cannot upload seurat object in RStudio,2,0,2024-02-28
+11807,2024-02-27,Hg38 canonical genome,2,0,2024-02-28
+11793,2024-02-26,Problems with ImageJ2 tools,2,0,2024-02-27
+11618,2024-01-29,Can't upload data with gx_get() in Rstudio tool or install GalaxyConnect into desktop R Studio,6,3,2024-02-23
+11722,2024-02-16,AGAT convert_GTF2GFF job keeps running,12,5,2024-02-22
+11705,2024-02-14,Uploaded RDS files are not visible as input in Seurat tools,3,0,2024-02-20
+11703,2024-02-14,FastQC fails in MRSA Genome Assembly tutorial: resolved!,7,3,2024-02-20
+9539,2023-03-01,Qiime2 - q2 tools import,3,0,2024-02-17
+11693,2024-02-12,Braker3 - Possible unintended interpolation of @3,5,2,2024-02-14
+11666,2024-02-06,usegalaxy.eu server overloaded?,2,0,2024-02-06
+11575,2024-01-24,align.seq tool- Fatal error 153,4,2,2024-02-05
+11647,2024-02-03,Is anyone else having problems to upload data?,2,0,2024-02-05
+11612,2024-01-29,recetox-msfinder not working on usegalaxy.eu,3,0,2024-02-01
+11621,2024-01-30,Trinity jobs in the queue for 7 days,2,0,2024-01-30
+11572,2024-01-24,make_phylogeny tools fails to run,4,2,2024-01-25
+11573,2024-01-24,msconvert problems,3,1,2024-01-25
+11532,2024-01-19,Jobs running for unexpectedly long durations.,5,2,2024-01-24
+11562,2024-01-23,"Co-expression analysis, unable to install WGCNA in Rstudio",2,0,2024-01-23
+11529,2024-01-19,history got lost,2,0,2024-01-19
+11530,2024-01-19,storage space overload due to uncompressed files,2,0,2024-01-19
+11524,2024-01-18,Using the same datasets across different histories,2,0,2024-01-18
+11495,2024-01-16,3 day+ queue time for Trinity Assembly,6,3,2024-01-17
+11498,2024-01-16,from galaxy to ncbi GEO,2,0,2024-01-16
+11492,2024-01-15,Request: in silico PCR,2,0,2024-01-16
+11482,2024-01-15,Long waiting time for genome assembly pipeline,3,0,2024-01-16
+11468,2024-01-12,Long waiting time for RNA Star,2,1,2024-01-12
+11447,2024-01-10,"Uploading issue, Usegalaxy.eu Jan 10 2023",4,1,2024-01-11
+11461,2024-01-11,Unable to upload file,2,0,2024-01-11
+11407,2024-01-04,Help with vcf annotation,3,1,2024-01-10
+11363,2023-12-26,Request: kraken2 DB update,1,0,2023-12-26
+11386,2024-01-02,Running jobs (from days),1,0,2024-01-02
+11390,2024-01-02,disk quota problem,3,0,2024-01-09
+10729,2023-09-01,RNA star tool running into the forth week,9,5,2024-01-09
+11405,2024-01-04,Problems with roary output,2,0,2024-01-08
+2376,2019-10-29,User Quotas Problems,6,2,2019-11-04
+6434,2021-07-30,SRA Data Import Issue,1,0,2021-07-30
+6460,2021-08-04,SnpEff Chromosome Not Found Error,1,0,2021-08-04
+6461,2021-08-04,Error while wieving .vcf file on IGV,1,0,2021-08-04
+6759,2021-09-30,Keep getting “Internal Server Error (500)”,1,0,2021-09-30
+7839,2022-04-08,Apollo unable to download user-created annotation,1,0,2022-04-08
+8975,2022-11-07,MACS on galaxy giving me an error with python: bad interpreter,1,0,2022-11-07
+9055,2022-11-17,Job failed for 'MEGAN: meganize a DIAMOND file',1,0,2022-11-17
+9146,2022-12-07,Is rsem_datatypes repo updated to revision 1?,1,0,2022-12-07
+10788,2023-09-13,unable to load createor update apollo tool,1,0,2023-09-13
+9237,2023-01-02,create gff file with eggnog_mapper,1,0,2023-01-02
+6342,2021-07-09,DESeq2 with single cell data - do cells from same sample get treated independently during analysis?,1,0,2021-07-09
+3310,2020-04-03,"Missing database for ""Kraken-report"" in galaxay eu server",1,0,2020-04-03
+3170,2020-03-13,Creating a Collection with Rules from the History,1,0,2020-03-13
+11267,2023-12-02,Increasing cores,8,4,2023-12-15
+11304,2023-12-12,Filter reference/subject sequences based on mapping,4,2,2023-12-12
+11301,2023-12-12,my workflow not running since launched it 3 days ago,2,0,2023-12-12
+11298,2023-12-11,MetaSPAdes shotgun paired end genome assembly,2,0,2023-12-11
+11076,2023-11-01,Apollo not responding?,20,9,2023-12-08
+3108,2020-03-02,How to do functional annotation after maker,3,1,2023-12-07
+4407,2020-09-04,How to perform nr blast (Blast2GO),2,0,2023-12-07
+2541,2019-11-26,Blast2GO Errors,6,1,2023-12-07
+11259,2023-12-01,Tool is green but is still in queue,4,0,2023-12-04
+8680,2022-09-18,Normalize with scanpy,2,0,2023-12-03
+11262,2023-12-01,Magecks test stuck running (orange),2,0,2023-12-01
+11218,2023-11-27,Bracken database error,6,2,2023-12-01
+11227,2023-11-28,Queued gray datasets and how jobs process at public Galaxy servers,2,0,2023-11-28
+11223,2023-11-28,Shovill job queued,2,0,2023-11-28
+3626,2020-05-09,No link to UCSC to visualise datasets,11,5,2023-11-28
+11200,2023-11-22,Roary returning file of 0 bytes: resolved,2,0,2023-11-27
+11207,2023-11-24,Input data for nanopore analysis,2,0,2023-11-27
+11213,2023-11-26,.gff3 file not showing in build-index with gene model,2,0,2023-11-27
+11170,2023-11-18,Timeout during data purge,2,0,2023-11-18
+11165,2023-11-17,Request installation of the following tools:,2,0,2023-11-17
+11144,2023-11-15,"Hello everyone, i have problem when i do gromacs simulation for protein-ligand complex",3,1,2023-11-16
+11133,2023-11-12,Bedgraph-to-bigwig error,4,2,2023-11-14
+11119,2023-11-09,Storage if full,3,1,2023-11-10
+11094,2023-11-03,Filter by length,2,0,2023-11-06
+11087,2023-11-02,Request for megablast tool,4,2,2023-11-03
+11085,2023-11-02,error running trimmomatic,4,2,2023-11-03
+11072,2023-10-31,Purging doesn't restore the storage,2,0,2023-10-31
+11055,2023-10-27,samtools view problems when extracting subset of fastq,3,1,2023-10-31
+11048,2023-10-26,Flye jobs don't start,3,0,2023-10-28
+11043,2023-10-25,Deseq2 analysis output too many DEGs,2,0,2023-10-26
+11035,2023-10-23,Problem in DESe2 with multiple factors,4,2,2023-10-24
+11033,2023-10-23,Limma interactive plot 404 error message,2,0,2023-10-23
+10244,2023-06-13,Funannotate Missing Genemark Environmental Variables,11,4,2023-06-16
+10950,2023-10-12,(HiCPlotTAD)This will generate an empty track!!,13,8,2023-10-21
+11027,2023-10-20,"Issue with ""ConvertPrositCSVToLibrary"" - completes successfully but produces 0 bytes of data",2,0,2023-10-20
+10995,2023-10-17,"Issue running DIA-NN: Errors out with ""command not found""",5,0,2023-10-19
+10977,2023-10-15,Error of Deseq2,2,0,2023-10-16
+10927,2023-10-10,Workflow Documentation via link,5,3,2023-10-16
+10932,2023-10-11,Error en canu y unicycler,2,0,2023-10-13
+4691,2020-10-22,HISAT2 Empty summary file,2,0,2023-10-12
+10926,2023-10-10,"FeatureFinderMultiplex fails in ""Peptide and Protein Quantification via Stable Isotope Labelling"" workflow",3,0,2023-10-11
+10921,2023-10-10,how to make a BED file,2,0,2023-10-10
+10912,2023-10-09,primer trim by galaxy tools,5,1,2023-10-09
+10893,2023-10-05,Shovill does not work,2,0,2023-10-05
+10853,2023-09-28,Any workflow or program to analyze nanopore cDNAseq?,2,0,2023-09-28
+10849,2023-09-27,Local network galaxy: No supported WebSocket library detected error,2,0,2023-09-27
+10810,2023-09-19,"compare Galaxy europe aligners (bowtie2, BWA and minimap2) and CLC genomics workbench",12,10,2023-09-27
+3973,2020-06-24,Error quantifier module of MirDeep2,6,2,2023-09-25
+10823,2023-09-21,mm10 version rna star,2,0,2023-09-21
+10447,2023-07-11,CSVLogger (callback) with Create deep learning model,8,1,2023-09-20
+10790,2023-09-13,"""From peaks to genes"" error with UCSC Main",6,3,2023-09-15
+10791,2023-09-13,SignalP output from InterProScan,3,0,2023-09-14
+10783,2023-09-13,Jupyter interactive notebook unable to finish job error,4,1,2023-09-13
+10399,2023-07-04,"""error in importRdata"" using isoformswitchanalyzR",15,10,2023-09-12
+10672,2023-08-23,Sequence identification from pool of NGS sequence reads,5,3,2023-09-11
+10748,2023-09-07,fastq to fastqsanger stuck in orange,2,0,2023-09-11
+10745,2023-09-06,Can't get 'Get organelle from reads' to work,6,3,2023-09-11
+9950,2023-04-24,goseq error with importing category file,3,0,2023-09-08
+10737,2023-09-05,Trinity : use rnaSPAdes instead!,5,3,2023-09-06
+10643,2023-08-20,plasmid spades: fatal error exit code 255,11,5,2023-09-05
+10740,2023-09-05,File import size issues,3,0,2023-09-05
+10725,2023-08-31,Imported file size,4,1,2023-09-05
+10718,2023-08-31,problems to delete discarded Items at https://usegalaxy.eu/storage/management,3,1,2023-09-04
+10728,2023-08-31,Disk quota question,3,1,2023-08-31
+10669,2023-08-23,Busco not working for a particular dataset,8,4,2023-08-30
+10670,2023-08-23,A tool in the platform that performs allele frequency calculation on a set of samples?,2,0,2023-08-29
+10694,2023-08-26,"Einkorn De Novo assembly, Triticum Monococcum no reference using Filter FastQ and FastQ joiner.",1,0,2023-08-26
+10680,2023-08-24,Bam to bigwig conversion fail,2,0,2023-08-24
+10652,2023-08-21,Updating databases,3,0,2023-08-21
+10630,2023-08-17,Truncated reports from metilene?,6,2,2023-08-21
+10627,2023-08-16,Extract subsequence from FASTA/Q file,4,1,2023-08-21
+10651,2023-08-21,Account storage,2,0,2023-08-21
+3046,2020-02-24,Problems with attributes in featureCounts -- GFF3 input instead of GTF,4,1,2023-08-18
+10624,2023-08-16,Infer Experiment results - Unstranded or Stranded (Reverse)?,2,0,2023-08-17
+10614,2023-08-10,Human Cell Atlas Downloading Data Troubleshooting,8,5,2023-08-16
+10622,2023-08-15,"How to filter output of GFFcompare (class_code i,u,x) and extract filtered transcripts in GTF file?",3,0,2023-08-15
+2773,2020-01-09,Unclear Bowtie2 unaligned read filenames,6,2,2023-08-11
+10594,2023-08-09,Can not launche Extract Genomic DNA,4,1,2023-08-10
+10343,2023-06-26,make.contigs- Fatal error: Exit code 153 (),5,1,2023-08-10
+10585,2023-08-07,Analyses of metagenomics data - The global picture,2,0,2023-08-08
+10558,2023-08-01,Unicycler: assembly has misassemblies,2,0,2023-08-07
+10570,2023-08-02,RNA star with reference genome from history error,2,0,2023-08-07
+10537,2023-07-27,What is the correct input for Stacks: populations??,7,4,2023-07-28
+10529,2023-07-26,Can't run any tool after weird problem with available disk space,6,3,2023-07-28
+10437,2023-07-10,Stacks: Using trimmed sequences as input for de novo map?,3,0,2023-07-26
+10508,2023-07-22,Database with clade-specific marker genes - metagenomics data,6,2,2023-07-26
+10530,2023-07-26,Jobs queued (in grey) for 2 weeks already,2,0,2023-07-26
+10527,2023-07-26,Assembly tool for whole genome and tool for unzip gz file,2,0,2023-07-26
+10516,2023-07-25,tools for nanopore data analysis,5,1,2023-07-25
+10504,2023-07-21,Problem with the annotatemyIDs tool,4,1,2023-07-25
+5832,2021-04-19,Uploading nested directories to nested collections,5,2,2023-07-21
+10503,2023-07-21,Where is the gunicorn socket located?,8,5,2023-07-21
+10499,2023-07-20,Nanopore data analysis by Galaxy,2,0,2023-07-20
+10468,2023-07-16,Update tool DB (Bakta),5,1,2023-07-17
+2174,2019-09-25,Temporary outputs of big jobs,8,4,2023-07-17
+10465,2023-07-14,File Not Found (). on a job results,2,0,2023-07-17
+10467,2023-07-14,Funannotate Compare taking too long,2,0,2023-07-17
+10421,2023-07-08,New tool request for EU that is in toolshed,2,0,2023-07-13
+10449,2023-07-11,RAD-seq remove samples from raw data,4,2,2023-07-12
+10441,2023-07-10,Expanding the built-in reference genomes,3,1,2023-07-12
+10432,2023-07-10,Undefined error after running DESeq2,4,1,2023-07-11
+10422,2023-07-08,DRAM annotate gives empty files,9,5,2023-07-11
+3189,2020-03-18,Really Long time running stacks,3,1,2023-07-10
+10355,2023-06-27,get() command in the Jupyter lab notebook,2,0,2023-07-07
+7000,2021-11-08,Rstudio on Galaxy.eu : installing new packages,6,1,2023-07-06
+10357,2023-06-27,Jupyter Notebook not available in Active Interactive Tools,2,0,2023-07-06
+10276,2023-06-18,"IsoformSwitchAnalyzR - ""longer object length is not a multiple of shorter object length""",3,0,2023-07-04
+10310,2023-06-22,Problem calling Galaxy History dataset in Python notebook,5,3,2023-07-03
+10331,2023-06-24,Trimmomatic error: Warning Perm size,3,0,2023-07-03
+10329,2023-06-24,CONCOCT not working.,2,0,2023-07-03
+10053,2023-05-11,Troubleshooting Galaxy dataset link-outs to UCSC Genome Browser,7,4,2023-07-03
+5389,2021-02-15,MiModd variant calling,2,1,2021-02-15
+10337,2023-06-26,Error when trying to setup a new account,2,0,2023-07-02
+10362,2023-06-28,TAR file - how to open it,2,0,2023-07-02
+10360,2023-06-28,Annotate DESeq2/DEXSeq output,2,0,2023-07-02
+10379,2023-07-01,Krona Chart Snapshot,2,0,2023-07-02
+2241,2019-10-04,goseQ Erorr based on Reference based rna seq tutorial,2,1,2019-10-04
+10342,2023-06-26,Sus Scrofa 11.1 reference genome in Freebayes,2,0,2023-06-27
+9723,2023-03-27,Metilene tool fails on ENCODE bigWigToBedGraph converted data,16,9,2023-06-23
+10297,2023-06-21,Funnanotate failing in various ways,5,2,2023-06-22
+10301,2023-06-21,MAFFT Multisequence alignment,9,6,2023-06-22
+10306,2023-06-21,Reference-based RNA-Seq data analysis,2,0,2023-06-21
+10304,2023-06-21,Kraken2 databases for taxonomic classification,2,0,2023-06-21
+10284,2023-06-20,"MaxQuant does not finish job, running for 6 days",3,0,2023-06-21
+8441,2022-08-09,Metilene tool usage,7,2,2023-06-20
+10274,2023-06-17,The problem of calling tools,3,1,2023-06-19
+10242,2023-06-13,Galaxy europe Maintenance,2,0,2023-06-13
+10200,2023-06-07,fgsea and egsea tools,5,1,2023-06-12
+10189,2023-06-05,"Tutorials, tools, and custom reference genomes",2,0,2023-06-06
+8152,2022-06-02,Visualization of box plot(jqPlot) problem,11,7,2023-06-05
+10147,2023-05-30,Snippy to find SNP in bacterial DNA seq,7,3,2023-06-05
+10175,2023-06-04,Job waiting to run,3,1,2023-06-05
+10158,2023-05-31,Importing demultiplexed FASTQ.QZ files - Galaxy (EU) QIIME2,2,0,2023-05-31
+10149,2023-05-30,A problem in the header related to a matrix,4,2,2023-05-30
+10133,2023-05-26,Nextcloud integration,4,0,2023-05-29
+10130,2023-05-26,Activating virtualenv at .venv Updating service gunicorn Updating service celery Updating service celery-beat,2,0,2023-05-26
+10119,2023-05-23,gemını inheritance pattern,2,0,2023-05-24
+10114,2023-05-23,I need software to be installed,4,1,2023-05-23
+10058,2023-05-15,Dataset error report using qiime2 feature-classifier (naive bayes),6,2,2023-05-18
+10074,2023-05-17,Display link to UCSC missing EU,2,0,2023-05-17
+9842,2023-04-13,Blast2GO not working,16,10,2023-05-17
+10031,2023-05-09,Errors using HiCExplorer HiCPlotTADs,5,2,2023-05-16
+9989,2023-05-01,import dataset NCBI,12,10,2023-05-12
+8593,2022-09-02,AlphaFold2 Error - Could not find HHsearch database /data/pdb70/pdb70,11,7,2023-05-12
+10047,2023-05-11,Not finishing job,2,0,2023-05-11
+10033,2023-05-10,Goseq and genome,2,0,2023-05-10
+9962,2023-04-26,Downloading datasets using command line NOT WORKING,8,3,2023-05-09
+6471,2021-08-05,Version and source of the galaxy built-in genome,3,0,2023-05-05
+10013,2023-05-05,Source of built in reference genomes,2,0,2023-05-05
+10006,2023-05-04,Continuing the discussion from [RSEM prepare reference tool does not produce valid reference files],2,0,2023-05-04
+9983,2023-04-29,KeyError: 'callback_type' when using hyperparameter search on a deep learning model,4,1,2023-05-02
+9978,2023-04-28,Sample error in running deseq2,3,1,2023-04-29
+9924,2023-04-20,Adding new aa modification (D4-Lysine) to MetaNovo tool,2,0,2023-04-24
+9919,2023-04-19,spaln not working,2,0,2023-04-19
+9916,2023-04-19,"Circos - can't call method ""colorExact"" error",3,1,2023-04-20
+9354,2023-01-26,Other versions for GROMACS,2,0,2023-04-14
+9841,2023-04-13,Jobs not running usegalaxy.eu,3,0,2023-04-13
+9838,2023-04-12,Compute on rows function failing,4,2,2023-04-13
+9782,2023-04-02,Local workflow with medaka fails with error,2,0,2023-04-07
+9771,2023-03-31,SnpEff eff: annotate variants is producing errors,3,1,2023-04-01
+9756,2023-03-30,Jobs not running in usegalaxy.eu,2,0,2023-03-31
+9754,2023-03-30,Failed local file upload with 504 timeout: Resolved at UseGalaxy.eu March 31 2023,6,2,2023-03-31
+9738,2023-03-29,jobs not running,2,0,2023-03-29
+9725,2023-03-27,Get minimum value per column with Table Compute,3,0,2023-03-28
+9714,2023-03-24,ARTIC Minion tool,3,0,2023-03-25
+9712,2023-03-24,problem history,2,0,2023-03-24
+9711,2023-03-24,cluster command stuck,2,0,2023-03-24
+9702,2023-03-22,Feature counting missing counts,4,1,2023-03-23
+9603,2023-03-08,Genome build for dog in RNA STAR,6,0,2023-03-20
+9664,2023-03-16,FastaQC read quality report,4,2,2023-03-16
+8041,2022-05-15,Extract Datasets by multiple element identifiers,3,1,2023-03-16
+9662,2023-03-16,extract datasets from collection,2,0,2023-03-16
+9606,2023-03-08,Jobs automatically being paused,13,7,2023-03-16
+6337,2021-07-08,Possible error in meryl,5,3,2021-07-12
+9647,2023-03-15,workflow - output not hidden,2,0,2023-03-15
+9619,2023-03-12,An error of limma-voom,2,0,2023-03-14
+9578,2023-03-06,Nginx reverse proxy local Galaxy instance does not upload data,5,1,2023-03-11
+9405,2023-02-03,Adding --cut_right option for fastp,3,0,2023-03-10
+9611,2023-03-09,Server saturated by Spades jobs,2,0,2023-03-09
+9612,2023-03-09,Europe server not working,2,0,2023-03-09
+9599,2023-03-08,Error with Unique.seq,3,1,2023-03-08
+9567,2023-03-05,History is missing,19,13,2023-03-08
+9584,2023-03-07,Problem importing history from Galaxy.org to Galaxy.eu,4,1,2023-03-07
+9577,2023-03-06,display option in history,3,0,2023-03-07
+9571,2023-03-06,From TXIMPORT to EdgeR?,2,0,2023-03-06
+9546,2023-03-02,annotateMyIDs failure,4,2,2023-03-06
+9423,2023-02-07,"GTN material ""MaxQuant and MSstats for the analysis of TMT data"" fails.",2,0,2023-03-01
+9440,2023-02-09,Mageck count error: Cannot automatically determine the --trim-5 length,2,0,2023-03-01
+9472,2023-02-15,DRAM creating no output,2,0,2023-03-01
+9480,2023-02-17,Met frag Dataset Error Report,2,0,2023-03-01
+9526,2023-02-28,RNA-seq reads to counts with pair-end data,2,0,2023-02-28
+9519,2023-02-27,Error for basically everything,3,0,2023-02-28
+9508,2023-02-24,How to merge multiple fastq.gz files from one sample into one fastq.gz file,4,1,2023-02-27
+9491,2023-02-20,Search results visible only for a split second,6,3,2023-02-21
+8687,2022-09-19,MaxQuant- Fatal error: Exit code 134 (),2,0,2022-09-19
+4428,2020-09-08,Check for strandedness,5,4,2023-02-13
+9398,2023-02-02,Funannotate functional,2,0,2023-02-10
+9208,2022-12-20,CVMFS twobit indexes for hg38 not downloaded as reference,4,2,2023-02-10
+8858,2022-10-18,Problem with Uniclycler,8,6,2023-02-10
+6496,2021-08-10,MiXCR failing to extract VDJ from B cell fastq.gz,5,2,2023-02-10
+6940,2021-10-28,MiXCR clonotype data,11,8,2023-02-10
+8838,2022-10-14,"Circos ""colorExact"" error",3,0,2023-02-07
+9388,2023-02-01,problems connecting with API,1,0,2023-02-01
+9381,2023-01-31,ftp not responding,3,0,2023-01-31
+8969,2022-11-07,"Repeated ""empty input datasets"" error message",3,1,2022-11-08
+9221,2022-12-24,how to convert the value from logarithm to normal?,13,6,2023-01-30
+9369,2023-01-29,Using Send Data/Send to cloud to move data to S3,1,0,2023-01-29
+9347,2023-01-25,Adding new Reference genomes to the DeepVariant deep learning-based variant caller,2,0,2023-01-26
+9356,2023-01-26,v3v4 region parameters,1,0,2023-01-26
+9342,2023-01-24,"""TEtranscripts annotates reads to genes and transposable elements (Galaxy Version 2.2.3+galaxy0)"" this latest version does not operate.",3,0,2023-01-25
+9253,2023-01-06,molecular dynamics workflow stuck,4,1,2023-01-24
+9251,2023-01-06,Workflow invocation scheduling failed - Galaxy EU,2,0,2023-01-14
+9288,2023-01-13,Request to add DeepBGC to Galaxy Africa,3,1,2023-01-13
+9266,2023-01-10,Unicycler doesn't combine two datasets,3,0,2023-01-12
+9257,2023-01-08,Failed trinity assembly,4,1,2023-01-12
+9269,2023-01-10,obtain 3'UTR sequences from assembled transcripts,2,0,2023-01-11
+9268,2023-01-10,Dataset Error Report,2,0,2023-01-10
+9263,2023-01-09,Error while uploading bam file to Galaxy,2,0,2023-01-10
+9215,2022-12-22,Deepvariant tool installation error on local Galaxy,3,1,2023-01-03
+9234,2023-01-01,using published genomic data,2,0,2023-01-03
+9228,2022-12-28,Cannot install r packages in the interactive session,1,0,2022-12-28
+9159,2022-12-10,Ability to transfer jobs between two accounts,3,1,2022-12-18
+9179,2022-12-14,Problem with visualization of RNA-Seq results with Volcano Plot (issue with pvalue=0 & NA),5,2,2022-12-16
+9156,2022-12-09,"Scanpy RunPCA on tutorial, erroring out for me",3,1,2022-12-14
+9075,2022-11-21,How Paste tool works,3,2,2022-11-23
+9158,2022-12-09,Deep learning tutorial,1,0,2022-12-09
+9113,2022-11-30,Will ampvos2 tool will be available in Galaxy EU?,8,2,2022-12-08
+8109,2022-05-26,RSEM prepare reference tool does not produce valid reference files,2,0,2022-12-07
+9131,2022-12-05,Getting files from history download with proper sample names,5,0,2022-12-07
+9098,2022-11-28,Trinity ended; no assembly,4,1,2022-12-06
+9127,2022-12-03,Tools for finding quadrants,2,0,2022-12-05
+9105,2022-11-28,how can I find out the highest and lowest expression values?,3,0,2022-12-03
+9119,2022-11-30,What is unassigned ambiguity and unassigned multimapping in the featureCount tool?,2,0,2022-12-01
+9013,2022-11-11,Racon/minimap2 error,5,0,2022-11-30
+9108,2022-11-29,Genome of interest is not listed- Run a Bowtie2 when the reference genome are no listed in options,2,0,2022-11-29
+8982,2022-11-08,Error STAR .bam to StringTie DESeq2/Limma-voom,4,1,2022-11-24
+8954,2022-11-03,differential gene expression analysis by denovo data,2,0,2022-11-24
+9086,2022-11-23,trinity runing problem,5,1,2022-11-23
+9073,2022-11-21,Problem in dowloading file in Galaxy Europe,2,0,2022-11-23
+9054,2022-11-17,What tool should I use?,3,1,2022-11-18
+9033,2022-11-16,Meganization of DIAMOND files on Galaxy Europe running for more than a week,3,1,2022-11-16
+9009,2022-11-10,Smoothing a plotprofile graph,1,0,2022-11-10
+8582,2022-09-01,Multiple featureCounts let RNAseq workflow not run,5,3,2022-11-10
+8979,2022-11-08,Error browsing files,2,0,2022-11-08
+8943,2022-11-01,RNA STAR analysis: Reads per gene,2,0,2022-11-08
+8964,2022-11-06,how to do RNA STAR with Borrelia burgdorferi data,2,0,2022-11-07
+8894,2022-10-25,new annotated bacterial genome,4,1,2022-10-26
+8908,2022-10-26,featurecounts error using BAM and gff3 files,2,0,2022-10-26
+8885,2022-10-21,RNA STAR error: file does not contain alignment data,3,0,2022-10-21
+8881,2022-10-21,Average wall time for tools,2,0,2022-10-21
+8880,2022-10-21,Galaxy EU Trinity Problem,2,0,2022-10-21
+8875,2022-10-20,Paired-End RNA Seq Trimming Workflow,1,0,2022-10-20
+8855,2022-10-18,History bug trying to scroll,2,0,2022-10-18
+8854,2022-10-18,fastq file not accepted in minimap2 self-mapping mode,3,1,2022-10-18
+8842,2022-10-15,Importing history between different Galaxy instances fails,8,4,2022-10-18
+8479,2022-08-15,FTP file download error (history archive),3,1,2022-10-17
+7788,2022-03-30,Circos Tiles plot,2,1,2022-03-31
+8824,2022-10-13,Snippy tool bug?,6,2,2022-10-14
+8791,2022-10-06,"RNA Seq, error alignment after trimming",8,3,2022-10-14
+8730,2022-09-26,Error_data import from Galaxy history into rstudio,4,2,2022-10-13
+8825,2022-08-01,Ensembl FTP file download,1,0,2022-08-01
+8783,2022-10-04,Error of inspect anndata,10,7,2022-10-06
+8782,2022-10-04,Sixpack tool running error,4,2,2022-10-04
+8753,2022-09-28,Modify GTF datasets with select tool,4,2,2022-09-28
+8646,2022-09-11,Trinity genome-guided assembly produces empty files despite the job being completed successfully,8,5,2022-09-28
+8716,2022-09-23,FastQC not running,6,4,2022-09-28
+6381,2021-07-20,Couldn't annotate any gene Name using Annotate DESeq2/DEXSeq output tables,6,2,2021-07-31
+7529,2022-02-14,Merge Gromacs Topologies tool not found?,6,2,2022-09-23
+8719,2022-09-23,Running a Hicup Pipeline for a DNAse Hi-C,2,0,2022-09-23
+8326,2022-07-17,Any tools to merge two de novo genomic assemblies?,5,2,2022-09-23
+8497,2022-08-20,To run longer simulation like 100ns,2,0,2022-09-23
+8453,2022-08-11,Overlapping genelist,2,0,2022-09-21
+8658,2022-09-12,Not getting output from Inspect AnnData tool,3,1,2022-09-14
+8160,2022-06-05,Filter BAM dataset on spliced alignments,2,0,2022-09-21
+8532,2022-08-25,Free Energy Calculation from DCD Trajectory?,2,0,2022-09-21
+6923,2021-10-26,Use blastx on Galaxy,9,7,2021-10-29
+8696,2022-09-20,jobs are not running or currently running for a long time,2,0,2022-09-20
+8689,2022-09-19,augustus: ERROR,2,0,2022-09-19
+8682,2022-09-19,Power Effect on Spectra,1,0,2022-09-19
+8665,2022-09-14,Custom operations table compute,3,0,2022-09-16
+8639,2022-09-10,mapping file - DESeq2 error,2,0,2022-09-12
+8568,2022-08-31,Problem using Import Anndata tool,4,2,2022-09-06
+8597,2022-09-03,Help with chipseq workflow to find motifs and genome ontology data,2,0,2022-09-05
+8436,2022-08-08,Help! A weird error about hyperparameter selection in tutorial workflow,4,1,2022-09-03
+8575,2022-08-31,Genome builds for sheep and goat,9,6,2022-09-01
+8548,2022-08-29,Position restraints error !!!,7,2,2022-08-31
+8542,2022-08-27,Is it possible to include EasyFig in Galaxy?,2,0,2022-08-30
+8398,2022-08-01,Trinity tool error,4,1,2022-08-29
+8405,2022-08-02,regd fastqc ouput,2,0,2022-08-26
+8425,2022-08-05,why i am getting error in deseq 2 ?,2,0,2022-08-26
+8521,2022-08-25,How to access collection details?,2,0,2022-08-25
+8512,2022-08-23,Add Tool - redundans,3,0,2022-08-23
+8505,2022-08-22,Gubbins is not work,3,1,2022-08-23
+8509,2022-08-23,Possible to download Bismark indexed genome?,2,0,2022-08-23
+8488,2022-08-17,Funannotate predict has taken 5 days to run—normal?,2,0,2022-08-22
+8391,2022-07-31,"Error when running ""Trimmomatic flexible read trimming tool for Illumina NGS data"" on RNA seq data",2,0,2022-08-10
+8362,2022-07-26,regarding MULTIQC not working,5,2,2022-07-26
+8331,2022-07-18,Make variable names unique,3,0,2022-07-19
+8306,2022-07-11,Using Scanpy to process single cell data,5,3,2022-07-19
+8333,2022-07-19,Fastq de-interlace,2,0,2022-07-19
+8165,2022-06-07,Error message when loading RNAStar,4,2,2022-07-12
+8277,2022-07-01,error in vina results,1,0,2022-07-01
+8252,2022-06-27,"failed to install galaxy local instance on virtual machine, via ansible",3,0,2022-06-28
+7409,2022-01-27,circRNA identification,3,1,2022-06-25
+8111,2022-05-26,Trim Galore! can't recognize FASTQ files,2,0,2022-06-24
+3590,2020-05-06,Merging VCF files,3,2,2022-06-16
+8157,2022-06-03,How to include new variable modifications which are absent in the list?,5,3,2022-06-10
+8167,2022-06-08,Job failure CutAdapt,3,1,2022-06-09
+6884,2021-10-19,How to 'force=TRUE' in Human Methylation BeadChip module,7,4,2022-06-08
+8116,2022-05-27,Cant reach usegalaxy.eu,2,0,2022-05-27
+8108,2022-05-26,Missing gene names in DropletUtils/ RaceID output,3,1,2022-05-26
+8096,2022-05-25,DESeq2 alternative hypotheses,1,0,2022-05-25
+8034,2022-05-13,exome sequencing GEMINI load error,7,4,2022-05-25
+8089,2022-05-23,DEseq2 pairwise comparison,2,0,2022-05-23
+8062,2022-05-18,UseGalaxy.eu -- unexpected server behavior May 2022,3,0,2022-05-18
+8042,2022-05-16,Maxquant errorc for dotnet,2,0,2022-05-16
+8031,2022-05-13,Conversion of BAM files to bigwig,1,0,2022-05-13
+8002,2022-05-08,FTP Upload Fail - No certificates popped up,5,1,2022-05-11
+7998,2022-05-08,Edit chromosome identifiers in VCF files,2,0,2022-05-08
+7964,2022-05-01,mapping to human reference genome,4,2,2022-05-04
+7957,2022-04-30,incorrect link to bam download,9,3,2022-05-03
+7943,2022-04-27,Problem with featureCounts tool,3,0,2022-04-30
+7909,2022-04-22,HISAT2 against miRNA in smallRNA protocol,2,0,2022-04-29
+7913,2022-04-23,Deseq2 error RNA seq analysis,2,0,2022-04-29
+7881,2022-04-19,Problem using UMI-tools extract,3,2,2022-04-26
+7912,2022-04-23,Different tools available...any idea why?,2,0,2022-04-25
+7907,2022-04-22,file upload fails,2,0,2022-04-22
+7905,2022-04-21,Featurecounts error - RNA seq data,3,1,2022-04-22
+7884,2022-04-20,PIPmiR runs too long time,3,0,2022-04-22
+7865,2022-04-14,Rarefaction curve from Roary output,2,0,2022-04-21
+7868,2022-04-14,Trinity queued for long,2,0,2022-04-19
+7342,2022-01-18,SARS-CoV-2 ARCTIC V4 files,23,14,2022-04-16
+7851,2022-04-11,Workflow invocation issues,1,0,2022-04-11
+2327,2019-10-22,Masigpro tool Error,9,5,2022-04-07
+2924,2020-02-05,Error when opening shared history / shared data,4,2,2022-04-03
+7673,2022-03-13,Deep learning architecture,9,5,2022-03-30
+7775,2022-03-29,Cannot find hmmscan database,1,0,2022-03-29
+7763,2022-03-28,Galaxy server read uploded .pdb file as text format,2,0,2022-03-28
+7693,2022-03-16,Error when trying to use GROMACS on PDB of Protein-Protein Complex,5,2,2022-03-21
+7716,2022-03-21,workflow invocation failed,2,0,2022-03-21
+7677,2022-03-14,Circos Plot: Job waiting to run > 72 hours,6,2,2022-03-21
+7692,2022-03-16,Failing uploading data,6,0,2022-03-16
+7619,2022-03-02,Trouble connecting to server with FTP,5,1,2022-03-04
+7629,2022-03-03,Problems accessing the site,3,1,2022-03-03
+7607,2022-02-26,Data upload fails,3,1,2022-02-26
+7597,2022-02-25,Alignment with UMI,1,0,2022-02-25
+7549,2022-02-18,FASTA Header Changes not shown in BLAST database,4,2,2022-02-23
+5666,2021-03-19,Lumpy preprocessing: empty output,10,7,2022-02-13
+7492,2022-02-08,"""This is a new dataset and not all of its data are available yet""",2,0,2022-02-08
+7434,2022-02-01,paired-end RNA seq with biological replicates,10,6,2022-02-07
+4320,2020-08-19,Maxquant tool error,5,0,2022-02-05
+7459,2022-02-03,Subsetting VCF by regions in BED,2,0,2022-02-05
+7446,2022-02-03,Error: Duplicate seq_ids are found,4,2,2022-02-04
+7301,2022-01-11,Makeblastdb: Job output not returned from cluster error,4,0,2022-02-03
+7343,2022-01-18,"Stacks : de novo map ending in ""unable to finish job""",6,4,2022-02-02
+7436,2022-02-01,Uploading data from google drive,3,1,2022-02-01
+7363,2022-01-20,Is there a protocol for miRNA Sequencing?,4,0,2022-01-25
+7165,2021-12-09,History imported by user via link is locked/greyed out,3,0,2022-01-25
+7354,2022-01-19,Long Job using minimap2,6,3,2022-01-24
+7225,2021-12-23,Long Job using Flye and quota usage disappeared,16,5,2022-01-23
+7364,2022-01-20,heatmap2 row labels too big,3,0,2022-01-21
+7328,2022-01-17,Database generated from CAT prepare exceed the account quota,7,5,2022-01-18
+7303,2022-01-11,RNA STAR high percentage of unmapped reads: too short,12,6,2022-01-18
+7323,2022-01-16,Bowtie2 output data type not recognised in workflow designer,9,4,2022-01-16
+7315,2022-01-13,"Tool ""spot_detection_2d"" missing on usegalaxy.eu",4,1,2022-01-15
+7291,2022-01-08,HyPhy analysis tools and workflows,3,1,2022-01-13
+7305,2022-01-11,new tools integration,3,0,2022-01-13
+7202,2021-12-18,Problem using the Generalized linear model tool,2,0,2022-01-05
+7196,2021-12-16,delay in the job run (vsearch dereplication),10,8,2022-01-06
+7206,2021-12-19,"Stacks2 process_radtags doesn't have a ""no barcode"" option",2,0,2022-01-03
+7221,2021-12-22,Paused jobs in iCLIP Workflow,2,0,2022-01-03
+6927,2021-10-26,Loading larger files to public Galaxy servers: Use FTP,10,3,2021-12-21
+7155,2021-12-07,Roary - bug with names,2,0,2021-12-20
+7157,2021-12-07,Rstudio in galaxy doesn't finish running,1,0,2021-12-07
+7130,2021-12-01,salmon quantmerge giving fewer rows than expected,1,0,2021-12-01
+7121,2021-11-30,Filtering normalize read counts,2,0,2021-12-01
+7129,2021-12-01,Downloading a whole History,2,0,2021-12-01
+5442,2021-02-24,Proteomics analysis in a mixed plate with TMT16plex,2,0,2021-11-22
+6913,2021-10-23,What is Normalization method used in Deseq2 galaxy,4,1,2021-11-22
+7054,2021-11-19,FTP upload could not connect to server,4,1,2021-11-21
+7018,2021-11-10,Kraken: how do I get a Kmer distribution?,3,0,2021-11-17
+7013,2021-11-09,Tools update request,3,1,2021-11-17
+7024,2021-11-11,Long Time for Bismark Methylation Extractor,2,0,2021-11-11
+4710,2020-10-25,Empty InterproScan output,4,0,2021-11-10
+6999,2021-11-08,Tabular file format,2,0,2021-11-08
+6997,2021-11-08,Adding custom tools not working as in tutorial,4,2,2021-11-08
+6989,2021-11-07,Request Entity Too Large (413) -- Try FTP Upload,2,0,2021-11-08
+6988,2021-11-07,ATAC-Seq TSS-enrichment-Score,1,0,2021-11-07
+6981,2021-11-05,Downloading paired end data,4,2,2021-11-05
+5949,2021-05-14,MiGMAP long run time,19,13,2021-10-28
+6938,2021-10-28,Veen diagram using several datasets,1,0,2021-10-28
+6855,2021-10-18,usegalaxy.eu: gz file getting corrupted during ftp import cycle,7,2,2021-10-27
+6339,2021-07-09,Data upload problem,4,1,2021-07-12
+6919,2021-10-25,Any way to align a single cDNA sequence against the raw nanopore data?,3,1,2021-10-25
+6901,2021-10-21,Problem deleting datasets in galaxy europe,6,1,2021-10-25
+6909,2021-10-22,Troubleshooting import from a shared Data Library to a history,2,0,2021-10-22
+6806,2021-10-09,Errors using Maker in Galaxy Europe,6,1,2021-10-21
+6890,2021-10-20,Salmon quantification using Ensembl references,5,1,2021-10-21
+6878,2021-10-19,Concatenate datasets not concatenating properly,4,1,2021-10-19
+6856,2021-10-18,Datasets transfer from usegalaxy.org to usegalaxy.eu,20,18,2021-10-19
+3598,2020-05-06,Help needed regarding usegalaxy.eu and usegalaxy.org,6,3,2021-10-18
+6848,2021-10-16,Trim Galore! is missing,2,0,2021-10-16
+6815,2021-10-12,Error while connecting to usegalaxy.eu server,3,1,2021-10-14
+6816,2021-10-12,Where will i get fasta file for template alignment in usegalaxy.eu,1,0,2021-10-12
+6798,2021-10-07,Uploading GTF file from local disk gives Warning: Request Entity Too Large (413),4,0,2021-10-08
+6773,2021-10-02,Bos taurus 9 as reference genome for Hisat2,4,1,2021-10-06
+4160,2020-07-27,Error on DADA2 merge pairs,3,0,2021-09-28
+6726,2021-09-26,Importing multiple datasets into one folder,1,0,2021-09-26
+5981,2021-05-19,unable to save file from ethercalc interactive tool,2,0,2021-09-24
+6670,2021-09-13,RNA STAR error on trimmomtaic files,8,3,2021-09-14
+6221,2021-06-18,How to do Augustus training or Maker training?,24,15,2021-09-12
+6642,2021-09-07,Protein-ligand docking via AutoDock Vina,2,0,2021-09-08
+6489,2021-08-09,Tool error in protein-ligand md simulation in Gromacs,14,11,2021-09-06
+6603,2021-08-31,Gaps in the genome assembly,1,0,2021-08-31
+6574,2021-08-25,RNAseq variant calling,5,1,2021-08-28
+6586,2021-08-27,problem to select multiple file from ftp directory to load on galaxy,4,1,2021-08-28
+6437,2021-07-30,"problem by following ""Generating a single cell matrix using Alevin By: Wendi Bacon, Jonathan Manning""",2,0,2021-08-27
+5736,2021-04-02,Why has the FTP upload link disappeared?,5,2,2021-08-27
+6554,2021-08-20,input paired end file,2,0,2021-08-25
+6566,2021-08-23,"How to generate ASVs on on from Mothur tutorial on galaxy -- Resolved, OTU == ASV",2,0,2021-08-23
+6524,2021-08-17,Lofreq filter hangup on Galaxy ARTIC workflow,3,0,2021-08-18
+6534,2021-08-17,Manipulating interleaved/interlaced fastq data,3,1,2021-08-17
+6528,2021-08-17,How to convert raw sequence to FASTA format with awk,1,0,2021-08-17
+6527,2021-08-17,tool error in protein-ligand md simulation,1,0,2021-08-17
+6500,2021-08-11,Generate spectral library using diapysef without iRT file,1,0,2021-08-11
+6483,2021-08-08,Problem with generating history archive and DeSeq2,1,0,2021-08-08
+6468,2021-08-05,"What is the rdata.sce data type? As used by scater, scEasy",1,0,2021-08-05
+6452,2021-08-02,DegNorm tool for Galaxy,1,0,2021-08-02
+6451,2021-08-02,"Some tools can not be found by learning ""Generating a single cell matrix using Alevin By: Wendi Bacon Jonathan Manning""",1,0,2021-08-02
+6392,2021-07-22,Nucmer output plot,3,1,2021-07-24
+6400,2021-07-23,my assembly is not running,2,0,2021-07-23
+3848,2020-06-03,Hi-C hicexplorer how to compare 2 hi-c matrices?,2,0,2021-07-22
+6384,2021-07-20,Incorrect number of dimensions: Infinium Human Methylation BeadChip,2,0,2021-07-21
+6379,2021-07-20,Cuffmerge problem,5,1,2021-07-20
+6343,2021-07-10,Persistent error trying to run pipeline,6,3,2021-07-14
+6328,2021-07-07,snippy tool update request,4,1,2021-07-09
+6295,2021-07-01,How to use DELLY with Galaxy,4,1,2021-07-03
+6272,2021-06-28,QualiMap Multi-Sample BamQC does not load in center panel,15,11,2021-07-02
+6297,2021-07-01,Incomplete uploading from ENA's EBI SRA -- Solution: try NCBI SRA instead,3,0,2021-07-02
+5888,2021-04-30,DEseq2 error with different numbers of rows,13,9,2021-05-13
+6229,2021-06-20,picrust tutorial,4,1,2021-06-23
+6089,2021-06-03,Need help with Fastp outpout,3,0,2021-06-22
+6239,2021-06-22,Read length distribution of sRNA?,2,0,2021-06-22
+6220,2021-06-18,Annotate Genomic coordinates/ regions,4,0,2021-06-21
+6224,2021-06-18,Error when importing dataset to Rstudio,5,3,2021-06-18
+6144,2021-06-08,Trouble accessing the UseGalaxy webpage,11,7,2021-06-17
+6200,2021-06-14,Customized adapter trimming for WGBS Galaxy(.eu) Workflow,7,4,2021-06-17
+6215,2021-06-17,how merge fastq files for MetaSPAdes,2,0,2021-06-17
+6014,2021-05-24,MethylDackel running time too long,18,13,2021-06-15
+6189,2021-06-13,Disk memory allocated exceeded,4,1,2021-06-13
+6177,2021-06-11,Bowtie2 tool error,3,1,2021-06-12
+6181,2021-06-11,Uncaught exception in exposed API method -- UseGalaxy.eu server issue - RESOLVED,4,1,2021-06-11
+6178,2021-06-11,annotate my IDs server problem --- UseGalaxy.eu server issue -- RESOLVED,4,1,2021-06-11
+6174,2021-06-11,BUSCO analysis only shows the full table without a short summary,3,1,2021-06-11
+6162,2021-06-09,Extract a subsequence from the whole genome assembly?,12,6,2021-06-11
+6150,2021-06-09,Using GTF2 to generate a filtered FASTA and transcript-gene map,5,2,2021-06-11
+6160,2021-06-09,Read length in fq.gz file,3,0,2021-06-10
+6135,2021-06-08,Join two datasets,4,2,2021-06-08
+6108,2021-06-05,Searching the tool panel -- Example at UseGalaxy.eu for tool MethylDackel,3,1,2021-06-07
+6024,2021-05-25,Long run time eggNOG,3,0,2021-06-01
+3781,2020-05-25,HISAT2 errors meaning,9,5,2021-05-27
+5977,2021-05-19,Very long running time for RepeatMasker?,10,7,2021-05-21
+5984,2021-05-19,Messy Infernal (cmscan) output,1,0,2021-05-19
+5961,2021-05-17,Upload File from your computer failed on release_21.01,2,0,2021-05-17
+5927,2021-05-09,Transcriptome tutorial files,2,0,2021-05-09
+5874,2021-04-28,annotateMyIDs fatal error code 1,4,2,2021-05-03
+5857,2021-04-22,Je-demultiplex output in workflows,2,0,2021-04-23
+5850,2021-04-22,PEAKachu peak caller in Galaxy CLIPseq training not calling the RBFOX2 peak published by van Nostrand 2016.,2,0,2021-04-22
+5729,2021-04-01,PureCLIP does not finish job and keeps saying: job currently running.,3,1,2021-04-22
+5845,2021-04-21,"Q: Which steps should I follow to answer this question? A: Using the tool ""Group"" to summarize data",2,0,2021-04-21
+2548,2019-11-27,Fastq Manipulation: Trimming user-specified regions,4,1,2021-04-21
+5761,2021-04-08,miRNA featureCounts,2,0,2021-04-15
+5694,2021-03-25,hicbuildmatrix: Please verify this parameter.,2,0,2021-04-15
+5228,2021-01-19,"Running large-scale jobs with ""Faster Download and Extract Reads in FASTQ """,2,0,2021-04-06
+2148,2019-09-20,Problem displaying data on UCSC Cell Browser,4,1,2021-04-02
+5695,2021-03-25,Old MultiQC version,1,0,2021-03-25
+5579,2021-03-11,SnpEff4.3 GRCh37.75: Which Ensemble Build is used?,3,0,2021-03-21
+5173,2021-01-11,"Reference annotation GTF options for UCSC's mouse builds mm9, mm10",5,3,2021-03-18
+5628,2021-03-16,how to upload BAM format from SRA database in GALAXY,3,1,2021-03-16
+5593,2021-03-12,Parallel use of ustacks,3,1,2021-03-15
+5620,2021-03-15,How to find all of your data and make space for new work: Tutorial,3,0,2021-03-15
+5581,2021-03-11,Aligning reads to custom plasmid sequence,3,0,2021-03-14
+5613,2021-03-14,Issue with shared history not giving permission to view data.,2,0,2021-03-14
+5524,2021-03-05,Citing Galaxy EU,11,6,2021-03-08
+5543,2021-03-07,PCA analysis of bed files,2,0,2021-03-07
+5438,2021-02-23,Stacks2: process_Radtags won't find paired-end data,17,11,2021-03-01
+5453,2021-02-25,Trimming before Stacks,3,1,2021-03-01
+4432,2020-09-09,Wallace interactive tool not available,2,0,2021-03-01
+5428,2021-02-22,Interactive Jupyter Notebook doesn't add to my history.,4,1,2021-02-23
+5415,2021-02-19,problem with goseq and fgsea,2,0,2021-02-22
+5399,2021-02-16,Pipeline Builder - error in running,2,0,2021-02-16
+5390,2021-02-15,QualiMap counts,3,0,2021-02-16
+5334,2021-02-06,7 hour vs 21 minute runtime for snippy on usegalaxy.eu,2,0,2021-02-15
+5361,2021-02-10,Nanopore metabarcoded analysis,1,0,2021-02-10
+5291,2021-01-28,How to use ftp to upload files in hicexplorer.usegalaxy.eu?,2,0,2021-01-28
+5292,2021-01-28,"Machine learning based de novo assembly, alignment and annotation",1,0,2021-01-28
+5250,2021-01-22,Could Galaxy/HicExplorer includes samtools for bam files merge?,3,0,2021-01-28
+4317,2020-08-19,Go Enrichment Error with Tutorial Dataset,4,2,2021-01-15
+5273,2021-01-25,"Deep learning based software tools for variant calling, alignment, assembly on Galaxy instances",1,0,2021-01-25
+5238,2021-01-21,Why there is no CDD in Interproscan?,1,0,2021-01-21
+5225,2021-01-19,Adding Kraken 2 viral database to local galaxy instance,2,0,2021-01-20
+5203,2021-01-17,"Prokka error ""Please rename your contigs"" - ""contig id must <=37 chars long""",4,0,2021-01-17
+5190,2021-01-14,"""these should be of equal length"" when inputting collections to Unicycler",3,1,2021-01-15
+5186,2021-01-13,Error when uploading to Galaxy EiB Demo,2,0,2021-01-13
+5182,2021-01-12,demultiplexing in stacks gives empty files,1,0,2021-01-12
+5145,2021-01-06,Error with Fetch Taxonomic Representation,2,0,2021-01-08
+5124,2021-01-03,Galaxy eu server seems have error,4,0,2021-01-04
+5117,2021-01-02,Works have an errors.. on Galaxy eu.,7,4,2021-01-02
+5111,2021-01-01,strand information (rna star error),1,0,2021-01-01
+5081,2020-12-26,RStudio Active Tools - Seurat not installable,3,0,2020-12-27
+3836,2020-06-02,Tcoffee run finishes with empty results,4,1,2020-12-24
+5071,2020-12-23,Error during doing energy minization step,1,0,2020-12-23
+5065,2020-12-23,Error in TransDecoder,1,0,2020-12-23
+5009,2020-12-13,Prokka: tbl2asn error,2,0,2020-12-13
+4950,2020-12-02,Filter GTF attributes by a list of attributes,4,1,2020-12-04
+2967,2020-02-11,Alternative to DM tools for inbuilt reference sequence,4,1,2020-11-30
+4889,2020-11-20,single cell barcode extraction for STRT-seq,11,8,2020-11-30
+4903,2020-11-24,Determining the haplotype,3,0,2020-11-27
+4847,2020-11-14,StringTie error (An error occured with this dataset),2,0,2020-11-26
+4883,2020-11-20,Trimmomatic Work Flow Issue,10,5,2020-11-20
+4832,2020-11-13,How can I find that a RNAseq data is stranded or un-stranded by usegalaxy tools?,4,0,2020-11-17
+4684,2020-10-21,Request for including 2x fungal genomes in the GALAXY reference genome list,3,0,2020-10-29
+1048,2019-04-09,Database indexes for Kraken and Kraken2,6,1,2020-10-29
+4716,2020-10-26,Detect ribosomal RNA sequences,1,0,2020-10-26
+4553,2020-10-02,Search textfiles,14,6,2020-10-21
+4636,2020-10-16,Install CryptoGenotyper,6,1,2020-10-17
+4626,2020-10-15,Install Sartools,1,0,2020-10-15
+4611,2020-10-13,Invocation Scheduling Failed,5,1,2020-10-14
+4526,2020-09-28,T coffee empty out put file,7,4,2020-10-12
+4528,2020-09-28,Molecular Dynamic(MD) CYP3A4 Structure,6,3,2020-10-02
+4542,2020-10-01,"Help! On ""seurat Normalize data""",1,0,2020-10-01
+4514,2020-09-25,Question about running starsolo,4,3,2020-09-25
+2023,2019-08-30,Use of Apollo in Galaxy | Europe,3,1,2020-09-23
+3548,2020-04-30,Mitochondrial genome,5,1,2020-09-20
+2198,2019-09-27,Error in MultiQC,6,3,2020-09-19
+4446,2020-09-14,Installing Guppy in Galaxy Server,2,0,2020-09-18
+4093,2020-07-13,BWA-MEM built-in genome(s),7,4,2020-09-08
+4380,2020-08-29,I cannot add uploaded loom file on workflow,2,0,2020-09-01
+4370,2020-08-28,Jobs still running after more than 12 hours,2,0,2020-08-28
+4349,2020-08-25,Data import problem from ENA and UCSC,8,4,2020-08-26
+4272,2020-08-12,What Annotation file should be used for EdgeR?,2,0,2020-08-21
+4282,2020-08-13,Larger files not downloaded completely? Try using a History Archive,9,5,2020-08-17
+4259,2020-08-09,Non-specific read match handling,1,0,2020-08-09
+2791,2020-01-13,Installation of Rstudio in Galaxy Europe,3,1,2020-08-09
+4232,2020-08-03,Searching for gene clusters,1,0,2020-08-03
+4208,2020-07-31,Python error line for RNAlaiofld and GraphClust workflow (Motif finder and GraphClust),3,0,2020-08-02
+4221,2020-08-02,Galaxy server @repeatexplorer-elixir.cerit-sc.cz jobs not running,1,0,2020-08-02
+4214,2020-07-31,Jupyter Interactive Tool Stopped- how to get it to run again,4,1,2020-07-31
+4156,2020-07-26,Freebayes running for multiple days,5,2,2020-07-29
+2930,2020-02-05,why is `plotDEXSeq` output pdf empty,13,5,2020-07-22
+4134,2020-07-21,fastqc error during rule based uploading,1,0,2020-07-21
+4121,2020-07-18,Flattening List of List of Pairs to List of Pairs,13,7,2020-07-21
+4131,2020-07-21,"Missing output, but no error in IDBA-TRAN",1,0,2020-07-21
+4013,2020-06-30,Meaning of DESeq2 Graph 'Dispersion estimates',2,0,2020-07-20
+2899,2020-01-31,Modify/convert GROMACS trajectories using trjconv,4,1,2020-07-20
+4127,2020-07-20,Multiple Seurat Errors,1,0,2020-07-20
+1160,2019-04-24,Remove Unwanted Variation,5,3,2020-07-18
+4101,2020-07-14,roary alignment file problem,1,0,2020-07-14
+4098,2020-07-13,Single Cell Visualization help,1,0,2020-07-13
+1903,2019-08-11,"Galaxy tutorial ""Differential abundance testing of small RNAs"" corrupted",8,4,2020-07-13
+4061,2020-07-08,Regarding Augustus training set,1,0,2020-07-08
+3932,2020-06-17,visualize progressive mauve alignments,3,0,2020-07-08
+4026,2020-07-01,To implement a one-click test in Galaxy.,3,0,2020-07-02
+3983,2020-06-25,Subsetting collections and doing operations on an arbitary number of groups,10,2,2020-07-01
+3955,2020-06-22,Salmon - Update request,4,2,2020-06-29
+3764,2020-05-22,Hisat2 BAM file output does not include stats -- Not a default output but is an option on the tool form,4,2,2020-06-16
+3894,2020-06-11,Using Cuadadapt on Galaxy to remove long G repeat regions,1,0,2020-06-11
+3892,2020-06-11,Normalization of ATACseq data,2,0,2020-06-11
+3885,2020-06-10,Unipept 4.3.0 taxonomic annotation,1,0,2020-06-10
+3881,2020-06-10,Purged Some of my histories but still my quota is full!,1,0,2020-06-10
+3862,2020-06-08,How to generate counts from my HISAT2 alignment (BAM file)?,2,0,2020-06-09
+3790,2020-05-26,No access to old data,7,2,2020-06-08
+3864,2020-06-08,Include to the available genomes the Aspergillus nidulans genome,1,0,2020-06-08
+3826,2020-06-02,How to change fastq header?,5,3,2020-06-03
+3838,2020-06-02,Code availability,3,1,2020-06-02
+3799,2020-05-27,Megablast output visualization,1,0,2020-05-27
+3773,2020-05-23,How to subset a BAM by specific name?,3,1,2020-05-25
+3579,2020-05-04,regulatory_region_variant not reported in SnpEff annotation,3,0,2020-05-24
+3772,2020-05-23,cannot find ndx datatype on galaxy europe server -md simulation,1,0,2020-05-23
+1925,2019-08-13,getting my datasets out of collections,3,1,2019-08-22
+3728,2020-05-19,How to find the genes with the polymorphic variants in a VCF file,2,0,2020-05-19
+2036,2019-09-03,MiRDeep2 identification of novel and known miRNAs,29,15,2020-05-19
+3720,2020-05-18,Alignment and counting of high number SMARTseq samples,1,0,2020-05-18
+3688,2020-05-15,Gromacs rmsd graph,5,1,2020-05-17
+940,2019-03-29,problem with mummer plot,9,4,2020-05-17
+3707,2020-05-16,nvp equlibration slow only using 1 core for task,3,1,2020-05-16
+3699,2020-05-15,Finding new transcripts in single-cell RNA-Seq datasets,2,0,2020-05-16
+3238,2020-03-26,Downloading data,10,2,2020-05-15
+3622,2020-05-09,adding tools 'SnpEff download' and 'SnpEff eff' on usegalaxy.eu,3,0,2020-05-09
+3586,2020-05-05,producing gzip compressed datafiles,4,2,2020-05-07
+3561,2020-05-02,protein -ligand docking,9,4,2020-05-07
+3583,2020-05-05,SNP variant tool gives a string instead of one nucleotide,2,0,2020-05-05
+3560,2020-05-02,SNP variant analysis/MergeSamFiles?,4,1,2020-05-04
+3544,2020-04-30,implicit vs explicit FTP,2,0,2020-04-30
+2285,2019-10-14,Error uploading pub files,33,17,2020-04-27
+3527,2020-04-26,Galaxy site not working,2,0,2020-04-26
+3491,2020-04-22,JBrowse search features problem,1,0,2020-04-22
+3490,2020-04-22,Error when loading Blast track in JBrowse (Doing the tutorial),1,0,2020-04-22
+3489,2020-04-22,Metabolic network reconstruction,1,0,2020-04-22
+3485,2020-04-21,Error on mono when runnig FlashLFQ,1,0,2020-04-21
+3449,2020-04-17,"FTP help, guides, tutorials, and troubleshooting",5,1,2020-04-20
+3462,2020-04-18,how the miranda works ?,1,0,2020-04-18
+3452,2020-04-17,ln: failed to create symbolic link : No such file or directory,1,0,2020-04-17
+3422,2020-04-14,Problem with accessing earlier uploaded file and Error while uploading same file now,3,0,2020-04-17
+3418,2020-04-14,history and data disapear,4,1,2020-04-15
+3423,2020-04-14,Summarize Taxonomy Tool Skipping Lines,1,0,2020-04-14
+3379,2020-04-09,Crash during installation,4,1,2020-04-14
+3413,2020-04-13,covert gtf to bed12,3,0,2020-04-13
+3398,2020-04-11,Problems installing Cuffdiff in local Galaxy,3,0,2020-04-11
+3392,2020-04-11,Troubleshooting browser timeout,4,0,2020-04-11
+3373,2020-04-08,ANNOVAR alternative,2,0,2020-04-08
+3295,2020-04-02,Missing my files from directory,3,0,2020-04-02
+3294,2020-04-02,SNP variant analysis of haploid fungal genomes,1,0,2020-04-02
+3270,2020-03-30,Link ChIP-seq`s peaks with nearby genes,4,1,2020-04-01
+3274,2020-03-30,Internal Server Error: Galaxy was unable to successfully complete your request,2,0,2020-03-30
+3166,2020-03-12,Data storage for inteproscan / internship,3,1,2020-03-26
+3117,2020-03-03,Uploading histories,8,3,2020-03-26
+3235,2020-03-26,Which tools shall I use to find out up and down regulation genes in RNA seq? Solution: GTN Transcriptomics & Differential expression tutorials,2,0,2020-03-26
+3205,2020-03-22,Quast warnings and errors,4,1,2020-03-24
+3157,2020-03-11,Can someone help me load this new tool?,10,7,2020-03-12
+3086,2020-02-28,Tools Installation: By a USER,3,0,2020-02-29
+2952,2020-02-10,Generate gene to transcript map: WARNING output,9,4,2020-02-29
+3071,2020-02-27,Collapse Sequences - FASTA/Q tools run failure,1,0,2020-02-27
+2987,2020-02-13,sequence_convert,2,0,2020-02-13
+2919,2020-02-04,"Missing tool ""velveth and velvetg""",6,3,2020-02-11
+2741,2019-12-30,issue with SICER input files,3,0,2020-02-06
+2921,2020-02-04,not receiving emails,4,1,2020-02-04
+2907,2020-02-01,Generating miRNA annotation file for hairpin.fa sequence,1,0,2020-02-01
+2902,2020-01-31,SNP variant analysis,1,0,2020-01-31
+2895,2020-01-30,Is there a hg38 index as reference genome in RNA Star?,1,0,2020-01-30
+2882,2020-01-29,"Missing the SnpEff in the ""Calling variants in diploid systems"" tutorial",3,1,2020-01-29
+2796,2020-01-13,merge multiple VCF files - variant analysis and sample organization,6,6,2020-01-29
+2670,2019-12-16,SnpEff annotation- transcript information discordant to the information available on the Ensemble website,12,5,2020-01-29
+2863,2020-01-27,General questions regarding usegalaxy.eu,5,0,2020-01-27
+2856,2020-01-26,ERROR with the MDS Plot,1,0,2020-01-26
+2835,2020-01-22,download gnomad vcf.bgz.tbi dataset into galaxy for gemini annotate and/or join functions,2,0,2020-01-23
+2776,2020-01-09,Trackster not adding multiple datasets,3,1,2020-01-14
+2779,2020-01-10,Features of built-in genomes,3,0,2020-01-10
+2762,2020-01-06,Help understanding outputs of PIT:FASTA_ORFS_2,1,0,2020-01-06
+2748,2020-01-03,Download rRNA refrence genome into galaxy,1,0,2020-01-03
+2665,2019-12-16,ExN50 computes expression of 'gene' and not trinity transcripts in de novo assembled transcriptome,2,0,2020-01-02
+2728,2019-12-27,Masigpro results,1,0,2019-12-27
+2692,2019-12-19,Import a Work flow on the galaxy,3,0,2019-12-19
+2688,2019-12-18,problem with 	 Unipept Taxonomy Viewer,1,0,2019-12-18
+2684,2019-12-18,MiRNA and MicroArrey work flow in galaxy ?,1,0,2019-12-18
+2668,2019-12-16,Very slow Galaxy.eu server,1,0,2019-12-16
+2633,2019-12-10,Workflow for differential exon usage/alternative splicing,3,1,2019-12-16
+2664,2019-12-16,Detecting Pseudogenes in DEG results,1,0,2019-12-16
+2663,2019-12-16,Time series analysis,1,0,2019-12-16
+2652,2019-12-12,"Installation of RGI, SNVPhyl, and ARIBA in Galaxy Europe",1,0,2019-12-12
+2634,2019-12-10,Phylogenetic tree,1,0,2019-12-10
+2618,2019-12-08,Convert formats,1,0,2019-12-08
+2573,2019-12-01,Extract Genomic DNA index: Resolved,5,2,2019-12-02
+2545,2019-11-27,How to add in a header to a tabular dataset,4,1,2019-11-27
+2526,2019-11-24,RNA Star does not recognize ENCODE gtf files,4,1,2019-11-26
+2519,2019-11-22,bcftools norm realignment,8,3,2019-11-26
+1253,2019-05-08,Trim Galore error due to problematic fastq format,8,5,2019-11-26
+2529,2019-11-25,RCorrector Galaxy.eu,1,0,2019-11-25
+2461,2019-11-14,Data privacy and VCF modification before upload,2,0,2019-11-20
+2483,2019-11-18,fastq-dump not working,2,0,2019-11-19
+2467,2019-11-16,Workflow is not running on EU,3,1,2019-11-18
+2472,2019-11-17,vcf2tsv not working anymore,2,0,2019-11-18
+2460,2019-11-14,Newbie question regarding installation,4,2,2019-11-18
+2453,2019-11-14,Snpeff eff annotate Info field ends in the next vcf line,4,1,2019-11-17
+1784,2019-07-19,Missing information VCFtoTab-delimited,17,12,2019-11-15
+2452,2019-11-14,Remove some vcf header lines (not all),3,0,2019-11-15
+2449,2019-11-13,vcf2tsv docker vs. usegalaxy.eu,2,0,2019-11-14
+2432,2019-11-08,Missing bam index when downloading bam file,3,1,2019-11-08
+1576,2019-06-19,Salmon 0.14.0 update on usegalaxy.eu?,5,2,2019-10-31
+2379,2019-10-29,gffread won't add to my history - Solution: adjust tool form options for output choices,2,0,2019-10-29
+2383,2019-10-29,Installing tool into galaxy Galaxy Bridge,1,0,2019-10-29
+2380,2019-10-29,CIRCexplorer rnagalaxy.eu,1,0,2019-10-29
+2372,2019-10-28,MSGF+ and Post Processing errors in PIT without reference genome,3,0,2019-10-28
+2369,2019-10-28,Export history to file error,1,0,2019-10-28
+2361,2019-10-26,Does this version of Masigpro in galaxy suppport rna seq data ?,1,0,2019-10-26
+2299,2019-10-18,DiffBind_ChIP-Seq_Error_message,3,1,2019-10-23
+2335,2019-10-22,Fail to export History in File,1,0,2019-10-22
+2331,2019-10-22,crictical error ftp,2,0,2019-10-22
+2323,2019-10-21,tRNA used for a specific gene across the genome,1,0,2019-10-21
+2317,2019-10-19,"MasigPro,s data input ?",1,0,2019-10-19
+1677,2019-07-04,Lineages on Busco,8,3,2019-10-19
+2262,2019-10-09,Input format problems with tools,4,2,2019-10-18
+2295,2019-10-16,je-demulitplex tool is no longer available -- and is back again,6,2,2019-10-18
+2279,2019-10-13,Why when i use a tool there is multiple actions in my history?,6,4,2019-10-15
+2252,2019-10-08,Regular expression to filter for header using filter FASTA,7,2,2019-10-12
+855,2019-03-20,EdgeR data input problem,4,2,2019-08-08
+2214,2019-10-02,"Does a metadata file have to be provided to create a biom file, for subsequent analysis of beta diversity in Phinch?",2,0,2019-10-02
+2121,2019-09-16,Unable to Upload a set of mzxml datasets into a Collection list,6,4,2019-10-02
+1837,2019-07-30,rnaSPAdes ss flag,2,0,2019-10-01
+2180,2019-09-26,Long time for Goseq tool,2,0,2019-09-26
+1958,2019-08-21,Format help for GTF datasets,4,2,2019-09-23
+2157,2019-09-21,Sopra Is not working https://usegalaxy.eu/datasets/error#,2,0,2019-09-22
+2147,2019-09-20,Problem with Intersect tool tutorial,2,0,2019-09-20
+2064,2019-09-09,Maker: Failed to communicate with remote job server,8,4,2019-09-11
+2076,2019-09-10,Can I download a printable version of a workflow?,2,0,2019-09-10
+1268,2019-05-10,Fasta format genome file in mirdeep2 (custom genome),4,1,2019-09-04
+1985,2019-08-27,Bowtie 2 - in Workflow no custom reference genome available -- Solution: Create a Custom Build,2,0,2019-08-27
+1942,2019-08-17,bwa alignent for fastaq download from ENA database,2,0,2019-08-17
+1921,2019-08-13,Read counts equals to 0 in indel mutations called by VarScan,1,0,2019-08-13
+1919,2019-08-13,data_manager_qiime_database_downloader,1,0,2019-08-13
+1900,2019-08-10,Megablast jobs have been running for 21 days now,2,0,2019-08-12
+1873,2019-08-06,GATK DepthOfCoverage error,3,1,2019-08-07
+1841,2019-08-01,qiime_split_libraries_fastq error,1,0,2019-08-01
+1782,2019-07-19,How to make a job run faster? Public resources are fixed. Your own Galaxy can be set up with more resources,3,0,2019-07-26
+1676,2019-07-04,Long time running Stacks de novo map,5,1,2019-07-15
+1470,2019-06-04,"MACS peaks calling from bedgraph data, ChIP-Seq",6,2,2019-07-13
+1727,2019-07-12,Incomplete annotation by SnpEff eff,1,0,2019-07-12
+1700,2019-07-09,Extra line of information generated by VCFtoTab-delimited,7,3,2019-07-11
+921,2019-03-26,Nanopore data assembly with CANU,5,1,2019-07-11
+1694,2019-07-07,Duplicate tools and datatypes,5,1,2019-07-10
+533,2019-01-29,Typical run time for jobs? Walltime?,8,5,2019-06-19
+1586,2019-06-20,Generating consensus sequence from bam file re: Variant analysis,2,0,2019-06-20
+1539,2019-06-13,Extremely long waiting time for running a tool,3,0,2019-06-14
+1443,2019-05-30,mapping RNA-seq data to a composite build of bacterial genomes,2,0,2019-05-31
+1331,2019-05-20,Building Phylogenetic Tree,1,0,2019-05-20
+1319,2019-05-18,Request for adding the Infernal tool-suite,3,1,2019-05-18
+1215,2019-04-30,Issue with Extract Genomic DNA,8,5,2019-05-18
+1280,2019-05-14,Stack:population how exclude monomorphic loci?,1,0,2019-05-14
+1239,2019-05-05,Help With Choice of Nanopore Sequence Data Analysis Tools,1,0,2019-05-05
+1231,2019-05-02,HELP for ddRAD de novo map analysis,1,0,2019-05-02
+213,2018-12-17,Adding zebrafish genome builds to HiSat and Star aligners,13,9,2019-04-30
+1201,2019-04-28,adding Bacillus Licheniformis genome builds to customprodb + HISAT2,2,0,2019-04-30
+1210,2019-04-29,Hicup job running for a long time,2,0,2019-04-29
+1124,2019-04-22,How consider both paired ends ddRAD reads in de novo map analysis,1,0,2019-04-22
+1100,2019-04-17,Problem uploading datasets to usegalaxy.eu using FTP,3,0,2019-04-17
+975,2019-04-02,uploading files in galaxy.eu,3,1,2019-04-02
+369,2019-01-09,UseGalaxy.eu FTP Server,8,2,2019-03-29
+899,2019-03-25,problem running growthpred on metagenome reads,1,0,2019-03-25
+846,2019-03-19,EdgeR issue for normalization of count reads,2,0,2019-03-20
+836,2019-03-18,Problems with barcode splitter tool,2,0,2019-03-18
+744,2019-03-06,Keep getting 'This is a new dataset and not all of its data are available yet' when I run the FastQC Tool on a fastq.gz file,2,0,2019-03-06
+730,2019-03-04,How to use HUMAnN2 on galaxy,2,0,2019-03-04
+594,2019-02-11,Issue in Step6: ChIP-Seq data analysis tutorial: Formation of the Super-Structures on the Inactive X,4,1,2019-02-11
+515,2019-01-25,Trouble using a list as input in Stacks: de_novo_map,3,0,2019-01-28
+492,2019-01-21,featureCounts to analyse miR RNA-seq data,2,0,2019-01-21
+462,2019-01-16,Unable to curl download files from usegalaxy.eu,2,0,2019-01-17
+343,2019-01-08,Trimmomatic not working on Galaxy.eu,4,2,2019-01-15
+341,2019-01-07,"Files fail to upload--""Gateway Time Out""",3,2,2019-01-07

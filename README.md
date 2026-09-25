@@ -175,3 +175,26 @@ Unique citing works for 2023-2025 (`data/unique_citations_2023-2025.tsv`):
 | 2024 | 565 |
 | 2025 | 718 |
 | **total** | **1,581** |
+
+## 5. Galaxy Help forum — usegalaxy.eu support topics
+
+All topics in the `usegalaxy.eu support` category of the Galaxy Help forum
+(https://help.galaxyproject.org, Discourse), fetched via its public JSON API.
+
+### Run
+
+```bash
+python3 galaxy_help_topics.py
+```
+
+Writes `data/galaxy_help_usegalaxy_eu_topics.csv` (topic id, created/last-post
+date, title, post counts) and per-year counts to
+`data/galaxy_help_usegalaxy_eu_topics_by_year.tsv`.
+
+Topics created per year (total topics in category: 1,342):
+
+| year | new topics |
+|------|-----------:|
+| 2023 | 200 |
+| 2024 | 216 |
+| 2025 | 223 |
