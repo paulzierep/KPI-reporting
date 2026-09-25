@@ -280,23 +280,23 @@ python3 combine_support_kpis.py    # -> data/combined_support_kpis.tsv
 ### TIaaS training events
 
 `tiaas_stats.py` reads the public usegalaxy.eu TIaaS calendar
-(`/tiaas/calendar/events.json`, event names stripped for privacy) and counts
-training events by start year, plus the training days they cover:
+(`/tiaas/calendar/events.json`, event names stripped for privacy) and the
+database dump (`/tiaas/numbers.csv`, per-event attendance) and counts training
+events by start year, the training days they cover, and attendees:
 
 ```bash
 python3 tiaas_stats.py      # -> data/tiaas_events_per_year.tsv
 ```
 
-| year | training events | training days |
-|------|----------------:|--------------:|
-| 2023 | 85 | 1,030 |
-| 2024 | 72 | 937 |
-| 2025 | 90 | 699 |
+| year | training events | training days | people trained |
+|------|----------------:|--------------:|---------------:|
+| 2023 | 85 | 1,030 | 3,300 |
+| 2024 | 72 | 937 | 2,628 |
+| 2025 | 90 | 699 | 3,063 |
 
-Since the service started (2018-06-20) 636 events have run; the stats page
-(`/tiaas/stats`) reports 24,749 students taught and 8,695 days of compute
-provided lifetime. Note: TIaaS request mails (74/78/93) are applications, not
-accepted/running events.
+Since the service started (2018-06-20) 636 events have trained 24,749 people
+over 8,695 days of compute (matches the `/tiaas/stats` lifetime figures). Note:
+TIaaS request mails (74/78/93) are applications, not accepted/running events.
 
 ## 6. Citation counts for Galaxy papers
 
