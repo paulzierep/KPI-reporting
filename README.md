@@ -108,6 +108,15 @@ Results (from `paul.zierep@gmail.com`, querying `[Google Mail]/All Mail`):
 | 2024 | 1,328 |
 | 2025 | 1,432 |
 
+Breakdown by mail type (`data/galaxy_no_reply_kinds.tsv`, categories derived
+from the subject without storing names/content):
+
+| year | error reports | TIaaS requests | other |
+|------|--------------:|---------------:|------:|
+| 2023 | 1,160 | 74 | 0 |
+| 2024 | 1,250 | 78 | 0 |
+| 2025 | 1,338 | 93 | 1 |
+
 For verification, every run also dumps the full mail list to
 `data/galaxy_no_reply_maillist.csv` — one row per email with **only the year
 and date** (no sender, subject, recipient, or content). The counts above are

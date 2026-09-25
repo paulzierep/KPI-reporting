@@ -100,13 +100,13 @@ def search_year(conn, query):
     return data[0].split() if data and data[0] else []
 
 
-def fetch_dates(conn, uids):
-    """Fetch only the Date header of every UID -> list of YYYY-MM-DD."""
-    dates = []
+def fetch_mail_info(conn, uids):
+    """Fetch Date + Subject headers -> [(date, kind)]; expose no user info."""
+    rows = []
     for i in range(0, len(uids), CHUNK):
         batch = b",".join(uids[i:i + CHUNK])
         typ, data = conn.uid(
-            "fetch", batch, "(BODY.PEEK[HEADER.FIELDS (DATE)])"
+            "fetch", batch, "(BODY.PEEK[HEADER.FIELDS (DATE SUBJECT)])"
         )
         if typ != "OK":
             continue
@@ -114,17 +114,29 @@ def fetch_dates(conn, uids):
             if not isinstance(resp, tuple):
                 continue
             header = resp[1].decode("utf-8", "replace")
+            date = subject = None
             for line in header.splitlines():
-                if not line.lower().startswith("date:"):
-                    continue
-                try:
-                    dt = email.utils.parsedate_to_datetime(line[5:].strip())
-                except (TypeError, ValueError):
-                    break
-                if dt is not None:
-                    dates.append(dt.date().isoformat())
-                break
-    return dates
+                low = line.lower()
+                if low.startswith("date:") and date is None:
+                    try:
+                        dt = email.utils.parsedate_to_datetime(line[5:].strip())
+                    except (TypeError, ValueError):
+                        dt = None
+                    date = dt.date().isoformat() if dt is not None else "unknown"
+                elif low.startswith("subject:") and subject is None:
+                    subject = line[8:].strip()
+            rows.append((date, subject_kind(subject) if date is not None else None))
+    return rows
+
+
+def subject_kind(subject):
+    """Coarse category of the email subject (no content/user info stored)."""
+    s = (subject or "").lower()
+    if s.startswith("galaxy tool error report"):
+        return "error_report"
+    if "tiaas" in s:
+        return "tiaas_request"
+    return "other"
 
 
 def main():
@@ -156,28 +168,38 @@ def main():
     csv_path = Path(__file__).resolve().parent / "data" / "galaxy_no_reply_maillist.csv"
     csv_path.parent.mkdir(exist_ok=True)
     dates_by_year = {}
+    kinds_by_year = {}
     with open(csv_path, "w", encoding="utf-8") as fh:
-        fh.write("year,date\n")
+        fh.write("year,date,category\n")
         for year in years:
             print(f"  fetching dates for {year} ({len(uid_by_year[year]):,} mails) ...")
-            dates = fetch_dates(conn, uid_by_year[year])
-            dates_by_year[year] = dates
-            for d in dates:
-                fh.write(f"{year},{d}\n")
-    print(f"wrote {csv_path} (date only, no content/user info)")
+            rows = fetch_mail_info(conn, uid_by_year[year])
+            dates_by_year[year] = [r[0] for r in rows if r[1] is not None]
+            kinds_by_year[year] = {}
+            for d, kind in rows:
+                if kind is not None:
+                    kinds_by_year[year][kind] = kinds_by_year[year].get(kind, 0) + 1
+                    fh.write(f"{year},{d},{kind}\n")
+    print(f"wrote {csv_path} (date + coarse category, no content/user info)")
 
     conn.logout()
 
     out = Path(__file__).resolve().parent / "data" / "galaxy_no_reply_emails.tsv"
     out.parent.mkdir(exist_ok=True)
-    with open(out, "w", encoding="utf-8") as fh:
+    kinds_out = Path(__file__).resolve().parent / "data" / "galaxy_no_reply_kinds.tsv"
+    with open(out, "w", encoding="utf-8") as fh, open(kinds_out, "w", encoding="utf-8") as kf:
         fh.write("year\tcount\n")
+        kf.write("year\tcategory\tcount\n")
         for year in sorted(results):
             from_dates = dates_by_year.get(year, [])
             fh.write(f"{year}\t{len(from_dates)}\n")
             flag = "" if len(from_dates) == results[year] else f"  (search said {results[year]})"
             print(f"galaxy-no-reply emails {year} (from Date header): {len(from_dates):,}{flag}")
+            for kind, n in sorted(kinds_by_year.get(year, {}).items()):
+                kf.write(f"{year}\t{kind}\t{n}\n")
+                print(f"    {kind}: {n:,}")
     print(f"wrote {out}")
+    print(f"wrote {kinds_out}")
 
 
 if __name__ == "__main__":
