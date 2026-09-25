@@ -146,35 +146,39 @@ python3 citations.py --semanticscholar      # also query Semantic Scholar
 Writes `data/citations_summary.tsv`, `data/citations_by_year.tsv`, and one
 `data/citations_<doi>.tsv` per paper (all citing works with year/title/venue/DOI).
 
-Results (retrieved 2026-09-24):
+Results (retrieved 2026-09-24/25):
 
-| paper | DOI | Crossref | OpenAlex | Semantic Scholar |
-|---|---|---|---|---|
-| 2026 update (NAR 54, W105-W116) | 10.1093/nar/gkag469 | 24 | 15 | 15 |
-| 2024 update (NAR 52, W83-W94) | 10.1093/nar/gkae410 | 1,038 | 966 | 846 |
-| 2022 update (NAR 50, W345-W351) | 10.1093/nar/gkac247 | 1,030 | 1,407 | 652 |
+| paper | DOI | Crossref | OpenAlex |
+|---|---|---|---|
+| Galaxy 2005 (Genome Research) | 10.1101/gr.4086505 | 1,776 | 2,098 |
+| Using Galaxy 2007 (Curr. Protoc. Bioinf.) | 10.1002/0471250953.bi1005s19 | 61 | 146 |
+| Galaxy 2010 (Genome Biology) | 10.1186/gb-2010-11-8-r86 | 2,991 | 3,572 |
+| Galaxy 2010 (Curr. Protoc. Mol. Biol.) | 10.1002/0471142727.mb1910s89 | 720 | 1,468 |
+| Galaxy 2016 update (NAR 44, W3-W10) | 10.1093/nar/gkw343 | 1,863 | 2,314 |
+| Galaxy 2018 update (NAR 46, W537-W544) | 10.1093/nar/gky379 | 3,675 | 3,838 |
+| Galaxy 2022 update (NAR 50, W345-W351) | 10.1093/nar/gkac247 | 1,030 | 1,371 |
+| Galaxy 2024 update (NAR 52, W83-W94) | 10.1093/nar/gkae410 | 1,038 | 965 |
+| Galaxy 2026 update (NAR 54, W105-W116) | 10.1093/nar/gkag469 | 24 | 15 |
 
-Citations by year (OpenAlex): the 2024 update went 88 (2024) → 452 (2025) →
-425 (2026 so far); the 2022 update peaked at 479 (2024).
-
-### Unique citations across all three papers
+### Unique citations across all nine Galaxy papers
 
 A citing work may cite several Galaxy papers, so `unique_citations.py`
-deduplicates the citing DOIs across the three papers ('`data/citations_*.tsv`'):
+deduplicates the citing DOIs across all `data/citations_*.tsv` lists:
 
 ```bash
 python3 unique_citations.py            # 2023-2025
 python3 unique_citations.py 2024       # single year
 ```
 
-Unique citing works for 2023-2025 (`data/unique_citations_2023-2025.tsv`):
+Unique citing works (OpenAlex) for 2023-2025
+(`data/unique_citations_2023-2025.tsv`):
 
 | year | unique citing works |
 |------|--------------------:|
-| 2023 | 298 |
-| 2024 | 565 |
-| 2025 | 718 |
-| **total** | **1,581** |
+| 2023 | 1,118 |
+| 2024 | 1,150 |
+| 2025 | 1,220 |
+| **total** | **3,488** |
 
 ## 5. Galaxy Help forum — usegalaxy.eu support topics
 
