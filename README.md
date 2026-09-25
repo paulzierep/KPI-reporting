@@ -214,3 +214,32 @@ python3 combine_support_kpis.py    # -> data/combined_support_kpis.tsv
 | 2023 | 1,160 | 74 | 200 | 1,434 |
 | 2024 | 1,250 | 78 | 216 | 1,544 |
 | 2025 | 1,338 | 93 | 223 | 1,654 |
+
+## 7. Google Scholar citation counts (partial)
+
+`google_scholar_citations.py` scrapes Google Scholar's "Cited by N" for each
+major Galaxy paper. Scholar has **no public API**, so this does one HTML title
+query per paper; Google aggressively rate-limits (CAPTCHA), so the script
+**resumes** previously collected DOIs (`data/google_scholar_citations.tsv`)
+and should be re-run after a cool-down to fill gaps:
+
+```bash
+python3 google_scholar_citations.py   # skips DOIs already in the summary
+```
+
+| Galaxy paper | Scholar | OpenAlex | Crossref |
+|--------------|--------:|---------:|---------:|
+| 2005 Genome Research | 2,789 | 2,098 | 1,776 |
+| Using Galaxy 2007 (Curr. Protoc. Bioinf.) | 159 | 146 | 61 |
+| 2010 Genome Biology | 4,507 | 3,572 | 2,991 |
+| 2010 Curr. Protoc. Mol. Biol. | 1,915 | 1,468 | 720 |
+| 2022 update (NAR 50) | **pending (CAPTCHA)** | 1,407 | 1,030 |
+| 2024 update (NAR 52) | 858 | 966 | 1,038 |
+| 2026 update (NAR 54) | **pending (CAPTCHA)** | 15 | 24 |
+
+Notes: Scholar counts include preprint/duplicate records and differ in
+real-time, so absolute numbers are not directly comparable across sources.
+The full per-year citing list harvest (`--citing-list`) is impractical for
+papers with thousands of citations (10/page -> hundreds of requests,
+guaranteed CAPTCHA); use OpenAlex (`citations.py` + `unique_citations.py`)
+for the year-by-year analysis.

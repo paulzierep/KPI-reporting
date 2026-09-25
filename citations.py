@@ -27,16 +27,40 @@ from pathlib import Path
 MAILTO = "paul.zierep@gmail.com"
 PAPERS = [
     {
-        "doi": "10.1093/nar/gkag469",
-        "label": "Galaxy 2026 update (NAR 54, W105-W116)",
+        "doi": "10.1101/gr.4086505",
+        "label": "Galaxy 2005 (Genome Research)",
+    },
+    {
+        "doi": "10.1002/0471250953.bi1005s19",
+        "label": "Using Galaxy 2007 (Curr. Protoc. Bioinformatics)",
+    },
+    {
+        "doi": "10.1186/gb-2010-11-8-r86",
+        "label": "Galaxy 2010 (Genome Biology)",
+    },
+    {
+        "doi": "10.1002/0471142727.mb1910s89",
+        "label": "Galaxy 2010 (Curr. Protoc. Mol. Biol.)",
+    },
+    {
+        "doi": "10.1093/nar/gkw343",
+        "label": "Galaxy 2016 update (NAR 44)",
+    },
+    {
+        "doi": "10.1093/nar/gky379",
+        "label": "Galaxy 2018 update (NAR 46)",
+    },
+    {
+        "doi": "10.1093/nar/gkac247",
+        "label": "Galaxy 2022 update (NAR 50, W345-W351)",
     },
     {
         "doi": "10.1093/nar/gkae410",
         "label": "Galaxy 2024 update (NAR 52, W83-W94)",
     },
     {
-        "doi": "10.1093/nar/gkac247",
-        "label": "Galaxy 2022 update (NAR 50, W345-W351)",
+        "doi": "10.1093/nar/gkag469",
+        "label": "Galaxy 2026 update (NAR 54, W105-W116)",
     },
 ]
 HEADERS = {"User-Agent": f"galaxy-kpi/1.0 (mailto:{MAILTO})"}
@@ -164,7 +188,9 @@ def main():
         citing_path = out_dir / f"citations_{slug}.tsv"
         with open(citing_path, "w", encoding="utf-8") as fh:
             fh.write("citing_doi\tyear\ttitle\tvenue\tauthors\n")
-            for c in sorted(citing, key=lambda c: (c["year"] or 0, c["title"])):
+            for c in sorted(
+                citing, key=lambda c: (c["year"] or 0, c["title"] or "")
+            ):
                 fh.write(
                     f"{c['citing_doi']}\t{c['year']}\t"
                     f"{c['title']}\t{c['venue']}\t{c['authors']}\n"
@@ -195,7 +221,7 @@ def main():
     print(f"\nwrote {out_dir / 'citations_summary.tsv'}")
 
     # yearly distribution table per paper
-    years = sorted({y for s in summary for y in s["by_year"]})
+    years = sorted({y for s in summary for y in s["by_year"] if y is not None})
     ypath = out_dir / "citations_by_year.tsv"
     with open(ypath, "w", encoding="utf-8") as fh:
         fh.write("year\t" + "\t".join(s["doi"] for s in summary) + "\n")

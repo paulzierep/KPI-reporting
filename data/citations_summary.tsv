@@ -1,4 +1,10 @@
 doi	title	crossref_count	openalex_count	semanticscholar_count	openalex_listed
-10.1093/nar/gkag469	Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update	24	15	15	15
-10.1093/nar/gkae410	The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update	1038	966	846	965
-10.1093/nar/gkac247	The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update	1030	1407	652	1371
+10.1101/gr.4086505	Galaxy: A platform for interactive large-scale genome analysis	1776	2098		2085
+10.1002/0471250953.bi1005s19	Using Galaxy to Perform Large‐Scale Interactive Data Analyses	61	146		146
+10.1186/gb-2010-11-8-r86	Galaxy: a comprehensive approach for supporting accessible, reproducible, and transparent computational research in the life sciences	2991	3572		3549
+10.1002/0471142727.mb1910s89	Galaxy: A Web‐Based Genome Analysis Tool for Experimentalists	720	1468		1468
+10.1093/nar/gkw343	The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2016 update	1863	2369		2314
+10.1093/nar/gky379	The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2018 update	3675	4018		3838
+10.1093/nar/gkac247	The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update	1030	1407		1371
+10.1093/nar/gkae410	The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update	1038	966		965
+10.1093/nar/gkag469	Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update	24	15		15
