@@ -37,6 +37,8 @@ import email
 import email.utils
 import imaplib
 import os
+import re
+import shlex
 import sys
 from pathlib import Path
 
@@ -101,31 +103,63 @@ def search_year(conn, query):
 
 
 def fetch_mail_info(conn, uids):
-    """Fetch Date + Subject headers -> [(date, kind)]; expose no user info."""
+    """Fetch metadata per UID -> list of dicts (no message content stored).
+
+    Fields: date, time, day_of_week, size, labels, mime, kind.
+    """
     rows = []
     for i in range(0, len(uids), CHUNK):
         batch = b",".join(uids[i:i + CHUNK])
         typ, data = conn.uid(
-            "fetch", batch, "(BODY.PEEK[HEADER.FIELDS (DATE SUBJECT)])"
+            "fetch",
+            batch,
+            "(RFC822.SIZE X-GM-LABELS "
+            "BODY.PEEK[HEADER.FIELDS (DATE SUBJECT CONTENT-TYPE)])",
         )
         if typ != "OK":
             continue
         for resp in data:
             if not isinstance(resp, tuple):
                 continue
-            header = resp[1].decode("utf-8", "replace")
-            date = subject = None
-            for line in header.splitlines():
+            text = resp[0].decode("utf-8", "replace")
+            headers = resp[1].decode("utf-8", "replace")
+            labels = []
+            match = re.search(r"X-GM-LABELS \((.*?)\)", resp[0].decode("ascii", "replace"))
+            if match:
+                try:
+                    labels = shlex.split(match.group(1).replace('"', '\\"'))
+                except ValueError:
+                    labels = match.group(1).split()
+            size = re.search(r"RFC822\.SIZE (\d+)", text)
+            mime = "other"
+            date = subject = ctype = None
+            for line in headers.splitlines():
                 low = line.lower()
                 if low.startswith("date:") and date is None:
                     try:
                         dt = email.utils.parsedate_to_datetime(line[5:].strip())
                     except (TypeError, ValueError):
                         dt = None
-                    date = dt.date().isoformat() if dt is not None else "unknown"
+                    date = dt
                 elif low.startswith("subject:") and subject is None:
                     subject = line[8:].strip()
-            rows.append((date, subject_kind(subject) if date is not None else None))
+                elif low.startswith("content-type:") and ctype is None:
+                    ctype = line[13:].strip()
+            if ctype:
+                mime = ctype.split(";")[0].strip().lower()
+            if date is None:
+                continue
+            rows.append(
+                {
+                    "date": date.date().isoformat(),
+                    "time": date.strftime("%H:%M"),
+                    "day_of_week": date.strftime("%a"),
+                    "size": int(size.group(1)) if size else "",
+                    "labels": "|".join(labels),
+                    "mime": mime,
+                    "kind": subject_kind(subject),
+                }
+            )
     return rows
 
 
@@ -170,16 +204,19 @@ def main():
     dates_by_year = {}
     kinds_by_year = {}
     with open(csv_path, "w", encoding="utf-8") as fh:
-        fh.write("year,date,category\n")
+        fh.write("year,date,time,day_of_week,size,category,labels,mime\n")
         for year in years:
-            print(f"  fetching dates for {year} ({len(uid_by_year[year]):,} mails) ...")
+            print(f"  fetching metadata for {year} ({len(uid_by_year[year]):,} mails) ...")
             rows = fetch_mail_info(conn, uid_by_year[year])
-            dates_by_year[year] = [r[0] for r in rows if r[1] is not None]
+            dates_by_year[year] = [r["date"] for r in rows]
             kinds_by_year[year] = {}
-            for d, kind in rows:
-                if kind is not None:
-                    kinds_by_year[year][kind] = kinds_by_year[year].get(kind, 0) + 1
-                    fh.write(f"{year},{d},{kind}\n")
+            for r in rows:
+                kinds_by_year[year][r["kind"]] = kinds_by_year[year].get(r["kind"], 0) + 1
+                fh.write(
+                    f"{year},{r['date']},{r['time']},{r['day_of_week']},"
+                    f"{r['size']},{r['kind']},{r['labels'].replace(chr(92), '')},"
+                    f"{r['mime']}\n"
+                )
     print(f"wrote {csv_path} (date + coarse category, no content/user info)")
 
     conn.logout()

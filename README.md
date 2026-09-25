@@ -118,10 +118,16 @@ from the subject without storing names/content):
 | 2025 | 1,338 | 93 | 1 |
 
 For verification, every run also dumps the full mail list to
-`data/galaxy_no_reply_maillist.csv` — one row per email with **only the year
-and date** (no sender, subject, recipient, or content). The counts above are
-recomputed from the fetched Date headers, so they can be cross-checked against
-the CSV (3,994 rows) and compared with a colleague's numbers.
+`data/galaxy_no_reply_maillist.csv` — one row per email, metadata only (no
+sender, recipient, subject, or content):
+
+`year,date,time,day_of_week,size,category,labels,mime`
+
+e.g. `2023,2023-01-12,10:53,Thu,11173,error_report,"Important"|"Inbox"|"Privat"|galaxy,multipart/alternative`
+
+The counts above are recomputed from the fetched Date headers, so they can be
+cross-checked against the CSV (3,994 rows) and compared with a colleague's
+numbers.
 
 ## 4. Citation counts for Galaxy papers
 
