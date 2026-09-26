@@ -8,7 +8,6 @@ DOI	publication_year	team_member	member_key	assumed_join_year	title
 10.7490/F1000RESEARCH.1119761.1	2024	Arash Kadkhodaei	arash77	2024	Community-driven standards development for reference genome generation
 10.7490/F1000RESEARCH.1119786.1	2024	Arash Kadkhodaei	arash77	2024	Galaxy social
 10.7490/F1000RESEARCH.1120343.1	2025	Arash Kadkhodaei	arash77	2024	Serving locally hosted LLMs with Galaxy
-10.1101/2021.06.23.449557	2021	Beatriz Serrano-Solano	beatrizserrano	2020	Rapid generation of homozygous fluorescent knock-in human cells using CRISPR/Cas9 genome editing and validation by automated imaging and digital PCR screening
 10.1162/dint_a_00136	2022	Beatriz Serrano-Solano	beatrizserrano	2020	Galaxy: A Decade of Realising CWFR Concepts
 10.1371/JOURNAL.PONE.0273698	2022	Beatriz Serrano-Solano	beatrizserrano	2020	The Image Data Explorer: Interactive exploration of image-derived data
 10.1038/s41592-024-02295-6	2024	Beatriz Serrano-Solano	beatrizserrano	2020	DL4MicEverywhere: deep learning for microscopy made flexible, shareable and reproducible.
@@ -17,19 +16,6 @@ DOI	publication_year	team_member	member_key	assumed_join_year	title
 10.37044/osf.io/hbw6m_v1	2025	Beatriz Serrano-Solano	beatrizserrano	2020	Development of FAIR image analysis workflows and training in Galaxy
 10.37044/osf.io/tsxby_v1	2026	Beatriz Serrano-Solano	beatrizserrano	2020	Evolving FAIR Image Analysis in Galaxy for Cross-domain and AI-ready Applications
 10.64898/2026.07.21.739486	2026	Beatriz Serrano-Solano	beatrizserrano	2020	AI4Life Open Calls and Public Challenges: why, how, and what we have learned
-10.1128/genomeA.00384-13	2013	Björn Grüning	bgruening	2013	Draft Genome Sequence of Streptomyces viridochromogenes Strain Tu57, Producer of Avilamycin.
-10.1161/circresaha.115.306337	2015	Björn Grüning	bgruening	2013	Deciphering the Epigenetic Code of Cardiac Myocyte Transcription.
-10.7554/eLife.07009	2015	Björn Grüning	bgruening	2013	Anatomy of BioJS, an open source community for the life sciences
-10.1101/075457	2016	Björn Grüning	bgruening	2013	Enhancing pre-defined workflows withad hocanalytics using Galaxy, Docker and Jupyter
-10.1101/338533	2018	Björn Grüning	bgruening	2013	Parkour LIMS: facilitating high-quality sample preparation in next generation sequencing
-10.1101/344168	2018	Björn Grüning	bgruening	2013	Pou5f3, SoxB1 and Nanog remodel chromatin on High Nucleosome Affinity Regions at Zygotic Genome Activation
-10.1101/550335	2019	Björn Grüning	bgruening	2013	Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering
-10.1101/2020.06.25.172445	2020	Björn Grüning	bgruening	2013	Accessible, Reproducible, and Scalable Machine Learning for Biomedicine
-10.1101/2020.07.21.187609	2020	Björn Grüning	bgruening	2013	BioContainers Registry: searching for bioinformatics tools, packages and containers
-10.1101/2020.11.16.385211	2020	Björn Grüning	bgruening	2013	Adding software to package management systems can increase their citation by 280%
-10.1371/journal.pone.0241503	2020	Björn Grüning	bgruening	2013	Survey of metaproteomics software tools for functional microbiome analysis
-10.1021/acs.jproteome.0c00822	2021	Björn Grüning	bgruening	2013	Metaproteomics Analysis of SARS-CoV-2-Infected Patient Samples Reveals Presence of Potential Coinfecting Microorganisms
-10.1101/2021.02.09.21251427	2021	Björn Grüning	bgruening	2013	A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19)
 10.1101/2022.01.20.477129	2022	Björn Grüning	bgruening	2013	MaxQuant and MSstats in Galaxy enable reproducible cloud-based analysis of quantitative proteomics experiments for everyone
 10.12688/f1000research.122312.1	2022	Björn Grüning	bgruening	2013	Community-driven ELIXIR activities in single-cell omics [version 1; peer review: 2 approved with reservations]
 10.52825/cordi.v1i.352	2023	Björn Grüning	bgruening	2013	EOSC-Life Workflow Collaboratory for the Life Sciences
@@ -45,26 +31,7 @@ DOI	publication_year	team_member	member_key	assumed_join_year	title
 10.17504/protocols.io.e6nvwbp4zvmk/v1	2024	Engy Nasr	engynasr	2024	Benchmarking PathoGFAIR v1
 10.5194/egusphere-2024-2338-supplement	2024	Engy Nasr	engynasr	2024	"Supplementary material to ""Clouds influence the functioning of airborne microorganisms"""
 10.1093/BIOINFORMATICS/BTAC460	2022	Cristóbal Gallardo Alba	gallardoalba	2021	Gfastats: conversion, evaluation and manipulation of genome sequences using assembly graphs
-10.1093/bioinformatics/btu135	2014	Gianmauro Cuccuru	gmauro	2014	Orione, a web-based framework for NGS analysis in microbiology
-10.1093/bioinformatics/btu386	2014	Gianmauro Cuccuru	gmauro	2014	BioBlend.objects: metacomputing with Galaxy
-10.1109/HPCSim.2014.6903742	2014	Gianmauro Cuccuru	gmauro	2014	An automated infrastructure to support high-throughput bioinformatics
-10.1002/jbmr.2517	2015	Gianmauro Cuccuru	gmauro	2014	Buried in the Middle but Guilty: Intronic Mutations in the TCIRG1 Gene Cause Human Autosomal Recessive Osteopetrosis.
-10.1155/2015/473279	2015	Gianmauro Cuccuru	gmauro	2014	Simulating Cardiac Electrophysiology Using Unstructured All-Hexahedra Spectral Elements.
-10.1186/s12885-015-1392-9	2015	Gianmauro Cuccuru	gmauro	2014	Genome-wide association study of susceptibility loci for breast cancer in Sardinian population.
-10.1007/978-1-4939-3572-7_21	2016	Gianmauro Cuccuru	gmauro	2014	Bacterial Genomic Data Analysis in the Next-Generation Sequencing Era.
-10.1016/j.ajhg.2016.05.026	2016	Gianmauro Cuccuru	gmauro	2014	Bi-allelic Mutations in KLHL7 Cause a Crisponi/CISS1-like Phenotype Associated with Early-Onset Retinitis Pigmentosa
-10.1056/nejmoa1610528	2017	Gianmauro Cuccuru	gmauro	2014	Overexpression of the Cytokine BAFF and Autoimmunity Risk.
-10.1111/cge.13162	2018	Gianmauro Cuccuru	gmauro	2014	Novel NALCN biallelic truncating mutations in siblings with IHPRF1 syndrome.
-10.1002/ajmg.a.61052	2019	Gianmauro Cuccuru	gmauro	2014	Confirmation of a new phenotype in an individual with a variant in the last part of exon 30 of CREBBP.
-10.1111/cge.13532	2019	Gianmauro Cuccuru	gmauro	2014	Exome sequencing in Crisponi/cold-induced sweating syndrome-like individuals reveals unpredicted alternative diagnoses.
-10.1186/s12881-019-0745-7	2019	Gianmauro Cuccuru	gmauro	2014	Novel ANKRD11 gene mutation in an individual with a mild phenotype of KBG syndrome associated to a GEFS+ phenotypic spectrum: a case report.
 10.64898/2026.07.23.26358667	2026	Gianmauro Cuccuru	gmauro	2014	Beyond the classical plasma secretome: genetic architecture and disease associations of the expanded human plasma proteome in 13,445 Europeans
-10.1093/database/baz077	2019	Helena Rasche	hexylena	2018	Tripal v3: an ontology-based toolkit for construction of FAIR biological community databases
-10.12688/f1000research.19013.1	2019	Helena Rasche	hexylena	2018	de.NBI Cloud federation through ELIXIR AAI
-10.1371/journal.pcbi.1006790	2019	Helena Rasche	hexylena	2018	Apollo: Democratizing genome annotation
-10.25046/aj040201	2019	Helena Rasche	hexylena	2018	The Chimera and the Cyborg
-10.1093/GIGASCIENCE/GIAA065	2020	Helena Rasche	hexylena	2018	Galactic Circos: User-friendly Circos plots within the Galaxy platform
-10.1371/JOURNAL.PCBI.1008214	2020	Helena Rasche	hexylena	2018	Galaxy and Apollo as a biologist-friendly interface for high-quality cooperative phage genome annotation
 10.1093/gigascience/giad099	2024	Helena Rasche	hexylena	2018	FAIR data retrieval for sensitive clinical research data in Galaxy
 10.20944/PREPRINTS202403.1211.V1	2024	Helena Rasche	hexylena	2018	Reproducible Exploration of Disease Maps with Galaxy Workflows and the MINERVA Platform
 10.32942/x2g033	2024	Helena Rasche	hexylena	2018	Guidance framework to apply good practices in ecological data analysis: Lessons learned from building Galaxy-Ecology
@@ -74,9 +41,6 @@ DOI	publication_year	team_member	member_key	assumed_join_year	title
 10.7490/F1000RESEARCH.1119743.1	2024	Alireza Heidari	itisAliRH	2023	Introducing a new notification system in Galaxy
 10.37044/osf.io/3x274	2025	Alireza Heidari	itisAliRH	2023	Enhancing multi-omic analyses through a federated microbiome analysis service
 10.7490/F1000RESEARCH.1120347.1	2025	Alireza Heidari	itisAliRH	2023	Simple and Secure Credential Handling for Tools in Galaxy
-10.1101/2021.08.05.455202	2021	Alireza Khanteymoori	khanteymoori	2021	EnGRNT: Inference of gene regulatory networks using ensemble methods and topological feature extraction
-10.1101/2021.10.08.463718	2021	Alireza Khanteymoori	khanteymoori	2021	TSCDA: A novel greedy approach for community discovery in networks
-10.12688/f1000research.54159.1	2021	Alireza Khanteymoori	khanteymoori	2021	Perspectives on automated composition of workflows in the life sciences [version 1; peer review: 2 approved]
 10.1109/TCBB.2020.3034861	2022	Alireza Khanteymoori	khanteymoori	2021	Data-Driven and Knowledge-Based Algorithms for Gene Network Reconstruction on High-Dimensional Data
 10.1145/3623402	2023	Alireza Khanteymoori	khanteymoori	2021	A Comprehensive Survey on Model Quantization for Deep Neural Networks in Image Classification
 10.1089/neur.2024.0038	2024	Alireza Khanteymoori	khanteymoori	2021	Effect-Size Discrepancies in Literature Versus Raw Datasets from Experimental Spinal Cord Injury Studies: A CLIMBER Meta-Analysis
@@ -84,7 +48,6 @@ DOI	publication_year	team_member	member_key	assumed_join_year	title
 10.2174/0115672050434251251008104505	2025	Alireza Khanteymoori	khanteymoori	2021	Spectral Biomarkers of Functional Brain Network Alteration in Alzheimer’s Disease
 10.2139/ssrn.6430418	2026	Alireza Khanteymoori	khanteymoori	2021	Evaluation of Machine Learning Models for Predicting Breeding Values of Key Performance Traits in Iranian Crossbred (Thoroughbred × Turkmen) Racehorses
 10.7490/f1000research.1119785.1	2024	Mira Kuntz	mira-miracoli	2024	WALL·E: Prevent abuse of interactive research environments ...
-10.1101/2020.06.06.137570	2020	Mehmet Tekman	mtekman	2020	A single-cell RNA-seq Training and Analysis Suite using the Galaxy Framework
 10.1016/j.devcel.2023.07.023	2023	Mehmet Tekman	mtekman	2020	Eomes restricts Brachyury functions at the onset of mouse gastrulation
 10.1101/2023.03.15.532746	2023	Mehmet Tekman	mtekman	2020	An EOMES induced epigenetic deflection initiates lineage commitment at mammalian gastrulation
 10.1101/2024.02.05.578926	2024	Mehmet Tekman	mtekman	2020	TAF2 condensation in nuclear speckles links basal transcription factor TFIID to RNA splicing
@@ -97,26 +60,8 @@ DOI	publication_year	team_member	member_key	assumed_join_year	title
 10.20944/preprints202508.0199.v1	2025	Paul Zierep	paulzierep	2024	Community-Curated Galaxy Interfaces with the Galaxy Labs Engine
 10.1093/nar/gkag469	2026	Paul Zierep	paulzierep	2024	Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update
 10.64898/2026.07.31.741430	2026	Paul Zierep	paulzierep	2024	FAIRyMAGs - a series of FAIR Galaxy workflows for the generation of metagenome assembled genomes
-10.1007/s12035-018-1444-7	2018	Pavankumar Videm	pavanvidem	2017	FOXG1 Regulates PRKAR2B Transcriptionally and Posttranscriptionally via miR200 in the Adult Hippocampus.
-10.1093/nar/gky953	2019	Pavankumar Videm	pavanvidem	2017	DOT1L promotes progenitor proliferation and primes neuronal layer identity in the developing cerebral cortex
 10.1038/s41467-025-67220-7	2026	Pavankumar Videm	pavanvidem	2017	Chamber-specific chromatin architecture guides functional interpretation of disease-associated Cis-regulatory elements in human cardiomyocytes.
 10.1111/jmi.70165	2026	Pavankumar Videm	pavanvidem	2017	Bioimage management and analysis in Galaxy: Tools, workflows, training, and community practices
-10.1093/femsml/uqaa002	2020	Rolf Backofen	rolfbackofen	2020	A global data-driven census of Salmonella small proteins and their potential functions in bacterial virulence
-10.1093/gigascience/giaa062	2020	Rolf Backofen	rolfbackofen	2020	CRISPRcasIdentifier: Machine learning for accurate identification and classification of CRISPR-Cas systems
-10.1093/gigascience/giaa063	2020	Rolf Backofen	rolfbackofen	2020	The democratization of bioinformatics: A software engineering perspective
-10.1093/gigascience/giaa108	2020	Rolf Backofen	rolfbackofen	2020	Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis
-10.1101/2020.04.27.046219	2020	Rolf Backofen	rolfbackofen	2020	HRIBO- High-throughput analysis of bacterial ribosome profiling data
-10.1186/s13015-020-00179-w	2020	Rolf Backofen	rolfbackofen	2020	Fast and accurate structure probability estimation for simultaneous alignment and folding of RNAs with Markov chains
-10.21203/rs.3.rs-18225/v1	2020	Rolf Backofen	rolfbackofen	2020	The importance of incorporating transcript information in CLIP-seq data analysis
-10.21203/rs.3.rs-47952/v2	2020	Rolf Backofen	rolfbackofen	2020	Improving CLIP-seq data analysis by incorporating transcript information
-10.1080/15476286.2021.1940697	2021	Rolf Backofen	rolfbackofen	2020	Structure-aware machine learning identifies microRNAs operating as Toll-like receptor 7/8 ligands
-10.1093/gigascience/giab045	2021	Rolf Backofen	rolfbackofen	2020	StoatyDive: Evaluation and classification of peak profiles for sequencing data
-10.1093/gigascience/giab054	2021	Rolf Backofen	rolfbackofen	2020	RNAProt: an efficient and feature-rich RNA binding protein binding site predictor
-10.1093/jxb/erab416	2021	Rolf Backofen	rolfbackofen	2020	The temperature-regulated DEAD-box RNA helicase CrhR interactome: autoregulation and photosynthesis-related transcripts
-10.1093/nar/gkaa1158	2021	Rolf Backofen	rolfbackofen	2020	CRISPRidentify: identification of CRISPR arrays using machine learning approach
-10.1101/2021.05.11.443588	2021	Rolf Backofen	rolfbackofen	2020	CdrS is a global transcriptional regulator influencing cell division in Haloferax volcanii
-10.1101/2021.06.08.447495	2021	Rolf Backofen	rolfbackofen	2020	RiboReport - Benchmarking tools for ribosome profiling-based identification of open reading frames in bacteria
-10.1101/2021.07.27.453982	2021	Rolf Backofen	rolfbackofen	2020	Transcriptome-wide in vivo mapping of cleavage sites for the compact cyanobacterial ribonuclease E reveals insights into its function and substrate recognition
 10.1038/s41564-022-01074-3	2022	Rolf Backofen	rolfbackofen	2020	Spacer prioritization in CRISPR–Cas9 immunity is enabled by the leader RNA
 10.1093/bioinformatics/btab755	2022	Rolf Backofen	rolfbackofen	2020	Peakhood: individual site context extraction for CLIP-seq peak regions
 10.1093/bioinformatics/btac466	2022	Rolf Backofen	rolfbackofen	2020	CRISPRtracrRNA: robust approach for CRISPR tracrRNA detection
@@ -156,7 +101,6 @@ DOI	publication_year	team_member	member_key	assumed_join_year	title
 10.64898/2026.02.16.706169	2026	Rolf Backofen	rolfbackofen	2020	Biological Foundation Models Enable CRISPR Array Detection Without Metagenomic Assembly
 10.64898/2026.02.20.26346743	2026	Rolf Backofen	rolfbackofen	2020	Structural variation landscape of Middle Eastern and North African individuals from long-read nanopore sequencing reveals medically relevant variants
 10.64898/2026.03.11.711106	2026	Rolf Backofen	rolfbackofen	2020	DisGeneFormer: Precise Disease Gene Prioritization by Integrating Local and Global Graph Attention
-10.1038/s41467-020-16655-1	2020	Simon Bray	simonbray	2020	Multisecond ligand dissociation dynamics from atomistic simulations
 10.1021/acs.jcim.2c00634	2022	Simon Bray	simonbray	2020	Ligand Unbinding Pathway and Mechanism Analysis Assisted by Machine Learning and Graph Methods
 10.1101/2022.11.03.515010	2022	Wolfgang Maier	wm75	2022	Towards increased accuracy and reproducibility in SARS-CoV-2 next generation sequence analysis for public health surveillance
 10.1371/journal.pgen.1010194	2022	Wolfgang Maier	wm75	2022	A novel membrane complex is required for docking and regulated exocytosis of lysosome-related organelles in Tetrahymena thermophila
