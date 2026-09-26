@@ -10,6 +10,7 @@ resulting numbers in `data/`.
 - 5 – [Combined support KPIs](#5-combined-support-kpis)
 - 6 – [Citation counts for Galaxy papers](#6-citation-counts-for-galaxy-papers)
 - 7 – [Google Scholar citation counts (partial)](#7-google-scholar-citation-counts-partial)
+- 8 – [Freiburg Galaxy Team publications](#8-freiburg-galaxy-team-publications)
 
 ## 1. Bioconda package downloads
 
@@ -398,3 +399,20 @@ The full per-year citing list harvest (`--citing-list`) is impractical for
 papers with thousands of citations (10/page -> hundreds of requests,
 guaranteed CAPTCHA); use OpenAlex (`citations.py` + `unique_citations.py`)
 for the year-by-year analysis.
+
+## 8. Freiburg Galaxy Team publications
+
+`freiburg-publications/freiburg_publications.py` mines the ORCID records of
+everyone listed under `freiburg` in the Galaxy Hub `content/people/people.yaml`
+to find recent publications not yet in the Freiburg bibliography
+(`content/freiburg/citations/freiburg.bib`). Join year = earliest strictly
+Galaxy-related work; preprints whose journal version is already known are
+dropped. See [freiburg-publications/README.md](freiburg-publications/README.md)
+for full documentation.
+
+```bash
+python3 freiburg-publications/freiburg_publications.py
+```
+
+Outputs `freiburg-publications/data/candidates.bib` (new BibTeX entries) and
+`freiburg-publications/data/freiburg-candidates.md` (per-person report).

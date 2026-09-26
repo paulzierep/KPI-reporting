@@ -1,0 +1,432 @@
+## Björn Grüning (`bgruening`) — join≈2013
+- works on ORCID: 120; candidates before cleanup: 28
+  - `bgruening` | 2026 | Machine learning-based prediction of memory requirements for metagenomic assembly in high-performance computing environments |  | DOI: 10.64898/2026.05.12.724571 | galaxy: yes
+  - `bgruening` | 2026 | Prioritizing DNA methylation biomarkers using graph neural networks and explainable AI |  | DOI: 10.64898/2026.01.26.701692 | galaxy: no
+  - `bgruening` | 2025 | Ten Common Misconceptions About Galaxy (and Why They Are Wrong!) |  | DOI: 10.20944/preprints202509.0823.v1 | galaxy: yes
+  - `bgruening` | 2025 | FAIR Digital Objects for Seamless Research Data Management for Researchers and Higher Education Institutions | Open Conference Proceedings | DOI: 10.52825/ocp.v5i.1045 | galaxy: yes
+  - `bgruening` | 2024 | microGalaxy: A gateway to tools, workflows, and training for reproducible and FAIR analysis of microbial data |  | DOI: 10.1101/2024.12.23.629682 | galaxy: yes
+  - `bgruening` | 2024 | Enhancing the image analysis community in Galaxy |  | DOI: 10.37044/osf.io/w8dsz | galaxy: yes
+  - `bgruening` | 2023 | Conda, Container and Bots | Proceedings of the Conference on Research Data Infrastructure  | DOI: 10.52825/cordi.v1i.417 | galaxy: yes
+  - `bgruening` | 2023 | EOSC-Life Workflow Collaboratory for the Life Sciences | Proceedings of the Conference on Research Data Infrastructure | DOI: 10.52825/cordi.v1i.352 | galaxy: yes
+  - `bgruening` | 2023 | Galaxy and RDM | Proceedings of the Conference on Research Data Infrastructure  | DOI: 10.52825/cordi.v1i | galaxy: yes
+  - `bgruening` | 2023 | The EOSC-Life Workflow Collaboratory for the Life Sciences | Proceedings of the Conference on Research Data Infrastructure  | DOI: 10.52825/cordi.v1i | galaxy: yes
+  - `bgruening` | 2022 | Community-driven ELIXIR activities in single-cell omics [version 1; peer review: 2 approved with reservations] |  | DOI: 10.12688/f1000research.122312.1 | galaxy: yes
+  - `bgruening` | 2022 | Planemo: a command-line toolkit for developing, deploying, and executing scientific data analyses |  | DOI: 10.1101/2022.03.13.483965 | galaxy: yes
+  - `bgruening` | 2022 | MaxQuant and MSstats in Galaxy enable reproducible cloud-based analysis of quantitative proteomics experiments for everyone |  | DOI: 10.1101/2022.01.20.477129 | galaxy: yes
+  - `bgruening` | 2021 | Fast and accurate genome-wide predictions and structural modeling of protein-protein interactions using Galaxy |  | DOI: 10.1101/2021.03.17.435706 | galaxy: yes
+  - `bgruening` | 2021 | A rigorous evaluation of optimal peptide targets for MS-based clinical diagnostics of Coronavirus Disease 2019 (COVID-19) |  | DOI: 10.1101/2021.02.09.21251427 | galaxy: no
+  - `bgruening` | 2021 | Metaproteomics Analysis of SARS-CoV-2-Infected Patient Samples Reveals Presence of Potential Coinfecting Microorganisms | Journal of Proteome Research | DOI: 10.1021/acs.jproteome.0c00822 | galaxy: no
+  - `bgruening` | 2020 | Adding software to package management systems can increase their citation by 280% |  | DOI: 10.1101/2020.11.16.385211 | galaxy: no
+  - `bgruening` | 2020 | Survey of metaproteomics software tools for functional microbiome analysis | PLOS ONE | DOI: 10.1371/journal.pone.0241503 | galaxy: no
+  - `bgruening` | 2020 | BioContainers Registry: searching for bioinformatics tools, packages and containers |  | DOI: 10.1101/2020.07.21.187609 | galaxy: yes
+  - `bgruening` | 2020 | Accessible, Reproducible, and Scalable Machine Learning for Biomedicine |  | DOI: 10.1101/2020.06.25.172445 | galaxy: no
+  - `bgruening` | 2019 | Empowering the annotation and discovery of structured RNAs with scalable and accessible integrative clustering |  | DOI: 10.1101/550335 | galaxy: no
+  - `bgruening` | 2018 | Pou5f3, SoxB1 and Nanog remodel chromatin on High Nucleosome Affinity Regions at Zygotic Genome Activation |  | DOI: 10.1101/344168 | galaxy: no
+  - `bgruening` | 2018 | Parkour LIMS: facilitating high-quality sample preparation in next generation sequencing |  | DOI: 10.1101/338533 | galaxy: yes
+  - `bgruening` | 2016 | Enhancing pre-defined workflows withad hocanalytics using Galaxy, Docker and Jupyter |  | DOI: 10.1101/075457 | galaxy: yes
+  - `bgruening` | 2015 | Deciphering the Epigenetic Code of Cardiac Myocyte Transcription. |  | DOI: 10.1161/circresaha.115.306337 | galaxy: no
+  - `bgruening` | 2015 | Anatomy of BioJS, an open source community for the life sciences. |  | DOI: 10.7554/elife.07009 | galaxy: no
+  - `bgruening` | 2015 | Anatomy of BioJS, an open source community for the life sciences | eLife | DOI: 10.7554/eLife.07009 | galaxy: no
+  - `bgruening` | 2013 | Draft Genome Sequence of Streptomyces viridochromogenes Strain Tu57, Producer of Avilamycin. |  | DOI: 10.1128/genomeA.00384-13 | galaxy: no
+  - (dropped) LiraSearch—ultrafast ligand shape and electrostatic matching server — already in bib (DOI)
+  - (dropped) Flexynesis: A deep learning toolkit for bulk multi-omics data integration for precision oncology and beyond — already in bib (DOI)
+  - (dropped) Open-Source and FAIR Research Software for Proteomics — already in bib (DOI)
+  - (dropped) PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+  - (dropped) Scalable, accessible and reproducible reference genome assembly and evaluation in Galaxy — already in bib (DOI)
+  - (dropped) Mobilisation and analyses of publicly available SARS-CoV-2 data for pandemic responses — already in bib (DOI)
+  - (dropped) blast2galaxy: a CLI and Python API for BLAST+ and DIAMOND searches on Galaxy servers — already in bib (DOI)
+  - (dropped) Scalable, accessible, and reproducible reference genome assembly and evaluation in Galaxy — already in bib (title)
+  - (dropped) Activator-blocker model of transcriptional regulation by pioneer-like factors — already in bib (title)
+  - ... and 70 more dropped
+## Henriette Bertemes (`HenrieBe`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
+## Anika Erxleben-Eggenhofer (`erxleben`) [alumni] — join≈2017
+- works on ORCID: 23; candidates before cleanup: 0
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+  - (dropped) Galaxy Training: A powerful framework for teaching! — already in bib (DOI)
+  - (dropped) Fostering accessible online education using Galaxy as an e-learning platform — already in bib (DOI)
+  - (dropped) Community-Driven Data Analysis Training for Biology. — already in bib (DOI)
+  - (dropped) Combinatorial Omics Analysis Reveals Perturbed Lysosomal Homeostasis in Collagen VII-deficient Keratinocytes. — already in bib (title)
+  - (dropped) RNA-bioinformatics: Tools, services and databases for the analysis of RNA-based regulation. — already in bib (DOI)
+  - (dropped) The RNA workbench: best practices for RNA and high-throughput sequencing bioinformatics in Galaxy. — already in bib (DOI)
+## Wolfgang Maier (`wm75`) — join≈2022
+- works on ORCID: 25; candidates before cleanup: 8
+  - `wm75` | 2026 | Tree-aware conditional language modeling recovers mutational patterns of viral evolution |  | DOI: 10.64898/2026.08.25.746971 | galaxy: no
+  - `wm75` | 2026 | VEFill: accurate and generalizable deep mutational scanning score imputation across protein domains | Molecular Systems Biology | DOI: 10.1038/s44320-026-00203-y | galaxy: no
+  - `wm75` | 2025 | VEFill: a model for accurate and generalizable deep mutational scanning score imputation across protein domains |  | DOI: 10.1101/2025.05.14.653991 | galaxy: no
+  - `wm75` | 2025 | Importin-9 and a TPR domain protein MpH drive periodic patterning of ciliary arrays in Tetrahymena | Journal of Cell Biology | DOI: 10.1083/jcb.202409057 | galaxy: no
+  - `wm75` | 2025 | Left-right cortical interactions drive intracellular pattern formation in the ciliate Tetrahymena | PLOS Genetics | DOI: 10.1371/journal.pgen.1011735 | galaxy: no
+  - `wm75` | 2024 | varVAMP: automated pan-specific primer design for tiled full genome sequencing and qPCR of highly diverse viral pathogens |  | DOI: 10.1101/2024.05.08.593102 | galaxy: yes
+  - `wm75` | 2022 | Towards increased accuracy and reproducibility in SARS-CoV-2 next generation sequence analysis for public health surveillance |  | DOI: 10.1101/2022.11.03.515010 | galaxy: no
+  - `wm75` | 2022 | A novel membrane complex is required for docking and regulated exocytosis of lysosome-related organelles in Tetrahymena thermophila | PLOS Genetics | DOI: 10.1371/journal.pgen.1010194 | galaxy: no
+  - (dropped) Recommendations for Uniform Variant Calling of SARS-CoV-2 Genome Sequence across Bioinformatic Workflows — already in bib (DOI)
+  - (dropped) Global and local functions of the Fused kinase ortholog CdaH in intracellular patterning in Tetrahymena — already in bib (DOI)
+  - (dropped) Mobilisation and analyses of publicly available SARS-CoV-2 data for pandemic responses — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update — already in bib (DOI)
+  - (dropped) Selection analysis identifies clusters of unusual mutational changes in Omicron lineage BA.1 that likely impact Spike function — already in bib (DOI)
+## Helena Rasche (`hexylena`) [alumni] — join≈2018
+- works on ORCID: 24; candidates before cleanup: 11
+  - `hexylena` | 2024 | Guidance framework to apply good practices in ecological data analysis: Lessons learned from building Galaxy-Ecology |  | DOI: 10.32942/x2g033 | galaxy: yes
+  - `hexylena` | 2024 | FAIR data retrieval for sensitive clinical research data in Galaxy | GigaScience | DOI: 10.1093/gigascience/giad099 | galaxy: yes
+  - `hexylena` | 2024 | Reproducible Exploration of Disease Maps with Galaxy Workflows and the MINERVA Platform | Preprints | DOI: 10.20944/PREPRINTS202403.1211.V1 | galaxy: yes
+  - `hexylena` | 2022 | Planemo: a command-line toolkit for developing, deploying, and executing scientific data analyses |  | DOI: 10.1101/2022.03.13.483965 | galaxy: yes
+  - `hexylena` | 2020 | Galactic Circos: User-friendly Circos plots within the Galaxy platform | GIGASCIENCE | DOI: 10.1093/GIGASCIENCE/GIAA065 | galaxy: yes
+  - `hexylena` | 2020 | Galaxy and Apollo as a biologist-friendly interface for high-quality cooperative phage genome annotation | PLOS COMPUTATIONAL BIOLOGY | DOI: 10.1371/JOURNAL.PCBI.1008214 | galaxy: yes
+  - `hexylena` | 2019 | de.NBI Cloud federation through ELIXIR AAI | F1000Research | DOI: 10.12688/f1000research.19013.1 | galaxy: no
+  - `hexylena` | 2019 | Apollo: Democratizing genome annotation | PLOS Computational Biology | DOI: 10.1371/journal.pcbi.1006790 | galaxy: no
+  - `hexylena` | 2019 | Tripal v3: an ontology-based toolkit for construction of FAIR biological community databases | Database | DOI: 10.1093/database/baz077 | galaxy: no
+  - `hexylena` | 2019 | The Chimera and the Cyborg | Advances in Science, Technology and Engineering Systems Journal | DOI: 10.25046/aj040201 | galaxy: no
+  - `hexylena` | 2018 | A Sorting Hat For Clusters -- Dynamic Provisioning of Compute Nodes for Colocated Large Scale Computational Research Infrastructures (Forthcoming) | Proc.\ bwHPC Symposium 2018 | DOI: - | galaxy: no
+  - (dropped) Galaxy single-cell & spatial omics community update: Navigating new frontiers in 2025 — already in bib (DOI)
+  - (dropped) Galaxy as a gateway to bioinformatics: Multi-Interface Galaxy Hands-on Training Suite (MIGHTS) for scRNA-seq — already in bib (title)
+  - (dropped) Guidance framework to apply best practices in ecological data analysis: lessons learned from building Galaxy-Ecology — already in bib (DOI)
+  - (dropped) Galaxy Training: A powerful framework for teaching! — already in bib (DOI)
+  - (dropped) Training Infrastructure as a Service — already in bib (DOI)
+  - (dropped) Galaxy Training: A Powerful Framework for Teaching! — already in bib (title)
+  - (dropped) Expanding the Galaxy's reference data — already in bib (DOI)
+  - (dropped) Expanding the Galaxy’s reference data — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update — already in bib (DOI)
+  - (dropped) Fostering accessible online education using Galaxy as an e-learning platform — already in bib (DOI)
+  - ... and 3 more dropped
+## Paul Zierep (`paulzierep`) — join≈2024
+- works on ORCID: 22; candidates before cleanup: 12
+  - `paulzierep` | 2026 | FAIRyMAGs - a series of FAIR Galaxy workflows for the generation of metagenome assembled genomes |  | DOI: 10.64898/2026.07.31.741430 | galaxy: yes
+  - `paulzierep` | 2026 | Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update | Nucleic Acids Research | DOI: 10.1093/nar/gkag469 | galaxy: yes
+  - `paulzierep` | 2026 | Machine learning-based prediction of memory requirements for metagenomic assembly in high-performance computing environments |  | DOI: 10.64898/2026.05.12.724571 | galaxy: yes
+  - `paulzierep` | 2026 | Ten common misconceptions about Galaxy (and why they are wrong!) | PLOS Computational Biology | DOI: 10.1371/journal.pcbi.1013869 | galaxy: yes
+  - `paulzierep` | 2026 | Community-curated Galaxy interfaces with the Galaxy Labs Engine | GigaScience | DOI: 10.1093/gigascience/giag041 | galaxy: yes
+  - `paulzierep` | 2025 | Ten Common Misconceptions About Galaxy (and Why They Are Wrong!) |  | DOI: 10.20944/preprints202509.0823.v1 | galaxy: yes
+  - `paulzierep` | 2025 | Community-Curated Galaxy Interfaces with the Galaxy Labs Engine |  | DOI: 10.20944/preprints202508.0199.v1 | galaxy: yes
+  - `paulzierep` | 2025 | Semantic Orchestration and Exploitation of Material Data: A Dataspace Solution Demonstrated on Steel and Copper Applications | Advanced Engineering Materials | DOI: 10.1002/adem.202401448 | galaxy: no
+  - `paulzierep` | 2025 | Stahl<i>Digital</i>: Ontology‐Based Workflows for the Steel Industry | Advanced Engineering Materials | DOI: 10.1002/adem.202402148 | galaxy: yes
+  - `paulzierep` | 2024 | How sensor Amt-like proteins integrate ammonium signals | Science Advances | DOI: 10.1126/sciadv.adm9441 | galaxy: no
+  - `paulzierep` | 2024 | How to improve the annotation of Galaxy resources? Outcomes of an online hackathon for improving the annotation of Galaxy resources for microbial data resources |  | DOI: 10.37044/osf.io/s7tru | galaxy: yes
+  - `paulzierep` | 2024 | How to increase the findability, visibility, and impact of Galaxy tools for your scientific community |  | DOI: 10.37044/osf.io/qjbxc | galaxy: yes
+  - (dropped) PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+## Sebastian Schaaf (`sebastian-schaaf`) [alumni] — join≈2023
+- works on ORCID: 2; candidates before cleanup: 2
+  - `sebastian-schaaf` | 2023 | Conda, Container and Bots | Proceedings of the Conference on Research Data Infrastructure  | DOI: 10.52825/cordi.v1i.417 | galaxy: yes
+  - `sebastian-schaaf` | 2023 | Galaxy and RDM | Proceedings of the Conference on Research Data Infrastructure  | DOI: 10.52825/cordi.v1i | galaxy: yes
+## José Manuel Domínguez (`domgz`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
+## Joachim Wolff (`joachimwolff`) — skipped: no ORCID
+## Mehmet Tekman (`mtekman`) [alumni] — join≈2020
+- works on ORCID: 20; candidates before cleanup: 6
+  - `mtekman` | 2025 | Competing regulatory modules control the transition between mammalian gastrulation modes |  | DOI: 10.1101/2025.05.07.652670 | galaxy: no
+  - `mtekman` | 2024 | TAF2 condensation in nuclear speckles links basal transcription factor TFIID to RNA splicing |  | DOI: 10.1101/2024.02.05.578926 | galaxy: no
+  - `mtekman` | 2023 | Eomes restricts Brachyury functions at the onset of mouse gastrulation | Developmental Cell | DOI: 10.1016/j.devcel.2023.07.023 | galaxy: no
+  - `mtekman` | 2023 | An EOMES induced epigenetic deflection initiates lineage commitment at mammalian gastrulation |  | DOI: 10.1101/2023.03.15.532746 | galaxy: no
+  - `mtekman` | 2023 | EomesrestrictsBrachyuryfunctions at the onset of mammalian gastrulation |  | DOI: 10.1101/2023.01.27.525830 | galaxy: no
+  - `mtekman` | 2020 | A single-cell RNA-seq Training and Analysis Suite using the Galaxy Framework |  | DOI: 10.1101/2020.06.06.137570 | galaxy: yes
+  - (dropped) Fibroblast growth factor signaling induces a chondrocyte-like state of peripheral nerve fibroblast during aging — already in bib (DOI)
+  - (dropped) Galaxy single-cell & spatial omics community update: Navigating new frontiers in 2025 — already in bib (DOI)
+  - (dropped) A single-cell RNA-sequencing training and analysis suite using the Galaxy framework — already in bib (DOI)
+## Anup Kumar (`anuprulez`) — skipped: no ORCID
+## Stephan Flemming (`stephanflemming`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
+## Gianmauro Cuccuru (`gmauro`) [alumni] — join≈2014
+- works on ORCID: 39; candidates before cleanup: 26
+  - `gmauro` | 2026 | Beyond the classical plasma secretome: genetic architecture and disease associations of the expanded human plasma proteome in 13,445 Europeans |  | DOI: 10.64898/2026.07.23.26358667 | galaxy: no
+  - `gmauro` | 2019 | Exome sequencing in Crisponi/cold-induced sweating syndrome-like individuals reveals unpredicted alternative diagnoses. | Clinical genetics | DOI: 10.1111/cge.13532 | galaxy: yes
+  - `gmauro` | 2019 | Exome sequencing in Crisponi/cold-induced sweating syndrome–like individuals reveals unpredicted alternative diagnoses | Clinical Genetics | DOI: 10.1111/cge.13532 | galaxy: yes
+  - `gmauro` | 2019 | Confirmation of a new phenotype in an individual with a variant in the last part of exon 30 of CREBBP. | American journal of medical genetics. Part A | DOI: 10.1002/ajmg.a.61052 | galaxy: no
+  - `gmauro` | 2019 | Confirmation of a new phenotype in an individual with a variant in the last part of exon 30 of CREBBP | American Journal of Medical Genetics, Part A | DOI: 10.1002/ajmg.a.61052 | galaxy: no
+  - `gmauro` | 2019 | Novel ANKRD11 gene mutation in an individual with a mild phenotype of KBG syndrome associated to a GEFS+ phenotypic spectrum: a case report. | BMC medical genetics | DOI: 10.1186/s12881-019-0745-7 | galaxy: no
+  - `gmauro` | 2019 | Novel ANKRD11 gene mutation in an individual with a mild phenotype of KBG syndrome associated to a GEFS+ phenotypic spectrum: A case report | BMC Medical Genetics | DOI: 10.1186/s12881-019-0745-7 | galaxy: no
+  - `gmauro` | 2018 | Bi-allelic Mutations in KLHL7 Cause a Crisponi/CISS1-like Phenotype Associated with Early-Onset Retinitis Pigmentosa. | American journal of human genetics | DOI: 10.1016/j.ajhg.2018.03.020 | galaxy: no
+  - `gmauro` | 2018 | Erratum: Bi-allelic Mutations in KLHL7 Cause a Crisponi/CISS1-like Phenotype Associated with Early-Onset Retinitis Pigmentosa (The American Journal of Human Genetics (2016) 99(1) (236–245) (S0002929716301616) (10.1016/j.ajhg.2016.05.026)) | American Journal of Human Genetics | DOI: 10.1016/j.ajhg.2018.03.020 | galaxy: no
+  - `gmauro` | 2018 | Novel NALCN biallelic truncating mutations in siblings with IHPRF1 syndrome. | Clinical genetics | DOI: 10.1111/cge.13162 | galaxy: yes
+  - `gmauro` | 2018 | Novel NALCN biallelic truncating mutations in siblings with IHPRF1 syndrome | Clinical Genetics | DOI: 10.1111/cge.13162 | galaxy: yes
+  - `gmauro` | 2017 | Overexpression of the Cytokine BAFF and Autoimmunity Risk. | The New England journal of medicine | DOI: 10.1056/nejmoa1610528 | galaxy: no
+  - `gmauro` | 2017 | Overexpression of the cytokine BAFF and autoimmunity risk | New England Journal of Medicine | DOI: 10.1056/NEJMoa1610528 | galaxy: no
+  - `gmauro` | 2016 | Bi-allelic Mutations in KLHL7 Cause a Crisponi/CISS1-like Phenotype Associated with Early-Onset Retinitis Pigmentosa | American Journal of Human Genetics | DOI: 10.1016/j.ajhg.2016.05.026 | galaxy: no
+  - `gmauro` | 2016 | Bacterial Genomic Data Analysis in the Next-Generation Sequencing Era. | Methods in molecular biology (Clifton, N.J.) | DOI: 10.1007/978-1-4939-3572-7_21 | galaxy: yes
+  - `gmauro` | 2016 | Bacterial genomic data analysis in the next-generation sequencing era | Methods in Molecular Biology | DOI: 10.1007/978-1-4939-3572-7_21 | galaxy: yes
+  - `gmauro` | 2015 | Simulating Cardiac Electrophysiology Using Unstructured All-Hexahedra Spectral Elements. | BioMed research international | DOI: 10.1155/2015/473279 | galaxy: no
+  - `gmauro` | 2015 | Simulating Cardiac Electrophysiology Using Unstructured All-Hexahedra Spectral Elements | BioMed Research International | DOI: 10.1155/2015/473279 | galaxy: no
+  - `gmauro` | 2015 | Buried in the Middle but Guilty: Intronic Mutations in the TCIRG1 Gene Cause Human Autosomal Recessive Osteopetrosis. | Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research | DOI: 10.1002/jbmr.2517 | galaxy: no
+  - `gmauro` | 2015 | Buried in the middle but guilty: Intronic mutations in the TCIRG1 gene cause human autosomal recessive osteopetrosis | Journal of Bone and Mineral Research | DOI: 10.1002/jbmr.2517 | galaxy: no
+  - `gmauro` | 2015 | Genome-wide association study of susceptibility loci for breast cancer in Sardinian population. | BMC cancer | DOI: 10.1186/s12885-015-1392-9 | galaxy: no
+  - `gmauro` | 2015 | Genome-wide association study of susceptibility loci for breast cancer in Sardinian population | BMC Cancer | DOI: 10.1186/s12885-015-1392-9 | galaxy: no
+  - `gmauro` | 2014 | BioBlend.objects: metacomputing with Galaxy | Bioinformatics | DOI: 10.1093/bioinformatics/btu386 | galaxy: yes
+  - `gmauro` | 2014 | BioBlend.objects: Metacomputing with galaxy | Bioinformatics | DOI: 10.1093/bioinformatics/btu386 | galaxy: yes
+  - `gmauro` | 2014 | Orione, a web-based framework for NGS analysis in microbiology | Bioinformatics | DOI: 10.1093/bioinformatics/btu135 | galaxy: yes
+  - `gmauro` | 2014 | An automated infrastructure to support high-throughput bioinformatics | Proceedings of the 2014 International Conference on High Performance Computing and Simulation, HPCS 2014 | DOI: 10.1109/HPCSim.2014.6903742 | galaxy: yes
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update. — already in bib (DOI)
+  - (dropped) Training Infrastructure as a Service — already in bib (DOI)
+  - (dropped) An accessible infrastructure for artificial intelligence using a Docker-based JupyterLab in Galaxy. — already in bib (DOI)
+  - (dropped) An accessible infrastructure for artificial intelligence using a Docker-based JupyterLab in Galaxy — already in bib (DOI)
+  - (dropped) Expanding the Galaxy's reference data. — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update — already in bib (DOI)
+  - (dropped) Tools and data services registry: a community effort to document bioinformatics resources. — already in bib (title)
+  - (dropped) Tools and data services registry: A community effort to document bioinformatics resources — already in bib (title)
+## Simon Bray (`simonbray`) [alumni] — join≈2020
+- works on ORCID: 9; candidates before cleanup: 2
+  - `simonbray` | 2022 | Ligand Unbinding Pathway and Mechanism Analysis Assisted by Machine Learning and Graph Methods | Journal of Chemical Information and Modeling | DOI: 10.1021/acs.jcim.2c00634 | galaxy: no
+  - `simonbray` | 2020 | Multisecond ligand dissociation dynamics from atomistic simulations | Nature Communications | DOI: 10.1038/s41467-020-16655-1 | galaxy: no
+  - (dropped) The Planemo toolkit for developing, deploying, and executing scientific data analyses in Galaxy and beyond — already in bib (DOI)
+  - (dropped) Galaxy workflows for fragment-based virtual screening: a case study on the SARS-CoV-2 main protease — already in bib (DOI)
+  - (dropped) Ready-to-use public infrastructure for global SARS-CoV-2 monitoring — already in bib (DOI)
+  - (dropped) Galaxy-ML: An accessible, reproducible, and scalable machine learning toolkit for biomedicine — already in bib (DOI)
+  - (dropped) The ChemicalToolbox: reproducible, user-friendly cheminformatics analysis on the Galaxy platform — already in bib (DOI)
+  - (dropped) Intuitive, reproducible high-throughput molecular dynamics in Galaxy: a tutorial — already in bib (title)
+## Alireza Khanteymoori (`khanteymoori`) [alumni] — join≈2021
+- works on ORCID: 14; candidates before cleanup: 9
+  - `khanteymoori` | 2026 | Evaluation of Machine Learning Models for Predicting Breeding Values of Key Performance Traits in Iranian Crossbred (Thoroughbred × Turkmen) Racehorses |  | DOI: 10.2139/ssrn.6430418 | galaxy: no
+  - `khanteymoori` | 2025 | Spectral Biomarkers of Functional Brain Network Alteration in Alzheimer’s Disease | Current Alzheimer Research | DOI: 10.2174/0115672050434251251008104505 | galaxy: no
+  - `khanteymoori` | 2025 | Targeting Nerve Fiber Outgrowth Inhibition After Experimental Spinal Cord Injury: A Systematic Review and Meta-analysis of Chondroitinase ABC | Neurorehabilitation and Neural Repair | DOI: 10.1177/15459683241311337 | galaxy: no
+  - `khanteymoori` | 2024 | Effect-Size Discrepancies in Literature Versus Raw Datasets from Experimental Spinal Cord Injury Studies: A CLIMBER Meta-Analysis | Neurotrauma Reports | DOI: 10.1089/neur.2024.0038 | galaxy: no
+  - `khanteymoori` | 2023 | A Comprehensive Survey on Model Quantization for Deep Neural Networks in Image Classification | ACM Transactions on Intelligent Systems and Technology | DOI: 10.1145/3623402 | galaxy: no
+  - `khanteymoori` | 2022 | Data-Driven and Knowledge-Based Algorithms for Gene Network Reconstruction on High-Dimensional Data | IEEE/ACM Transactions on Computational Biology and Bioinformatics | DOI: 10.1109/TCBB.2020.3034861 | galaxy: no
+  - `khanteymoori` | 2021 | TSCDA: A novel greedy approach for community discovery in networks |  | DOI: 10.1101/2021.10.08.463718 | galaxy: no
+  - `khanteymoori` | 2021 | Perspectives on automated composition of workflows in the life sciences [version 1; peer review: 2 approved] |  | DOI: 10.12688/f1000research.54159.1 | galaxy: yes
+  - `khanteymoori` | 2021 | EnGRNT: Inference of gene regulatory networks using ensemble methods and topological feature extraction |  | DOI: 10.1101/2021.08.05.455202 | galaxy: no
+  - (dropped) Galaxy-ML: An accessible, reproducible, and scalable machine learning toolkit for biomedicine — already in bib (DOI)
+## Rolf Backofen (`rolfbackofen`) — join≈2020
+- works on ORCID: 216; candidates before cleanup: 61
+  - `rolfbackofen` | 2026 | A leader-repeat hairpin blocks extraneous CRISPR RNA production in diverse CRISPR-Cas13 systems | The EMBO Journal | DOI: 10.1038/s44318-026-00769-1 | galaxy: no
+  - `rolfbackofen` | 2026 | DisGeneFormer: Precise Disease Gene Prioritization by Integrating Local and Global Graph Attention |  | DOI: 10.64898/2026.03.11.711106 | galaxy: no
+  - `rolfbackofen` | 2026 | Structural variation landscape of Middle Eastern and North African individuals from long-read nanopore sequencing reveals medically relevant variants |  | DOI: 10.64898/2026.02.20.26346743 | galaxy: yes
+  - `rolfbackofen` | 2026 | Biological Foundation Models Enable CRISPR Array Detection Without Metagenomic Assembly |  | DOI: 10.64898/2026.02.16.706169 | galaxy: yes
+  - `rolfbackofen` | 2026 | A revised genome annotation of the model cyanobacterium Synechocystis based on start and stop codon-enriched ribosome profiling and proteogenomics |  | DOI: 10.21203/rs.3.rs-8767029/v1 | galaxy: no
+  - `rolfbackofen` | 2026 | Prioritizing DNA methylation biomarkers using graph neural networks and explainable AI |  | DOI: 10.64898/2026.01.26.701692 | galaxy: no
+  - `rolfbackofen` | 2026 | Enhanced IGFL1 translation in response to IL-1β is controlled by distinct 3’UTR elements |  | DOI: 10.64898/2026.01.21.700974 | galaxy: no
+  - `rolfbackofen` | 2026 | CoMPaseD: advanced planning of proteomic experiments aiming to identify small proteins | microLife | DOI: 10.1093/femsml/uqaf043 | galaxy: no
+  - `rolfbackofen` | 2026 | Comprehensive analysis of CRISPR array repeat mutations reveals subtype-specific patterns and links to spacer dynamics | microLife | DOI: 10.1093/femsml/uqaf050 | galaxy: no
+  - `rolfbackofen` | 2026 | The complexity of multiple CRISPR arrays in strains with (co-occurring) CRISPR systems | microLife | DOI: 10.1093/femsml/uqaf042 | galaxy: no
+  - `rolfbackofen` | 2025 | AVDB: The Arab Variation and Disease Burden Database |  | DOI: 10.1101/2025.08.24.671996 | galaxy: no
+  - `rolfbackofen` | 2025 | Disparate mechanisms counteract extraneous CRISPR RNA production in type II-C CRISPR-Cas systems | microLife | DOI: 10.1093/femsml/uqaf007 | galaxy: no
+  - `rolfbackofen` | 2025 | An evolutionary approach to predict the orientation of CRISPR arrays |  | DOI: 10.1101/2025.05.09.653049 | galaxy: no
+  - `rolfbackofen` | 2025 | Structural determinants of inverted Alu-mediated backsplicing revealed by -MaP and -JuMP | Nucleic Acids Research | DOI: 10.1093/nar/gkaf433 | galaxy: no
+  - `rolfbackofen` | 2025 | Evaluating discrepancies in dimensionality reduction for time-series single-cell RNA-sequencing data | Briefings in Bioinformatics | DOI: 10.1093/bib/bbaf287 | galaxy: yes
+  - `rolfbackofen` | 2025 | Comprehensive Analysis of CRISPR Array Repeat Mutations Reveals Subtype-Specific Patterns and Links to Spacer Dynamics |  | DOI: 10.1101/2025.04.02.646798 | galaxy: no
+  - `rolfbackofen` | 2025 | Analysis of tracrRNAs reveals subgroup V2 of type V-K CAST systems | microLife | DOI: 10.1101/2025.03.07.641588 | galaxy: no
+  - `rolfbackofen` | 2025 | HVSeeker: a deep-learning-based method for identification of host and viral DNA sequences | GigaScience | DOI: 10.1093/gigascience/giaf037 | galaxy: no
+  - `rolfbackofen` | 2024 | The role of the 5’ sensing function of ribonuclease E in cyanobacteria | RNA Biology | DOI: 10.1080/15476286.2024.2328438 | galaxy: no
+  - `rolfbackofen` | 2024 | RNA-Protein Interaction Classification via Sequence Embeddings |  | DOI: 10.1101/2024.11.08.622607 | galaxy: yes
+  - `rolfbackofen` | 2024 | SpacerPlacer: ancestral reconstruction of CRISPR arrays reveals the evolutionary dynamics of spacer deletions | Nucleic Acids Research | DOI: 10.1093/nar/gkae772 | galaxy: no
+  - `rolfbackofen` | 2024 | Uncovering the small proteome of Methanosarcina mazei using Ribo-seq and peptidomics under different nitrogen conditions | Nature Communications | DOI: 10.1038/s41467-024-53008-8 | galaxy: no
+  - `rolfbackofen` | 2024 | The lincRNAPantr1is a FOXG1 target gene conferring site-specific chromatin binding of FOXG1 |  | DOI: 10.1101/2024.08.29.610239 | galaxy: no
+  - `rolfbackofen` | 2024 | Clusters of mammalian conserved RNA structures in UTRs associate with RBP binding sites | NAR Genomics and Bioinformatics | DOI: 10.1093/nargab/lqae089 | galaxy: no
+  - `rolfbackofen` | 2024 | Partial RNA design | Bioinformatics | DOI: 10.1093/bioinformatics/btae222 | galaxy: no
+  - `rolfbackofen` | 2024 | The challenges of research data management in cardiovascular science: a DGK and DZHK position paper—executive summary | Clinical Research in Cardiology | DOI: 10.1007/s00392-023-02303-3 | galaxy: no
+  - `rolfbackofen` | 2024 | Heterogenous nuclear ribonucleoprotein D-like controls endothelial cell functions | Biological Chemistry | DOI: 10.1515/hsz-2023-0254 | galaxy: no
+  - `rolfbackofen` | 2024 | SpacerPlacer: Ancestral reconstruction of CRISPR arrays reveals the evolutionary dynamics of spacer deletions |  | DOI: 10.1101/2024.02.20.581079 | galaxy: no
+  - `rolfbackofen` | 2024 | RNAformer: A Simple yet Effective Model for Homology-Aware RNA Secondary Structure Prediction |  | DOI: 10.1101/2024.02.12.579881 | galaxy: no
+  - `rolfbackofen` | 2024 | Interrogating two extensively self-targeting Type I CRISPR-Cas systems in Xanthomonas albilineans reveals distinct anti-CRISPR proteins that block DNA degradation | Nucleic Acids Research | DOI: 10.1093/nar/gkad1097 | galaxy: no
+  - `rolfbackofen` | 2024 | Improved discovery of RNA-binding protein binding sites in eCLIP data using DEWSeq | Nucleic Acids Research | DOI: 10.1093/nar/gkad998 | galaxy: no
+  - `rolfbackofen` | 2024 | Deepdefense: annotation of immune systems in prokaryotes using deep learning | GigaScience | DOI: 10.1093/gigascience/giae062 | galaxy: no
+  - `rolfbackofen` | 2023 | Partial RNA Design |  | DOI: 10.1101/2023.12.29.573656 | galaxy: no
+  - `rolfbackofen` | 2023 | RNA interaction format: a general data format for RNA interactions | Bioinformatics | DOI: 10.1093/bioinformatics/btad665 | galaxy: no
+  - `rolfbackofen` | 2023 | Embedding the de.NBI Cloud in the National Research Data Infrastructure Activities | Proceedings of the Conference on Research Data Infrastructure  | DOI: 10.52825/cordi.v1i | galaxy: yes
+  - `rolfbackofen` | 2023 | Ribosome profiling reveals the fine-tuned response ofEscherichia colito mild and severe acid stress |  | DOI: 10.1101/2023.06.02.543275 | galaxy: no
+  - `rolfbackofen` | 2023 | 1 Revealing the small proteome of Haloferax volcanii by combining ribosome profiling and small-protein optimised mass spectrometry |  | DOI: 10.1093/femsml/uqad001 | galaxy: no
+  - `rolfbackofen` | 2023 | Unraveling the small proteome of the plant symbiont Sinorhizobium meliloti by ribosome profiling and proteogenomics | microLife | DOI: 10.1093/femsml/uqad012 | galaxy: no
+  - `rolfbackofen` | 2022 | Small proteome of the nitrogen-fixing plant symbiontSinorhizobium meliloti |  | DOI: 10.1101/2022.11.12.516264 | galaxy: no
+  - `rolfbackofen` | 2022 | The long noncoding RNA mimi scaffolds neuronal granules to maintain nervous system maturity | Science Advances | DOI: 10.1126/sciadv.abo5578 | galaxy: no
+  - `rolfbackofen` | 2022 | CRISPRtracrRNA: robust approach for CRISPR tracrRNA detection | Bioinformatics | DOI: 10.1093/bioinformatics/btac466 | galaxy: no
+  - `rolfbackofen` | 2022 | Genome wide CRISPR screen for Pasteurella multocida toxin (PMT) binding proteins reveals LDL Receptor Related Protein1 (LRP1) as crucial cellular receptor |  | DOI: 10.1101/2022.08.04.502755 | galaxy: no
+  - `rolfbackofen` | 2022 | Spacer prioritization in CRISPR–Cas9 immunity is enabled by the leader RNA | Nature Microbiology | DOI: 10.1038/s41564-022-01074-3 | galaxy: no
+  - `rolfbackofen` | 2022 | Peakhood: individual site context extraction for CLIP-seq peak regions | Bioinformatics | DOI: 10.1093/bioinformatics/btab755 | galaxy: no
+  - `rolfbackofen` | 2021 | Structure-aware machine learning identifies microRNAs operating as Toll-like receptor 7/8 ligands | RNA Biology | DOI: 10.1080/15476286.2021.1940697 | galaxy: no
+  - `rolfbackofen` | 2021 | The temperature-regulated DEAD-box RNA helicase CrhR interactome: autoregulation and photosynthesis-related transcripts | Journal of Experimental Botany | DOI: 10.1093/jxb/erab416 | galaxy: no
+  - `rolfbackofen` | 2021 | RNAProt: an efficient and feature-rich RNA binding protein binding site predictor | GigaScience | DOI: 10.1093/gigascience/giab054 | galaxy: no
+  - `rolfbackofen` | 2021 | Transcriptome-wide in vivo mapping of cleavage sites for the compact cyanobacterial ribonuclease E reveals insights into its function and substrate recognition |  | DOI: 10.1101/2021.07.27.453982 | galaxy: no
+  - `rolfbackofen` | 2021 | StoatyDive: Evaluation and classification of peak profiles for sequencing data | GigaScience | DOI: 10.1093/gigascience/giab045 | galaxy: yes
+  - `rolfbackofen` | 2021 | RiboReport - Benchmarking tools for ribosome profiling-based identification of open reading frames in bacteria |  | DOI: 10.1101/2021.06.08.447495 | galaxy: no
+  - `rolfbackofen` | 2021 | CdrS is a global transcriptional regulator influencing cell division in Haloferax volcanii |  | DOI: 10.1101/2021.05.11.443588 | galaxy: no
+  - `rolfbackofen` | 2021 | The temperature-regulated DEAD-box RNA helicase CrhR interactome: Autoregulation and photosynthesis-related transcripts |  | DOI: 10.1101/2021.03.26.437152 | galaxy: no
+  - `rolfbackofen` | 2021 | CRISPRidentify: identification of CRISPR arrays using machine learning approach | Nucleic Acids Research | DOI: 10.1093/nar/gkaa1158 | galaxy: no
+  - `rolfbackofen` | 2020 | Improving CLIP-seq data analysis by incorporating transcript information | BMC Genomics | DOI: 10.21203/rs.3.rs-47952/v2 | galaxy: no
+  - `rolfbackofen` | 2020 | Fast and accurate structure probability estimation for simultaneous alignment and folding of RNAs with Markov chains | Algorithms for Molecular Biology | DOI: 10.1186/s13015-020-00179-w | galaxy: no
+  - `rolfbackofen` | 2020 | A global data-driven census of Salmonella small proteins and their potential functions in bacterial virulence | microLife | DOI: 10.1093/femsml/uqaa002 | galaxy: no
+  - `rolfbackofen` | 2020 | Galaxy CLIP-Explorer: a web server for CLIP-Seq data analysis | GigaScience | DOI: 10.1093/gigascience/giaa108 | galaxy: yes
+  - `rolfbackofen` | 2020 | CRISPRcasIdentifier: Machine learning for accurate identification and classification of CRISPR-Cas systems | GigaScience | DOI: 10.1093/gigascience/giaa062 | galaxy: no
+  - `rolfbackofen` | 2020 | The democratization of bioinformatics: A software engineering perspective | GigaScience | DOI: 10.1093/gigascience/giaa063 | galaxy: no
+  - `rolfbackofen` | 2020 | HRIBO- High-throughput analysis of bacterial ribosome profiling data |  | DOI: 10.1101/2020.04.27.046219 | galaxy: no
+  - `rolfbackofen` | 2020 | The importance of incorporating transcript information in CLIP-seq data analysis |  | DOI: 10.21203/rs.3.rs-18225/v1 | galaxy: no
+  - (dropped) CheRRI—Accurate classification of the biological relevance of putative RNA–RNA interaction sites — already in bib (title)
+  - (dropped) An accessible infrastructure for artificial intelligence using a Docker-based JupyterLab in Galaxy — already in bib (DOI)
+  - (dropped) Transformer-based tool recommendation system in Galaxy — already in bib (title)
+  - (dropped) Galaxy workflows for fragment-based virtual screening: a case study on the SARS-CoV-2 main protease — already in bib (DOI)
+  - (dropped) Loop detection using Hi-C data with HiCExplorer — already in bib (DOI)
+  - (dropped) Robust and efficient single-cell Hi-C clustering with approximate k-nearest neighbor graphs — already in bib (DOI)
+  - (dropped) A SARS-CoV-2 sequence submission tool for the European Nucleotide Archive — already in bib (DOI)
+  - (dropped) ChiRA: an integrated framework for chimeric read analysis from RNA-RNA interactome and RNA structurome data — already in bib (DOI)
+  - (dropped) Tool recommender system in Galaxy using deep learning — already in bib (DOI)
+  - (dropped) NanoGalaxy: Nanopore long-read sequencing data analysis in Galaxy — already in bib (DOI)
+  - ... and 1 more dropped
+## Oleg Zharkov (`olegzharkov`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
+## Jan Leendertse (`janleendertse`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
+## Beatriz Serrano-Solano (`beatrizserrano`) [alumni] — join≈2020
+- works on ORCID: 53; candidates before cleanup: 38
+  - `beatrizserrano` | 2026 | AI4Life Open Calls and Public Challenges: why, how, and what we have learned |  | DOI: 10.64898/2026.07.21.739486 | galaxy: no
+  - `beatrizserrano` | 2026 | AI-enabled Data Exploitation for Research Infrastructures through the RI-SCALE Project | Zenodo | DOI: 10.5281/zenodo.20141256 | galaxy: no
+  - `beatrizserrano` | 2026 | [OME2026] Workshop: From OMERO to Galaxy and back: Workflows for Bioimaging | Zenodo | DOI: 10.5281/zenodo.20151769 | galaxy: yes
+  - `beatrizserrano` | 2026 | Evolving FAIR Image Analysis in Galaxy for Cross-domain and AI-ready Applications |  | DOI: 10.37044/osf.io/tsxby_v1 | galaxy: yes
+  - `beatrizserrano` | 2026 | FAIR image analysis across sciences (FIESTA) | Zenodo | DOI: 10.5281/zenodo.18798624 | galaxy: no
+  - `beatrizserrano` | 2025 | Life Science Competence Centres: Open by Design | Zenodo | DOI: 10.5281/zenodo.14871418 | galaxy: no
+  - `beatrizserrano` | 2025 | Streamlining the User Experiencefor Reproducible Image Analysis in Galaxy | Zenodo | DOI: 10.5281/zenodo.17366186 | galaxy: yes
+  - `beatrizserrano` | 2025 | AI4Life - Policy Brief II | Zenodo | DOI: 10.5281/zenodo.17251575 | galaxy: no
+  - `beatrizserrano` | 2025 | AI4Life Deliverable D6.1 - Report on all Open Call activities | Zenodo | DOI: 10.5281/zenodo.17247984 | galaxy: no
+  - `beatrizserrano` | 2025 | High-content screening (HCS) workflows for FAIR image data management with OMERO. | Scientific reports | DOI: 10.1038/s41598-025-00720-0 | galaxy: yes
+  - `beatrizserrano` | 2025 | Optimizing Image Data Management: A Workflow-Driven Approach for FAIR and Reusable High-Content Screening pipelines with OMERO |  | DOI: 10.21203/rs.3.rs-6214250/v1 | galaxy: yes
+  - `beatrizserrano` | 2025 | Development of FAIR image analysis workflows and training in Galaxy |  | DOI: 10.37044/osf.io/hbw6m_v1 | galaxy: yes
+  - `beatrizserrano` | 2025 | Advancing FAIR Image Analysis in Galaxy: Tools, Workflows, and Training | Zenodo | DOI: 10.5281/zenodo.14979253 | galaxy: yes
+  - `beatrizserrano` | 2025 | Galaxy meets OMERO! Overview on the Galaxy OMERO-suite and Vizarr Viewer | Zenodo | DOI: 10.5281/zenodo.14975462 | galaxy: yes
+  - `beatrizserrano` | 2025 | Image Analysis using Galaxy | Zenodo | DOI: 10.5281/zenodo.14944040 | galaxy: yes
+  - `beatrizserrano` | 2025 | AI4Life Deliverable D7.2 - Report on AI4Life workshops, hackathons and communication activities with other LS RIs | Zenodo | DOI: 10.5281/zenodo.14938359 | galaxy: no
+  - `beatrizserrano` | 2025 | Building FAIR image analysis pipelines for high-content-screening (HCS) data using Galaxy | Zenodo | DOI: 10.5281/zenodo.14909526 | galaxy: yes
+  - `beatrizserrano` | 2025 | Rapid generation of homozygous fluorescent knock-in human cells using CRISPR–Cas9 genome editing and validation by automated imaging and digital PCR screening | Nature Protocols | DOI: 10.1038/s41596-024-01043-6 | galaxy: no
+  - `beatrizserrano` | 2024 | Rapid generation of homozygous fluorescent knock-in human cells using CRISPR-Cas9 genome editing and validation by automated imaging and digital PCR screening | Nature Protocols | DOI: 10.1038/S41596-024-01043-6 | galaxy: no
+  - `beatrizserrano` | 2025 | FAIRsharing record for: AI4Life | FAIRsharing | DOI: 10.25504/fairsharing.751813 | galaxy: no
+  - `beatrizserrano` | 2024 | FAIR Image Analysis Workflows | Zenodo | DOI: 10.5281/zenodo.13847452 | galaxy: yes
+  - `beatrizserrano` | 2024 | AI4Life Deliverable D7.3 - Report on FAIR guidelines followed in the consortium | Zenodo | DOI: 10.5281/zenodo.13618545 | galaxy: no
+  - `beatrizserrano` | 2024 | 2024 Ownership and Maintenance of FAIRsharing records: AI4Life, BioImage.IO, MIFA, and bioimageio.spec | University of Oxford, UK – FAIRsharing | DOI: - | galaxy: no
+  - `beatrizserrano` | 2024 | NFDI4BIOIMAGE - National Research Data Infrastructure for Microscopy and Bioimage Analysis | Zenodo | DOI: 10.5281/zenodo.13168692 | galaxy: no
+  - `beatrizserrano` | 2024 | DL4MicEverywhere: deep learning for microscopy made flexible, shareable and reproducible. | Nature methods | DOI: 10.1038/s41592-024-02295-6 | galaxy: no
+  - `beatrizserrano` | 2024 | Enhancing the image analysis community in Galaxy |  | DOI: 10.37044/osf.io/w8dsz | galaxy: yes
+  - `beatrizserrano` | 2024 | Artificial Intelligence for Image Data Analysis in the Life Sciences | Zenodo | DOI: 10.5281/zenodo.10563415 | galaxy: no
+  - `beatrizserrano` | 2023 | AI4Life - Policy Brief I | Zenodo | DOI: 10.5281/zenodo.10212906 | galaxy: no
+  - `beatrizserrano` | 2023 | AI4Life poster | Zenodo | DOI: 10.5281/zenodo.8297035 | galaxy: no
+  - `beatrizserrano` | 2023 | Euro-BioImaging Scientific Ambassadors Program |  | DOI: 10.5281/zenodo.8182154 | galaxy: no
+  - `beatrizserrano` | 2023 | Building a FAIR image data ecosystem for microscopy communities | Histochemistry and Cell Biology | DOI: 10.5281/zenodo.7788898 | galaxy: no
+  - `beatrizserrano` | 2023 | AI4Life Deliverable D7.1 - Plan for dissemination and exploitation including communication activities | Zenodo | DOI: 10.5281/zenodo.17292192 | galaxy: no
+  - `beatrizserrano` | 2022 | Galaxy: A Decade of Realising CWFR Concepts | Data Intelligence | DOI: 10.1162/dint_a_00136 | galaxy: yes
+  - `beatrizserrano` | 2022 | The Image Data Explorer: Interactive exploration of image-derived data | Plos One | DOI: 10.1371/JOURNAL.PONE.0273698 | galaxy: no
+  - `beatrizserrano` | 2022 | The Image Data Explorer: interactive exploration of image-derived data |  | DOI: 10.1101/2022.04.27.489647 | galaxy: no
+  - `beatrizserrano` | 2021 | Rapid generation of homozygous fluorescent knock-in human cells using CRISPR/Cas9 genome editing and validation by automated imaging and digital PCR screening |  | DOI: 10.1101/2021.06.23.449557 | galaxy: no
+  - `beatrizserrano` | 2021 | Implementing FAIR Digital Objects in the EOSC-Life Workflow Collaboratory |  | DOI: 10.5281/ZENODO.4605654 | galaxy: yes
+  - `beatrizserrano` | 2020 | A Constructivist-Based Proposal for Teaching Practices During Lock-Down |  | DOI: 10.20944/preprints202008.0532.v1 | galaxy: no
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update. — already in bib (DOI)
+  - (dropped) Galaxy Training: A powerful framework for teaching! — already in bib (DOI)
+  - (dropped) Galaxy Training: A Powerful Framework for Teaching! — already in bib (title)
+  - (dropped) "Be sustainable": EOSC-Life recommendations for implementation of FAIR principles in life science data handling — already in bib (DOI)
+  - (dropped) Training Infrastructure as a Service — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update — already in bib (DOI)
+  - (dropped) A constructivist-based proposal for bioinformatics teaching practices during lockdown — already in bib (DOI)
+  - (dropped) Fostering accessible online education using Galaxy as an e-learning platform — already in bib (DOI)
+  - (dropped) Fostering Accessible Online Education Using Galaxy as an e-learning Platform — already in bib (title)
+  - (dropped) A Constructivist-based Proposal for Bioinformatics Teaching Practices During Lock-down — already in bib (DOI)
+## Cristóbal Gallardo Alba (`gallardoalba`) [alumni] — join≈2021
+- works on ORCID: 6; candidates before cleanup: 2
+  - `gallardoalba` | 2026 | TSENAT |  | DOI: 10.18129/B9.BIOC.TSENAT | galaxy: no
+  - `gallardoalba` | 2022 | Gfastats: conversion, evaluation and manipulation of genome sequences using assembly graphs | BIOINFORMATICS | DOI: 10.1093/BIOINFORMATICS/BTAC460 | galaxy: no
+  - (dropped) Scalable, accessible and reproducible reference genome assembly and evaluation in Galaxy — already in bib (DOI)
+  - (dropped) Galaxy Training: A powerful framework for teaching! — already in bib (DOI)
+  - (dropped) A constructivist-based proposal for bioinformatics teaching practices during lockdown — already in bib (DOI)
+  - (dropped) Fostering accessible online education using Galaxy as an e-learning platform — already in bib (DOI)
+## David López Tabernero (`davelopez`) — skipped: no ORCID
+## Engy Nasr (`engynasr`) [alumni] — join≈2024
+- works on ORCID: 10; candidates before cleanup: 4
+  - `engynasr` | 2024 | Microbiology Galaxy Lab: The first community-driven gateway for reproducible and FAIR analysis of microbial data |  | DOI: 10.1101/2024.12.23.629682 | galaxy: yes
+  - `engynasr` | 2024 | Benchmarking PathoGFAIR v1 |  | DOI: 10.17504/protocols.io.e6nvwbp4zvmk/v1 | galaxy: no
+  - `engynasr` | 2024 | Supplementary material to "Clouds influence the functioning of airborne microorganisms" |  | DOI: 10.5194/egusphere-2024-2338-supplement | galaxy: no
+  - `engynasr` | 2024 | How to improve the annotation of Galaxy resources? Outcomes of an online hackathon for improving the annotation of Galaxy resources for microbial data resources |  | DOI: 10.37044/osf.io/s7tru | galaxy: yes
+  - (dropped) Clouds influence the functioning of airborne microorganisms — already in bib (DOI)
+  - (dropped) PathoGFAIR: a collection of FAIR and adaptable (meta)genomics workflows for (foodborne) pathogens detection and tracking — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+## Pavankumar Videm (`pavanvidem`) — join≈2017
+- works on ORCID: 26; candidates before cleanup: 6
+  - `pavanvidem` | 2026 | Bioimage management and analysis in Galaxy: Tools, workflows, training, and community practices | Journal of Microscopy | DOI: 10.1111/jmi.70165 | galaxy: yes
+  - `pavanvidem` | 2026 | Chamber-specific chromatin architecture guides functional interpretation of disease-associated Cis-regulatory elements in human cardiomyocytes. | Nature communications | DOI: 10.1038/s41467-025-67220-7 | galaxy: no
+  - `pavanvidem` | 2022 | Community-driven ELIXIR activities in single-cell omics | F1000Research | DOI: 10.12688/f1000research.122312.1 | galaxy: yes
+  - `pavanvidem` | 2019 | DOT1L promotes progenitor proliferation and primes neuronal layer identity in the developing cerebral cortex | Nucleic Acids Research | DOI: 10.1093/nar/gky953 | galaxy: no
+  - `pavanvidem` | 2018 | FOXG1 Regulates PRKAR2B Transcriptionally and Posttranscriptionally via miR200 in the Adult Hippocampus. | Molecular neurobiology | DOI: 10.1007/s12035-018-1444-7 | galaxy: no
+  - `pavanvidem` | 2019 | FOXG1 Regulates PRKAR2B Transcriptionally and Posttranscriptionally via miR200 in the Adult Hippocampus | Molecular Neurobiology | DOI: 10.1007/s12035-018-1444-7 | galaxy: no
+  - (dropped) Galaxy as a gateway to bioinformatics: Multi-Interface Galaxy Hands-on Training Suite (MIGHTS) for scRNA-seq — already in bib (title)
+  - (dropped) Galaxy single-cell & spatial omics community update: Navigating new frontiers in 2025 — already in bib (DOI)
+  - (dropped) CheRRI—Accurate classification of the biological relevance of putative RNA–RNA interaction sites — already in bib (title)
+  - (dropped) CheRRI-Accurate classification of the biological relevance of putative RNA-RNA interaction sites — already in bib (title)
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update. — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible and collaborative biomedical analyses: 2022 update — already in bib (DOI)
+  - (dropped) ChiRA: An integrated framework for chimeric read analysis from RNA-RNA interactome and RNA structurome data — already in bib (DOI)
+  - (dropped) ChiRA: an integrated framework for chimeric read analysis from RNA-RNA interactome and RNA structurome data — already in bib (DOI)
+  - (dropped) The RNA workbench 2.0: Next generation RNA data analysis — already in bib (DOI)
+  - ... and 5 more dropped
+## Diana Chiang Jurado (`dianichj`) — join≈2025
+- works on ORCID: 13; candidates before cleanup: 3
+  - `dianichj` | 2026 | Bioimage management and analysis in Galaxy: Tools, workflows, training, and community practices | Journal of Microscopy | DOI: 10.1111/jmi.70165 | galaxy: yes
+  - `dianichj` | 2025 | Modulation of bone marrow haematopoietic stem cell activity as a therapeutic strategy after myocardial infarction: a preclinical study | Nature Cell Biology | DOI: 10.1038/s41556-025-01639-4 | galaxy: no
+  - `dianichj` | 2025 | Interventional real-time molecular MRI for targeting early myocardial injury in a pig model | npj Imaging | DOI: 10.1038/s44303-025-00069-z | galaxy: no
+  - (dropped) Galaxy single-cell & spatial omics community update: Navigating new frontiers in 2025 — already in bib (DOI)
+## Sanjay Kumar Srikakulam (`sanjaysrikakulam`) [alumni] — join≈2024
+- works on ORCID: 13; candidates before cleanup: 1
+  - `sanjaysrikakulam` | 2025 | Ten Common Misconceptions About Galaxy (and Why They Are Wrong!) |  | DOI: 10.20944/preprints202509.0823.v1 | galaxy: yes
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+## Mira Kuntz (`mira-miracoli`) — join≈2024
+- works on ORCID: 10; candidates before cleanup: 6
+  - `mira-miracoli` | 2025 | Dynamic meta-scheduling in Galaxy with TPV Broker for smarter workload distribution |  | DOI: 10.5281/zenodo.16312227 | galaxy: yes
+  - `mira-miracoli` | 2025 | Interactive Galaxy Tools: Combining real-time user interaction with scientific workflows |  | DOI: 10.5281/zenodo.16735306 | galaxy: yes
+  - `mira-miracoli` | 2025 | Publication on the smart job scheduler implementation |  | DOI: 10.5281/zenodo.15827107 | galaxy: no
+  - `mira-miracoli` | 2025 | Scaling Scientific Workflows in Europe: Architecture and Deployment of the Galaxy-Pulsar Computational Network |  | DOI: 10.5281/zenodo.16761932 | galaxy: yes
+  - `mira-miracoli` | 2024 | WALL·E: Prevent abuse of interactive research environments ... |  | DOI: 10.7490/f1000research.1119785.1 | galaxy: no
+  - `mira-miracoli` | 2024 | WALL·E: Prevent abuse of interactive research environments |  | DOI: 10.7490/f1000research.1119785.1 | galaxy: no
+  - (dropped) Optimized Meta-Scheduling in Galaxy Using TPV Broker — already in bib (DOI)
+  - (dropped) Optimized meta-scheduling in Galaxy using TPV Broker — already in bib (title)
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+## Mina Hojat Ansari (`Minamehr`) — skipped: no ORCID
+## Alireza Heidari (`itisAliRH`) — join≈2023
+- works on ORCID: 10; candidates before cleanup: 9
+  - `itisAliRH` | 2026 | Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update | Nucleic Acids Research | DOI: 10.1093/nar/gkag469 | galaxy: yes
+  - `itisAliRH` | 2026 | RSEc-Atlas |  | DOI: 10.5281/ZENODO.20747312 | galaxy: no
+  - `itisAliRH` | 2026 | Evolving FAIR Image Analysis in Galaxy for Cross-domain and AI-ready Applications |  | DOI: 10.37044/osf.io/tsxby_v1 | galaxy: yes
+  - `itisAliRH` | 2025 | Simple and Secure Credential Handling for Tools in Galaxy | European Galaxy Days (EGD) | DOI: 10.7490/F1000RESEARCH.1120347.1 | galaxy: yes
+  - `itisAliRH` | 2025 | Enhancing multi-omic analyses through a federated microbiome analysis service |  | DOI: 10.37044/osf.io/3x274 | galaxy: no
+  - `itisAliRH` | 2024 | Instant data gathering across multiple histories | Galaxy community conference (GCC), 2023 | DOI: 10.7490/F1000RESEARCH.1119741.1 | galaxy: yes
+  - `itisAliRH` | 2024 | Introducing a new notification system in Galaxy | Galaxy community conference (GCC), 2023 | DOI: 10.7490/F1000RESEARCH.1119743.1 | galaxy: yes
+  - `itisAliRH` | 2024 | Migrating from Vuex to Pinia | Galaxy community conference (GCC), 2023 | DOI: 10.7490/F1000RESEARCH.1119742.1 | galaxy: yes
+  - `itisAliRH` | 2023 | Revolutionizing search in Galaxy: New features for improved data and tool discovery | 2023 Galaxy Community Conference (GCC2023) | DOI: 10.7490/F1000RESEARCH.1119655.1 | galaxy: yes
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+## Laila Los (`ElectronicBlueberry`) [alumni] — join≈2024
+- works on ORCID: 1; candidates before cleanup: 0
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+## Polina Polunina (`PlushZ`) — join≈2024
+- works on ORCID: 7; candidates before cleanup: 5
+  - `PlushZ` | 2026 | Tree-aware conditional language modeling recovers mutational patterns of viral evolution |  | DOI: 10.64898/2026.08.25.746971 | galaxy: no
+  - `PlushZ` | 2026 | Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update | Nucleic Acids Research | DOI: 10.1093/nar/gkag469 | galaxy: yes
+  - `PlushZ` | 2026 | VEFill: accurate and generalizable deep mutational scanning score imputation across protein domains | Molecular Systems Biology | DOI: 10.1038/s44320-026-00203-y | galaxy: no
+  - `PlushZ` | 2025 | VEFill: a model for accurate and generalizable deep mutational scanning score imputation across protein domains |  | DOI: 10.1101/2025.05.14.653991 | galaxy: no
+  - `PlushZ` | 2024 | Navigating the variant landscape: integrating MAVE data analysis into Galaxy | Galaxy Community Conference (GCC), 2024 | DOI: 10.7490/F1000RESEARCH.1119795.1 | galaxy: yes
+  - (dropped) MaveDB 2024: a curated community database with over seven million variant effects from multiplexed functional assays — already in bib (DOI)
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+## Amirhossein Naghsh Nilchi (`Nilchia`) — join≈2025
+- works on ORCID: 7; candidates before cleanup: 0
+  - (dropped) Fibroblast growth factor signaling induces a chondrocyte-like state of peripheral nerve fibroblast during aging — already in bib (DOI)
+  - (dropped) Galaxy single-cell & spatial omics community update: Navigating new frontiers in 2025 — already in bib (DOI)
+  - (dropped) Flexynesis: A deep learning toolkit for bulk multi-omics data integration for precision oncology and beyond — already in bib (DOI)
+## Saim Momin (`SaimMomin12`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
+## Arash Kadkhodaei (`arash77`) — join≈2024
+- works on ORCID: 6; candidates before cleanup: 6
+  - `arash77` | 2026 | RSEc-Atlas |  | DOI: 10.5281/ZENODO.20747312 | galaxy: no
+  - `arash77` | 2026 | Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update | Nucleic Acids Research | DOI: 10.1093/nar/gkag469 | galaxy: yes
+  - `arash77` | 2025 | Serving locally hosted LLMs with Galaxy |  | DOI: 10.7490/F1000RESEARCH.1120343.1 | galaxy: yes
+  - `arash77` | 2025 | Simple and secure credential handling for tools in Galaxy |  | DOI: 10.7490/F1000RESEARCH.1120347.1 | galaxy: yes
+  - `arash77` | 2024 | Community-driven standards development for reference genome generation |  | DOI: 10.7490/F1000RESEARCH.1119761.1 | galaxy: no
+  - `arash77` | 2024 | Galaxy social |  | DOI: 10.7490/F1000RESEARCH.1119786.1 | galaxy: yes
+## Daniela Schneider (`Sch-Da`) — join≈2025
+- works on ORCID: 16; candidates before cleanup: 11
+  - `Sch-Da` | 2026 | Interactive calendar chart of visible censorship in Hong Kong's Da gong bao from 1938-1941 |  | DOI: 10.5281/ZENODO.22142537 | galaxy: no
+  - `Sch-Da` | 2026 | Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update | Nucleic Acids Research | DOI: 10.1093/nar/gkag469 | galaxy: yes
+  - `Sch-Da` | 2025 | Broadening the Galaxy | European Galaxy Days 2025 | DOI: 10.7490/F1000RESEARCH.1120342.1 | galaxy: yes
+  - `Sch-Da` | 2025 | OpenRefine Tutorial for researching cultural data |  | DOI: - | galaxy: no
+  - `Sch-Da` | 2025 | Introduction to Digital Humanities in Galaxy | Galaxy Training Network | DOI: - | galaxy: yes
+  - `Sch-Da` | 2025 | Approaching Digital History with the Open Source Platform Galaxy | Zenodo | DOI: 10.5281/ZENODO.17016028 | galaxy: yes
+  - `Sch-Da` | 2025 | Galaxy | NFDI | DOI: - | galaxy: yes
+  - `Sch-Da` | 2025 | Advancing Interdisciplinary Research using Galaxy |  | DOI: 10.5281/ZENODO.16736002 | galaxy: yes
+  - `Sch-Da` | 2025 | The Open Source Platform Galaxy | CorDi 2025 | DOI: 10.5281/ZENODO.16735810 | galaxy: yes
+  - `Sch-Da` | 2025 | Open Science in the Humanities | Heidelberg University Library | DOI: 10.11588/HEIDOK.00036288 | galaxy: no
+  - `Sch-Da` | 2025 | Text-Mining Differences in Chinese Newspaper Articles | Galaxy Training Network | DOI: - | galaxy: yes
+  - (dropped) Open Science in den Humanities — already in bib (DOI)
+## Armin Dadras (`dadrasarmin`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
+## Deepti Varshney (`Deeptivarshney`) — join≈2024
+- works on ORCID: 14; candidates before cleanup: 5
+  - `Deeptivarshney` | 2026 | Prediction of plant organismal complexity based on transcription factor annotation: an AI approach |  | DOI: 10.64898/2026.08.18.745462 | galaxy: no
+  - `Deeptivarshney` | 2026 | The Spirogyra pratensis genome illuminates the evolution of developmental programs and spiral chloroplast biology | The Plant Cell | DOI: 10.1093/plcell/koag224 | galaxy: no
+  - `Deeptivarshney` | 2026 | Galaxy for accessible, reproducible, and collaborative data analyses: 2026 update | Nucleic Acids Research | DOI: 10.1093/nar/gkag469 | galaxy: yes
+  - `Deeptivarshney` | 2025 | The Spirogyra genome: signatures of shared and divergent division and differentiation |  | DOI: 10.1101/2025.10.09.681428 | galaxy: no
+  - `Deeptivarshney` | 2024 | Near telomere-to-telomere genome of the model plant Physcomitrium patens | Nature Plants | DOI: 10.1038/s41477-023-01614-7 | galaxy: no
+  - (dropped) Enhanced sensitivity of TAPscan v4 enables comprehensive analysis of streptophyte transcription factor evolution — already in bib (title)
+  - (dropped) The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update — already in bib (DOI)
+## Gabriel Saudade (`gsaudade99`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
+## Ivo Christopher Leist (`IvoLeist`) — skipped: no STRICT Galaxy-related work on ORCID, cannot estimate join year
