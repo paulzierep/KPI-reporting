@@ -388,6 +388,8 @@ def main() -> int:
                         help="freiburg.bib (URL or path)")
     parser.add_argument("--out-dir", default=None, help="output dir (default: ./data)")
     parser.add_argument("--only", default=None, help="only process this people.yaml key (e.g. paulzierep)")
+    parser.add_argument("--min-year", type=int, default=None,
+                        help="only keep publications from this year onwards (e.g. 2022)")
     args = parser.parse_args()
 
     def read_source(src: str) -> str:
@@ -466,6 +468,10 @@ def main() -> int:
 
     candidates = dedupe_candidates(candidates)
     candidates = drop_preprint_twins(candidates, existing_titles_raw)
+    if args.min_year is not None:
+        before = len(candidates)
+        candidates = [c for c in candidates if c["year"] >= args.min_year]
+        print(f"Filtering to publications >= {args.min_year}: {before} -> {len(candidates)}")
     candidates.sort(key=lambda c: (c["name"], -c["year"]))
 
     out_dir = Path(args.out_dir) if args.out_dir else Path(__file__).resolve().parent / "data"
