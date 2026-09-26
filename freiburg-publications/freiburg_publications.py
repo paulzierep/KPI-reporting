@@ -86,6 +86,7 @@ GALAXY_JOIN_KEYWORDS = [
 
 BIB_DOI = re.compile(r"DOI\s*=\s*\{([^}]+)\}", re.IGNORECASE)
 BIB_TITLE = re.compile(r"title\s*=\s*\{([^}]+)\}", re.IGNORECASE)
+BIB_KEY = re.compile(r"@[A-Za-z]+\{([^,\n]+),")
 
 # DOI patterns of preprint servers / non-journal venues
 PREPRINT_DOI = re.compile(
@@ -202,37 +203,111 @@ def norm_title(title: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", title.lower())
 
 
-def load_bib_text(text: str) -> tuple[set[str], set[str], set[str]]:
-    dofs, titles, titles_raw = set(), set(), set()
+def load_bib_text(text: str) -> tuple[set[str], set[str], set[str], set[str]]:
+    dofs, titles, titles_raw, keys = set(), set(), set(), set()
     for m in BIB_DOI.finditer(text):
         dofs.add(m.group(1).strip().lower())
     for m in BIB_TITLE.finditer(text):
         titles.add(norm_title(m.group(1)))
-        titles_raw.add(m.group(1))
-    return dofs, titles, titles_raw
+        titles_raw.add(m.group(1).strip())
+    for m in BIB_KEY.finditer(text):
+        keys.add(m.group(1).strip())
+    return dofs, titles, titles_raw, keys
 
 
 def bibtex_from_doi(doi: str) -> str | None:
+    """Canonical BibTeX entry from the CrossRef API.
+
+    CrossRef has proper ``author = {Family, Given and …}`` records (and, for
+    journal articles, volume/number/pages), unlike DOI content negotiation,
+    which sometimes returns garbage names (e.g. ``not provided, anna.henger``
+    from protocols.io) or HTML-tagged titles.
+    """
     try:
-        raw = fetch(
-            f"https://doi.org/{doi}",
-            {"Accept": "text/bibliography; style=bibtex"},
-        ).decode("utf-8", errors="replace")
+        data = json.loads(
+            fetch(f"https://api.crossref.org/works/{doi}").decode("utf-8", errors="replace")
+        )["message"]
     except Exception:  # noqa: BLE001
         return None
-    if not raw.strip() or raw.lstrip().startswith("<"):
+
+    title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", " ".join(data.get("title") or []))).strip()
+    if not title:
+        title = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", " ".join(data.get("subtitle") or []))).strip()
+    if not title:
         return None
-    return normalize_bibtex(raw)
+
+    authors = data.get("author") or []
+    auth_str = " and ".join(
+        f"{a.get('family', '')}, {a.get('given', '')}".strip(" ,") for a in authors
+    )
+    year = ((data.get("published-print") or data.get("published-online")
+             or data.get("issued") or {}).get("date-parts", [[None]])[0][0])
+    kind = "article" if data.get("type") in ("journal-article", "proceedings-article") else "misc"
+    fields = [("title", title)]
+    for fld, getter in (("volume", lambda: data.get("volume")), ("number", lambda: data.get("issue")),
+                        ("pages", lambda: data.get("page"))):
+        v = getter()
+        if v:
+            fields.append((fld, str(v)))
+    if journal := (data.get("container-title") or [""])[0]:
+        fields.append(("journal", journal))
+    if auth_str:
+        fields.append(("author", auth_str))
+    if year:
+        fields.append(("year", str(year)))
+    fields.append(("DOI", doi))
+
+    key = (re.sub(r"[^A-Za-z]+", "", authors[0].get("family", "Untitled")) or "Untitled").capitalize()
+    key = f"{key}_{year}" if year else key
+    lines = [f"@{kind}{{{key},"]
+    for i, (f, v) in enumerate(fields):
+        lines.append(f"  {f} = {{{v}}}{',' if i < len(fields) - 1 else ''}")
+    lines.append("}")
+    return "\n".join(lines)
 
 
-def normalize_bibtex(data: str) -> str:
-    data = re.sub(r"@([A-Za-z]+)\s+\{", r"@\1{", data)
+USERNAME_AUTHOR_FIX = {"anna.henger": "Henger, Anna"}
 
-    def fix_key(match: re.Match) -> str:
-        key = re.sub(r"\s+", "_", match.group(2).strip())
-        return f"@{match.group(1)}{{{key},"
 
-    return re.sub(r"@([A-Za-z]+)\{([^,\n]+),", fix_key, data)
+def clean_bibtex_entry(entry: str) -> str:
+    """Fix CrossRef author quirks, e.g. protocols.io "not provided, anna.henger".
+
+    The trailing username is an ORCID-linked display handle; fix the names we
+    recognise. Any remaining "not provided" author is dropped from the list.
+    """
+    for username, real in USERNAME_AUTHOR_FIX.items():
+        entry = entry.replace(f"not provided, {username}", real)
+    pattern = r"\s+and\s+not provided[^,]*?, [^}]*?(?=\s+and\s+|\s*\})"
+    return re.sub(pattern, "", entry, flags=re.IGNORECASE)
+
+
+def entry_key(entry: str) -> str:
+    return BIB_KEY.search(entry).group(1).strip()
+
+
+def dedupe_keys(existing: set[str], entries: list[str]) -> list[str]:
+    """Rename candidate keys that collide with the existing bib or each other."""
+    taken = set(existing)
+    out = []
+    for e in entries:
+        key = entry_key(e)
+        if key not in taken:
+            taken.add(key)
+            out.append(e)
+            continue
+        stem = re.sub(r"\d+$", "", key)
+        suffix, n = 1, 1
+        while True:
+            new_key = f"{stem}{n}"
+            n += 1
+            if new_key not in taken:
+                break
+        taken.add(new_key)
+        out.append(e.replace(f"{{{key},", f"{{{new_key},", 1))
+    return out
+
+
+
 
 
 def dedupe_candidates(candidates: list[dict]) -> list[dict]:
@@ -321,7 +396,7 @@ def main() -> int:
         return Path(src).read_text(encoding="utf-8")
 
     people = parse_people_yaml(read_source(args.yaml))
-    existing_dois, existing_titles, existing_titles_raw = load_bib_text(read_source(args.bib))
+    existing_dois, existing_titles, existing_titles_raw, existing_keys = load_bib_text(read_source(args.bib))
 
     candidates: list[dict] = []
     report_lines: list[str] = []
@@ -405,11 +480,12 @@ def main() -> int:
             bib = bibtex_from_doi(c["doi"])
             time.sleep(0.3)
             if bib:
-                entries.append(bib)
+                entries.append(clean_bibtex_entry(bib))
                 continue
             missing.append(c)
         else:
             missing.append(c)
+    entries = dedupe_keys(existing_keys, entries)
     bib_text = "\n\n".join(entries).strip()
     if bib_text:
         bib_text += "\n"
