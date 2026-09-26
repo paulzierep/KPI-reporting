@@ -24,8 +24,17 @@ https://galaxyproject.org/freiburg/citations/ and (since the
    twice, and drops preprints (bioRxiv/medRxiv/Research Square/preprints.
    org/OSF/cordi/protocols) whose *journal* twin already exists — in
    `freiburg.bib` or among the new candidates.
-6. Writes clean BibTeX (via DOI content negotiation) to `data/candidates.bib`
-   and a human-readable report to `data/freiburg-candidates.md`.
+6. Writes clean BibTeX (via the **CrossRef** API, giving canonical
+   `author = {Family, Given and …}` names, volume/number/pages for journal
+   articles, and stripping HTML tags from preprint-API titles) to
+   `data/candidates.bib` and a human-readable report to
+   `data/freiburg-candidates.md`.
+   - protocols.io/OSF records occasionally carry placeholder authors such as
+     `not provided, anna.henger` (an ORCID display handle); a small
+     `USERNAME_AUTHOR_FIX` table maps the known ones to real names and drops
+     remaining `not provided` author slots.
+   - Candidate keys that collide with existing `freiburg.bib` keys (or each
+     other) are renamed `Key1`, `Key2`, …
 
 ## Run
 
@@ -45,7 +54,7 @@ python3 freiburg_publications.py \
 python3 freiburg_publications.py --out .
 ```
 
-Stdlib only (no pip installs). Needs network for ORCID + DOI resolvers.
+Stdlib only (no pip installs). Needs network for ORCID + CrossRef.
 
 ## Output
 
@@ -54,8 +63,9 @@ Stdlib only (no pip installs). Needs network for ORCID + DOI resolvers.
 | `data/candidates.bib` | BibTeX entries ready to merge into `freiburg.bib` (journal versions preferred, preprints of already-known journal papers removed) |
 | `data/freiburg-candidates.md` | per-person report: join year, each candidate with year / journal / DOI / `galaxy: yes|no` |
 
-Entries that cannot be resolved to BibTeX (no DOI, or the resolver fails) are
-reported in the summary as "without BibTeX (manual)".
+Entries that cannot be resolved to BibTeX (no DOI, the CrossRef lookup fails,
+no title in the CrossRef record) are reported in the summary as
+"without BibTeX (manual)".
 
 ## Update the Galaxy Hub bibliography
 
@@ -69,18 +79,16 @@ reported in the summary as "without BibTeX (manual)".
    git checkout -b add-freiburg-team-citations
    ```
 
-3. Append the candidates to the bibliography (reformat the compact
-   DOI-resolver entries into the file's `@article{key,\n  field = {value},`
-   style):
+3. Append the candidates to the bibliography (each `candidates.bib` entry is
+   already in the file's `@article{key,\n  field = {value},` style — one field
+   per line, comma after every field except the last, trailing `}`):
 
    ```bash
-   python3 ../galaxy-kpis/freiburg-publications/freiburg_publications.py --out /tmp/fp
-   # …reformat+append (or do it during merge in an editor)
+   cd /path/to/galaxy-hub
+   git show main:content/freiburg/citations/freiburg.bib > /tmp/main.bib
+   cat /tmp/main.bib ../galaxy-kpis/freiburg-publications/data/candidates.bib \
+       > content/freiburg/citations/freiburg.bib
    ```
-
-   Alternatively assemble the merged file programmatically (this is what the
-   `add-freiburg-team-citations` hub PR does): take `main`'s `freiburg.bib`,
-   format each `candidates.bib` entry into the multi-line style and append.
 
 4. Verify no duplicate keys / DOIs / titles were introduced, commit, push to
    the fork, and open a PR against
